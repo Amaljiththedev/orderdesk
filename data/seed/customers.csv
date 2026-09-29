@@ -1,0 +1,41 @@
+id,account_code,name,contact,email,town,habits,discount_pct
+1,C1001,Byrne & Shah Renovations,Kevin Byrne,kevin@byrnerenovations.co.uk,Ormskirk,"terse,typos,polite_long,old_codes",7.5
+2,C1002,Okafor Electrical Contractors,Steve Okafor,steve@okaforelectrical.co.uk,Wigan,"imperial_sizes,units_mixed,terse",10
+3,C1003,Evans Property Services,Kevin Evans,kevin@evansproperty.co.uk,Bolton,"own_part_numbers,abbreviates,typos,units_mixed",7.5
+4,C1004,Patel Maintenance,Jo Patel,jo@patelmaintenance.co.uk,Stockport,"old_codes,units_mixed,terse,own_part_numbers",15
+5,C1005,Reid & Kelly Building Services,Gary Reid,gary@reidbuilding.co.uk,Southport,"no_po,units_mixed",0
+6,C1006,Clarke & Doyle Plumbing & Heating,Sam Clarke,sam@clarkeplumbing.co.uk,Runcorn,"polite_long,own_part_numbers",0
+7,C1007,Patel Plumbing & Heating,Rachel Patel,rachel@patelplumbing.co.uk,Liverpool,"abbreviates,units_mixed,no_po",0
+8,C1008,Ahmed Installations,Dave Ahmed,dave@ahmedinstallations.co.uk,Bolton,"typos,no_po,uses_codes,abbreviates",2.5
+9,C1009,Kaur Electrical Services,Kevin Kaur,kevin@kaurelectrical.co.uk,Bootle,"uses_codes,no_po",10
+10,C1010,Okafor Property Services,Jo Okafor,jo@okaforproperty.co.uk,Crosby,"uses_codes,old_codes,no_po",0
+11,C1011,Walsh Electrical Services,Jo Walsh,jo@walshelectrical.co.uk,Southport,"units_mixed,abbreviates,no_po,terse",0
+12,C1012,Brennan Property Services,Nadia Brennan,nadia@brennanproperty.co.uk,Wigan,"imperial_sizes,no_po,abbreviates,uses_codes",15
+13,C1013,Okafor & Okafor Plumbing & Heating,Emma Okafor,emma@okaforplumbing.co.uk,Wigan,"abbreviates,own_part_numbers,terse,uses_codes",2.5
+14,C1014,Shah Electrical Services,Liam Shah,liam@shahelectrical.co.uk,Widnes,"uses_codes,polite_long",12.5
+15,C1015,Patel Electrical Services,Chris Patel,chris@patelelectrical.co.uk,Runcorn,"imperial_sizes,polite_long",0
+16,C1016,Evans & Quinn Renovations,Jo Evans,jo@evansrenovations.co.uk,Stockport,"abbreviates,typos,units_mixed",5
+17,C1017,Kelly & Price Installations,Gary Kelly,gary@kellyinstallations.co.uk,Crosby,"uses_codes,polite_long,imperial_sizes,no_po",5
+18,C1018,Doyle Electrical Services,Jo Doyle,jo@doyleelectrical.co.uk,Warrington,"own_part_numbers,polite_long,terse,uses_codes",0
+19,C1019,Hughes Heating Engineers,Lisa Hughes,lisa@hughesheating.co.uk,Southport,"own_part_numbers,imperial_sizes",12.5
+20,C1020,Reid Installations,Mark Reid,mark@reidinstallations.co.uk,Ormskirk,"abbreviates,imperial_sizes",0
+21,C1021,Quinn & Shah Renovations,Dave Quinn,dave@quinnrenovations.co.uk,Runcorn,"polite_long,uses_codes,imperial_sizes",2.5
+22,C1022,Shah Building Services,Paul Shah,paul@shahbuilding.co.uk,Southport,"units_mixed,own_part_numbers,imperial_sizes",12.5
+23,C1023,Okafor Property Services,Priya Okafor,priya@okaforproperty.co.uk,Wigan,"typos,old_codes,units_mixed",15
+24,C1024,Kaur Building Services,Jo Kaur,jo@kaurbuilding.co.uk,Salford,"uses_codes,polite_long,terse",10
+25,C1025,Price Renovations,Nadia Price,nadia@pricerenovations.co.uk,Preston,"old_codes,units_mixed,terse,imperial_sizes",10
+26,C1026,Nowak & Byrne M&E Ltd,Nadia Nowak,nadia@nowakme.co.uk,Warrington,"typos,polite_long,terse",5
+27,C1027,Taylor Installations,Emma Taylor,emma@taylorinstallation.co.uk,Salford,"units_mixed,old_codes",7.5
+28,C1028,Doyle Property Services,Aisha Doyle,aisha@doyleproperty.co.uk,Chester,"typos,old_codes,uses_codes,terse",12.5
+29,C1029,Shah Electrical Services,Sophie Shah,sophie@shahelectrical.co.uk,Wirral,"uses_codes,polite_long,no_po",10
+30,C1030,Ahmed Renovations,Priya Ahmed,priya@ahmedrenovations.co.uk,Southport,"old_codes,terse",0
+31,C1031,Taylor & Evans Property Services,Mark Taylor,mark@taylorproperty.co.uk,Bootle,"abbreviates,imperial_sizes",5
+32,C1032,Clarke Installations,Liam Clarke,liam@clarkeinstallation.co.uk,Preston,"units_mixed,terse",15
+33,C1033,Taylor Installations,Dave Taylor,dave@taylorinstallation.co.uk,St Helens,"imperial_sizes,typos,polite_long",0
+34,C1034,Patel Electrical Contractors,Rachel Patel,rachel@patelelectrical.co.uk,Ormskirk,"no_po,units_mixed",15
+35,C1035,Kaur & Reid M&E Ltd,Nadia Kaur,nadia@kaurme.co.uk,Warrington,"typos,abbreviates",0
+36,C1036,Evans Electrical Services,Gary Evans,gary@evanselectrical.co.uk,Southport,"old_codes,no_po,own_part_numbers,typos",10
+37,C1037,Ahmed & Byrne Property Services,Jo Ahmed,jo@ahmedproperty.co.uk,Liverpool,"own_part_numbers,uses_codes,polite_long,old_codes",5
+38,C1038,Reid Renovations,Dave Reid,dave@reidrenovations.co.uk,St Helens,"old_codes,uses_codes,typos,polite_long",0
+39,C1039,Ahmed Building Services,Megan Ahmed,megan@ahmedbuilding.co.uk,Widnes,"imperial_sizes,typos,units_mixed",12.5
+40,C1040,Quinn Property Services,Chris Quinn,chris@quinnproperty.co.uk,St Helens,"units_mixed,own_part_numbers,typos",2.5
