@@ -27,7 +27,18 @@ services:
       - ../data:/data
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 
-  # worker:   week 2 — same image, runs the ingest/extract queue
+  worker:
+    build: { context: .., dockerfile: backend/Dockerfile }
+    env_file: ../.env
+    environment:
+      DATABASE_URL: postgresql+psycopg://orderdesk:orderdesk@db:5432/orderdesk
+    depends_on: { db: { condition: service_healthy } }
+    volumes:
+      - ../backend/app:/app/app
+      - ../data:/data
+    command: python -m app.workers.worker
+    restart: unless-stopped
+
   # mock_erp: week 3 — tiny FastAPI "ERP" with idempotency keys
   # frontend: week 4 — React + TypeScript review UI
 
