@@ -12,7 +12,7 @@ import re
 import time
 from dataclasses import dataclass
 
-from openai import APIStatusError, OpenAI
+from openai import APIStatusError, OpenAI, RateLimitError
 from sqlalchemy.orm import Session
 
 from app.config import get_settings
@@ -23,6 +23,10 @@ NON_RETRYABLE = {400, 401, 403, 404}  # bad request, auth, unknown model: trying
 
 class LLMError(RuntimeError):
     """All models failed. The caller should send the document to human review."""
+
+
+class DailyLimitError(LLMError):
+    """The provider's daily token quota is used up. Waiting minutes won't help; try tomorrow."""
 
 
 @dataclass
@@ -68,6 +72,26 @@ def _call(model: str, system: str, user: str, max_tokens: int):
     return json.loads(text), getattr(usage, "prompt_tokens", None), getattr(usage, "completion_tokens", None)
 
 
+def _call_with_wait(model: str, system: str, user: str, max_tokens: int, tries: int = 4):
+    """Per-minute rate limits clear quickly, so wait and retry the same model.
+    A per-day limit won't clear today, so raise DailyLimitError at once."""
+    for attempt in range(tries):
+        try:
+            return _call(model, system, user, max_tokens)
+        except RateLimitError as e:
+            msg = str(e).lower()
+            if "per day" in msg or "tokens per day" in msg or "(tpd)" in msg or "(rpd)" in msg:
+                raise DailyLimitError(str(e)[:300]) from e
+            if attempt == tries - 1:
+                raise
+            retry_after = None
+            try:
+                retry_after = float(e.response.headers.get("retry-after"))
+            except Exception:
+                pass
+            time.sleep(min(retry_after or 10 * (attempt + 1), 60))
+
+
 def chat_json(db: Session, *, system: str, user: str, purpose: str, prompt_version: str,
               document_id: int | None = None, order_id: int | None = None,
               max_tokens: int = 1500) -> LLMResult:
@@ -77,7 +101,7 @@ def chat_json(db: Session, *, system: str, user: str, purpose: str, prompt_versi
     for model in dict.fromkeys([s.LLM_MODEL, s.LLM_FALLBACK_MODEL]):  # unique, order kept
         t0 = time.perf_counter()
         try:
-            data, tin, tout = _call(model, system, user, max_tokens)
+            data, tin, tout = _call_with_wait(model, system, user, max_tokens)
             ms = round((time.perf_counter() - t0) * 1000)
             _log(db, purpose, model, prompt_version, document_id, order_id, tin, tout, ms, True, None)
             return LLMResult(data, model, tin, tout, ms)
@@ -86,6 +110,8 @@ def chat_json(db: Session, *, system: str, user: str, purpose: str, prompt_versi
             last = e
             _log(db, purpose, model, prompt_version, document_id, order_id, None, None, ms, False,
                  f"{type(e).__name__}: {str(e)[:500]}")
+            if isinstance(e, DailyLimitError):
+                raise  # same account for the fallback: stop and tell the caller
             if isinstance(e, APIStatusError) and e.status_code in (401, 403):
                 break  # bad key: the fallback uses the same key, so stop
     raise LLMError(f"all models failed: {type(last).__name__}: {str(last)[:300]}")

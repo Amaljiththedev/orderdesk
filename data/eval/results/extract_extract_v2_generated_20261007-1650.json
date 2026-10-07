@@ -1,0 +1,1964 @@
+{
+  "name": "extract_extract_v2_generated",
+  "prompt_version": "extract_v2",
+  "split": "generated",
+  "metrics": {
+    "orders": 30,
+    "extraction_failed": "0.0% (0/30)",
+    "orders_fully_correct": "96.7% (29/30)",
+    "po_number_correct": "100.0% (30/30)",
+    "delivery_date_correct": "100.0% (30/30)",
+    "line_count_correct": "100.0% (30/30)",
+    "lines": 151,
+    "line_text_exact": "99.3% (150/151)",
+    "line_qty_correct": "100.0% (151/151)",
+    "pieces_precision": "100.0% (5/5)",
+    "pieces_recall": "100.0% (5/5)",
+    "by_format_fully_correct": {
+      "email": "93.8% (15/16)",
+      "pdf": "100.0% (14/14)"
+    },
+    "by_mess_line_correct": {
+      "brand_omitted": "95.0% (19/20)",
+      "clean": "100.0% (22/22)",
+      "product_code": "100.0% (35/35)",
+      "old_code": "100.0% (4/4)",
+      "customer_part_number": "100.0% (9/9)",
+      "abbreviated": "100.0% (61/61)",
+      "typo": "100.0% (24/24)",
+      "imperial_size": "100.0% (5/5)",
+      "qty_in_pieces": "100.0% (5/5)"
+    },
+    "llm_calls": 18,
+    "llm_failed_calls": 0,
+    "latency_p50_ms": 5042,
+    "latency_p95_ms": 7884,
+    "tokens_in": 11707,
+    "tokens_out": 9079,
+    "models_used": [
+      "openai/gpt-oss-120b"
+    ]
+  },
+  "rows": [
+    {
+      "id": "gen-0001",
+      "format": "email",
+      "n_lines": 2,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0002",
+      "format": "pdf",
+      "n_lines": 4,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "old_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "old_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0003",
+      "format": "pdf",
+      "n_lines": 9,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0004",
+      "format": "email",
+      "n_lines": 5,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0005",
+      "format": "email",
+      "n_lines": 2,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0006",
+      "format": "email",
+      "n_lines": 2,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0007",
+      "format": "pdf",
+      "n_lines": 3,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0008",
+      "format": "email",
+      "n_lines": 5,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0009",
+      "format": "pdf",
+      "n_lines": 1,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0010",
+      "format": "pdf",
+      "n_lines": 3,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0011",
+      "format": "pdf",
+      "n_lines": 10,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0012",
+      "format": "pdf",
+      "n_lines": 10,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0013",
+      "format": "pdf",
+      "n_lines": 12,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0014",
+      "format": "pdf",
+      "n_lines": 6,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0015",
+      "format": "email",
+      "n_lines": 2,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "imperial_size",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0016",
+      "format": "email",
+      "n_lines": 1,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0017",
+      "format": "email",
+      "n_lines": 10,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "qty_in_pieces"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": true,
+          "pieces_got": true
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "qty_in_pieces"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": true,
+          "pieces_got": true
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "qty_in_pieces"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": true,
+          "pieces_got": true
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "qty_in_pieces"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": true,
+          "pieces_got": true
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated",
+            "qty_in_pieces"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": true,
+          "pieces_got": true
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0018",
+      "format": "email",
+      "n_lines": 6,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "imperial_size"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "imperial_size"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "imperial_size"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "imperial_size"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0019",
+      "format": "email",
+      "n_lines": 3,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted"
+          ],
+          "text": false,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": false,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0020",
+      "format": "email",
+      "n_lines": 3,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0021",
+      "format": "email",
+      "n_lines": 1,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0022",
+      "format": "pdf",
+      "n_lines": 4,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0023",
+      "format": "pdf",
+      "n_lines": 5,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0024",
+      "format": "pdf",
+      "n_lines": 6,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "old_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "old_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0025",
+      "format": "pdf",
+      "n_lines": 6,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0026",
+      "format": "pdf",
+      "n_lines": 3,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0027",
+      "format": "email",
+      "n_lines": 3,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0028",
+      "format": "email",
+      "n_lines": 8,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "product_code"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0029",
+      "format": "email",
+      "n_lines": 8,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "brand_omitted"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "customer_part_number"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "typo"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    },
+    {
+      "id": "gen-0030",
+      "format": "email",
+      "n_lines": 8,
+      "failed": false,
+      "po": true,
+      "date": true,
+      "line_count": true,
+      "extra_lines": 0,
+      "lines": [
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        },
+        {
+          "mess": [
+            "brand_omitted",
+            "abbreviated"
+          ],
+          "text": true,
+          "qty": true,
+          "pieces": true,
+          "pieces_want": false,
+          "pieces_got": false
+        }
+      ],
+      "all_correct": true,
+      "prompt_version": "extract_v2"
+    }
+  ]
+}

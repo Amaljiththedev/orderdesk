@@ -12,7 +12,7 @@ from pathlib import Path
 from pydantic import BaseModel, Field, ValidationError, field_validator
 from sqlalchemy.orm import Session
 
-from app.llm.adapter import LLMError, chat_json
+from app.llm.adapter import DailyLimitError, LLMError, chat_json
 
 PROMPT_VERSION = "extract_v2"  # v2: "2 off" is a count, not pieces (gen-0005)
 PROMPT = (Path(__file__).resolve().parents[1] / "llm" / "prompts" / f"{PROMPT_VERSION}.md").read_text()
@@ -51,6 +51,8 @@ def extract_order(db: Session, text: str, received: date, document_id: int | Non
         try:
             res = chat_json(db, system=system, user=user, purpose="extract",
                             prompt_version=PROMPT_VERSION, document_id=document_id)
+        except DailyLimitError:
+            raise  # not the document's fault: the caller should stop and try again later
         except LLMError as e:
             raise ExtractionFailed(str(e)) from e
         try:
