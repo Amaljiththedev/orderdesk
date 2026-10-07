@@ -12,8 +12,10 @@ class Settings(BaseSettings):
 
     DATABASE_URL: str = "postgresql+psycopg://orderdesk:orderdesk@localhost:5433/orderdesk"
     GROQ_API_KEY: str = ""
+    LLM_BASE_URL: str = "https://api.groq.com/openai/v1"
     LLM_MODEL: str = "openai/gpt-oss-120b"
     LLM_FALLBACK_MODEL: str = "llama-3.3-70b-versatile"
+    LLM_TIMEOUT_S: float = 60.0
     EMBED_MODEL: str = "BAAI/bge-small-en-v1.5"
     EMBED_DIM: int = 384
     JWT_SECRET: str = "change-me"

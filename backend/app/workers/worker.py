@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+import re
 import time
 from pathlib import Path
 
@@ -17,8 +18,9 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.api.documents import UPLOAD_DIR
+from app.core.extraction import ExtractionFailed, extract_order
 from app.core.text_extract import extract
-from app.db.models import Document
+from app.db.models import Customer, Document, Order, OrderLine
 from app.db.session import SessionLocal
 
 log = logging.getLogger("worker")
@@ -40,13 +42,40 @@ def claim_next(db: Session) -> Document | None:
     return doc
 
 
+def find_customer(db: Session, text: str) -> Customer | None:
+    """Match the sender's email address from the From: header. Name matching comes later."""
+    m = re.search(r"^From:.*?<?([\w.+-]+@[\w.-]+)>?", text, flags=re.M)
+    return db.scalar(select(Customer).where(Customer.email == m.group(1).lower())) if m else None
+
+
+def save_order(db: Session, doc: Document, ex) -> Order:
+    customer = find_customer(db, doc.text or "")
+    order = Order(document_id=doc.id, customer_id=customer.id if customer else None,
+                  po_number=ex.po_number, delivery_date=ex.delivery_date,
+                  status="needs_review", idempotency_key=doc.sha256)
+    db.add(order)
+    db.flush()
+    for i, ln in enumerate(ex.lines, 1):
+        db.add(OrderLine(order_id=order.id, line_no=i, raw_text=ln.raw_text,
+                         qty=ln.qty or 0, unit="pcs" if ln.qty_in_pieces else ln.unit,
+                         needs_review=True))  # nothing is matched yet (Phase 3)
+    return order
+
+
 def process(db: Session, doc: Document) -> None:
-    """Extract the text. Later steps add LLM extraction, matching and routing here."""
+    """Text -> structured order. Matching, pricing and routing are added in Phase 3."""
     try:
         path = next(UPLOAD_DIR.glob(f"{doc.sha256}.*"))
         doc.text, doc.ocr_used = extract(path)
         doc.status = "extracted"
+        db.commit()
+        ex = extract_order(db, doc.text, doc.received_at.date(), document_id=doc.id)
+        save_order(db, doc, ex)
+        doc.status = "done"
         doc.error = None
+    except ExtractionFailed as e:  # readable text, but the LLM couldn't structure it
+        doc.status = "needs_review"
+        doc.error = str(e)[:2000]
     except Exception as e:  # one bad file must never stop the worker
         log.exception("document %s failed", doc.id)
         doc.status = "failed"

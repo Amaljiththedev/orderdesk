@@ -18,7 +18,7 @@ reportlab>=4.2          # generating synthetic PDF orders
 
 # AI
 sentence-transformers>=3.0
-groq>=0.11
+openai>=1.0.0          # OpenAI-compatible client; talks to Groq via LLM_BASE_URL
 
 # Auth
 pyjwt>=2.9
