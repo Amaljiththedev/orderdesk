@@ -1,0 +1,47 @@
+{
+  "id": "gen-0223",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Fused Spur Switched 13A Brushed Chrome",
+      "written_qty": 3,
+      "product_code": "ACC-FCU-NORT-SWIT-BC",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "swa armoured cable 2 core 10mm\u00b2 per metre",
+      "written_qty": 4,
+      "product_code": "CBL-SWA-2-10",
+      "qty": 4,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-TE-6-100-WHIT",
+      "written_qty": 5,
+      "product_code": "CBL-TE-6-100-WHIT",
+      "qty": 5,
+      "unit": "drum",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0223.eml"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "gen-0181",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1017",
+  "customer_name": "Kelly & Price Installations",
+  "contact": "Gary Kelly",
+  "email": "gary@kellyinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Pipe Clip Hinged 28mm",
+      "written_qty": 3,
+      "product_code": "CLIP-PIPE-HING-28",
+      "qty": 3,
+      "unit": "bag of 10",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-PIPE-DOUB-28",
+      "written_qty": 2,
+      "product_code": "CLIP-PIPE-DOUB-28",
+      "qty": 2,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "pipe clip single 28mm",
+      "written_qty": 4,
+      "product_code": "CLIP-PIPE-SING-28",
+      "qty": 4,
+      "unit": "bag of 10",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-PIPE-HING-15",
+      "written_qty": 25,
+      "product_code": "CLIP-PIPE-HING-15",
+      "qty": 25,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-PIPE-HING-22",
+      "written_qty": 1,
+      "product_code": "CLIP-PIPE-HING-22",
+      "qty": 1,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0181.pdf"
+}

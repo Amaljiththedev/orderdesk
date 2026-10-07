@@ -1,0 +1,96 @@
+{
+  "id": "gen-0121",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1024",
+  "customer_name": "Kaur Building Services",
+  "contact": "Jo Kaur",
+  "email": "jo@kaurbuilding.co.uk",
+  "po_number": "PO5706",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "3 Core Flex 2.5mm\u00b2 100m White",
+      "written_qty": 50,
+      "product_code": "CBL-FLEX-3-2P5-100-WHIT",
+      "qty": 50,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 core flex 0.75mm\u00b2 50m white",
+      "written_qty": 20,
+      "product_code": "CBL-FLEX-3-0P75-50-WHIT",
+      "qty": 20,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Core Flex 1.5mm\u00b2 100m Black",
+      "written_qty": 4,
+      "product_code": "CBL-FLEX-2-1P5-100-BLAC",
+      "qty": 4,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Core Flex 0.75mm\u00b2 50m White",
+      "written_qty": 4,
+      "product_code": "CBL-FLEX-2-0P75-50-WHIT",
+      "qty": 4,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-FLEX-2-0P75-50-BLAC",
+      "written_qty": 25,
+      "product_code": "CBL-FLEX-2-0P75-50-BLAC",
+      "qty": 25,
+      "unit": "drum",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Core Flex 0.75mm\u00b2 100m White",
+      "written_qty": 12,
+      "product_code": "CBL-FLEX-2-0P75-100-WHIT",
+      "qty": 12,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-FLEX-2-2P5-100-WHIT",
+      "written_qty": 6,
+      "product_code": "CBL-FLEX-2-2P5-100-WHIT",
+      "qty": 6,
+      "unit": "drum",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0121.eml"
+}

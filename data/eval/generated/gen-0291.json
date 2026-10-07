@@ -1,0 +1,76 @@
+{
+  "id": "gen-0291",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1028",
+  "customer_name": "Doyle Property Services",
+  "contact": "Aisha Doyle",
+  "email": "aisha@doyleproperty.co.uk",
+  "po_number": "JOB-1068",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "old_codes",
+    "terse",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "ACC-SW-PROF-2-1-MB",
+      "written_qty": 2,
+      "product_code": "ACC-SW-PROF-2-1-MB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow 2 gang 2 way switch matt black (pack of 10)",
+      "written_qty": 5,
+      "product_code": "ACC-SW-PROF-2-2-MB-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSWNORT31BCP10",
+      "written_qty": 5,
+      "product_code": "ACC-SW-NORT-3-1-BC-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northwya 2 gang 2 way switch white",
+      "written_qty": 1,
+      "product_code": "ACC-SW-NORT-2-2-WM",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CON-RCBO-PROF-B-10",
+      "written_qty": 50,
+      "product_code": "CON-RCBO-PROF-B-10",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0291.eml"
+}

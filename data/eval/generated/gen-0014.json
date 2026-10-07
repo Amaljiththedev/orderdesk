@@ -1,0 +1,88 @@
+{
+  "id": "gen-0014",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1012",
+  "customer_name": "Brennan Property Services",
+  "contact": "Nadia Brennan",
+  "email": "nadia@brennanproperty.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes",
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "pushfit elbow 15mm white (pack of 10)",
+      "written_qty": 2,
+      "product_code": "PB-EL90-KEST-15-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-EL90-NORT-28-GREY",
+      "written_qty": 1,
+      "product_code": "PB-EL90-NORT-28-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway pushfit elbow 10mm white (pack of 10)",
+      "written_qty": 1,
+      "product_code": "PB-EL90-NORT-10-WHIT-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-EL90-PROF-10-WHIT",
+      "written_qty": 20,
+      "product_code": "PB-EL90-PROF-10-WHIT",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow pushfit elbow 22mm White (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "PB-EL90-PROF-22-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "pushfit elbow 28mm White",
+      "written_qty": 12,
+      "product_code": "PB-EL90-KEST-28-WHIT",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0014.pdf"
+}

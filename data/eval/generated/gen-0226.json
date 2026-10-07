@@ -1,0 +1,107 @@
+{
+  "id": "gen-0226",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "swa armoured cable 2 core 1.5mm\u00b2 per metre",
+      "written_qty": 12,
+      "product_code": "CBL-SWA-2-1P5",
+      "qty": 12,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SWA Armoured Cable 2 Core 4mm\u00b2 per metre",
+      "written_qty": 2,
+      "product_code": "CBL-SWA-2-4",
+      "qty": 2,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-SWA-2-16",
+      "written_qty": 10,
+      "product_code": "CBL-SWA-2-16",
+      "qty": 10,
+      "unit": "metre",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-SWA-3-4",
+      "written_qty": 1,
+      "product_code": "CBL-SWA-3-4",
+      "qty": 1,
+      "unit": "metre",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-SWA-3-1P5",
+      "written_qty": 20,
+      "product_code": "CBL-SWA-3-1P5",
+      "qty": 20,
+      "unit": "metre",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-SWA-2-6",
+      "written_qty": 25,
+      "product_code": "CBL-SWA-2-6",
+      "qty": 25,
+      "unit": "metre",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "swa armoured cable 3 core 10mm\u00b2 per metre",
+      "written_qty": 3,
+      "product_code": "CBL-SWA-3-10",
+      "qty": 3,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SWA Armoured Cable 3 Core 2.5mm\u00b2 per metre",
+      "written_qty": 5,
+      "product_code": "CBL-SWA-3-2P5",
+      "qty": 5,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "swa armoured cable 4 core 16mm\u00b2 per metre",
+      "written_qty": 12,
+      "product_code": "CBL-SWA-4-16",
+      "qty": 12,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0226.eml"
+}

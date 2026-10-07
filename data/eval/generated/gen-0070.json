@@ -1,0 +1,98 @@
+{
+  "id": "gen-0070",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1018",
+  "customer_name": "Doyle Electrical Services",
+  "contact": "Jo Doyle",
+  "email": "jo@doyleelectrical.co.uk",
+  "po_number": "PO25344",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "own_part_numbers",
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-TUBE-KEST-42-6-TY",
+      "written_qty": 12,
+      "product_code": "CU-TUBE-KEST-42-6-TY",
+      "qty": 12,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu coupling 15mm comp (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-CPL-NORT-15-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "CU-TUBE-NORT-28-3-TX",
+      "written_qty": 4,
+      "product_code": "CU-TUBE-NORT-28-3-TX",
+      "qty": 4,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "19-122",
+      "written_qty": 1,
+      "product_code": "CU-EL45-NORT-10-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "CON-MCB-KEST-C-16-SP",
+      "written_qty": 20,
+      "product_code": "CON-MCB-KEST-C-16-SP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "mcb type c 10a dp",
+      "written_qty": 2,
+      "product_code": "CON-MCB-KEST-C-10-DP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CON-MCB-KEST-C-6-DP",
+      "written_qty": 2,
+      "product_code": "CON-MCB-KEST-C-6-DP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0070.pdf"
+}

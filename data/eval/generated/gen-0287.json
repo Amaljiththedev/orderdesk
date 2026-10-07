@@ -1,0 +1,31 @@
+{
+  "id": "gen-0287",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1026",
+  "customer_name": "Nowak & Byrne M&E Ltd",
+  "contact": "Nadia Nowak",
+  "email": "nadia@nowakme.co.uk",
+  "po_number": "319/42",
+  "delivery_date": null,
+  "habits": [
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "notrhway cu coupling 10mm comp",
+      "written_qty": 5,
+      "product_code": "CU-CPL-NORT-10-COMP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0287.eml"
+}

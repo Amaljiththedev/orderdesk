@@ -1,0 +1,63 @@
+{
+  "id": "gen-0295",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1020",
+  "customer_name": "Reid Installations",
+  "contact": "Mark Reid",
+  "email": "mark@reidinstallations.co.uk",
+  "po_number": "429/98",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "pushfit tee 10mm White",
+      "written_qty": 3,
+      "product_code": "PB-TEE-PROF-10-WHIT",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 45\u00b0 40mm White (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "WST-BND-45-40-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway pushfit tee 22mm Grey (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "PB-TEE-NORT-22-GREY-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway pushfit tee 22mm grey",
+      "written_qty": 4,
+      "product_code": "PB-TEE-NORT-22-GREY",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0295.pdf"
+}

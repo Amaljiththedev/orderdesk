@@ -1,0 +1,72 @@
+{
+  "id": "gen-0032",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1019",
+  "customer_name": "Hughes Heating Engineers",
+  "contact": "Lisa Hughes",
+  "email": "lisa@hughesheating.co.uk",
+  "po_number": "JOB-9196",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers"
+  ],
+  "lines": [
+    {
+      "raw": "copper straight coupler 1/2\" compression",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-15-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 32-487",
+      "written_qty": 3,
+      "product_code": "ACC-SKT-KEST-2-SWIT-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "73-244",
+      "written_qty": 5,
+      "product_code": "ACC-SKT-KEST-1-UNSW-MB",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Northway Copper Straight Coupler 1/2\" Compression (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-CPL-NORT-15-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper straight coupler 28mm solder ring",
+      "written_qty": 1,
+      "product_code": "CU-CPL-PROF-28-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0032.pdf"
+}

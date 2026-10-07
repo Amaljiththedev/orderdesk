@@ -1,0 +1,66 @@
+{
+  "id": "gen-0054",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "743/19",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow copper elbow 90\u00b0 28mm solder ring (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-28-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper elbow 90\u00b0 8mm end feed (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-8-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-KEST-54-EF-P10",
+      "written_qty": 2,
+      "product_code": "CU-EL90-KEST-54-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper elbow 90\u00b0 15mm compression",
+      "written_qty": 12,
+      "product_code": "CU-EL90-PROF-15-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper elbow 90\u00b0 15mm end feed (pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL90-NORT-15-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0054.eml"
+}

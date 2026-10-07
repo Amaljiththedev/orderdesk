@@ -1,0 +1,92 @@
+{
+  "id": "gen-0039",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1002",
+  "customer_name": "Okafor Electrical Contractors",
+  "contact": "Steve Okafor",
+  "email": "steve@okaforelectrical.co.uk",
+  "po_number": "JOB-2632",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "cu Tube 1 1/2\" x 3m Table Y",
+      "written_qty": 6,
+      "product_code": "CU-TUBE-PROF-42-3-TY",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tube 1/2\" x 6m table x",
+      "written_qty": 12,
+      "product_code": "CU-TUBE-PROF-15-6-TX",
+      "qty": 12,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu elbow 42mm sr",
+      "written_qty": 20,
+      "product_code": "CU-EL90-NORT-42-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tube 8mm x 3m table x",
+      "written_qty": 4,
+      "product_code": "CU-TUBE-NORT-8-3-TX",
+      "qty": 4,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow rcbo type c 32a 30ma",
+      "written_qty": 6,
+      "product_code": "CON-RCBO-PROF-C-32",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu elbow 3/4\" comp",
+      "written_qty": 20,
+      "product_code": "CU-EL90-PROF-22-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0039.pdf"
+}

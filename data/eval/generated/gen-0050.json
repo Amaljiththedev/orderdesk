@@ -1,0 +1,45 @@
+{
+  "id": "gen-0050",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1034",
+  "customer_name": "Patel Electrical Contractors",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Tubular S Trap 32mm 75mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-TS-32-75",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "tubular p trap 40mm 38mm seal",
+      "written_qty": 3,
+      "product_code": "TRAP-TP-40-38",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld waste pipe 40mm x 4m black",
+      "written_qty": 12,
+      "product_code": "WST-PIPE-40-4-BLAC",
+      "qty": 12,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0050.pdf"
+}

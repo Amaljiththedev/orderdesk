@@ -1,0 +1,32 @@
+{
+  "id": "gen-0097",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1011",
+  "customer_name": "Walsh Electrical Services",
+  "contact": "Jo Walsh",
+  "email": "jo@walshelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "pushfit elbow 28mm grey",
+      "written_qty": 6,
+      "product_code": "PB-EL90-PROF-28-GREY",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0097.pdf"
+}

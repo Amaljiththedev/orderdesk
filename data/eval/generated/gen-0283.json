@@ -1,0 +1,28 @@
+{
+  "id": "gen-0283",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1040",
+  "customer_name": "Quinn Property Services",
+  "contact": "Chris Quinn",
+  "email": "chris@quinnproperty.co.uk",
+  "po_number": "398/61",
+  "delivery_date": null,
+  "habits": [
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Push-Fit Equal Tee 10mm Grey (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "PB-TEE-NORT-10-GREY-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0283.pdf"
+}

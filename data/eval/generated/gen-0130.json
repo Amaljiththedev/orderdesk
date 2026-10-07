@@ -1,0 +1,108 @@
+{
+  "id": "gen-0130",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "574/53",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "Bath Trap 32mm 75mm Seal",
+      "written_qty": 10,
+      "product_code": "TRAP-BATH-32-75",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "tubular p trap 32mm 38mm seal",
+      "written_qty": 25,
+      "product_code": "TRAP-TP-32-38",
+      "qty": 25,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Bottle Trap 32mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-BOTT-32-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Tubular P Trap 40mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-TP-40-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Shower Trap 40mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-SHOW-40-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "bottle trap 40mm 75mm seal",
+      "written_qty": 25,
+      "product_code": "TRAP-BOTT-40-75",
+      "qty": 25,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Bath Trap 40mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-BATH-40-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Tubular P Trap 40mm 75mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-TP-40-75",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Tubular S Trap 32mm 38mm Seal",
+      "written_qty": 20,
+      "product_code": "TRAP-TS-32-38",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "shower trap 32mm 38mm seal",
+      "written_qty": 2,
+      "product_code": "TRAP-SHOW-32-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0130.pdf"
+}

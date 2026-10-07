@@ -1,0 +1,42 @@
+{
+  "id": "gen-0074",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1008",
+  "customer_name": "Ahmed Installations",
+  "contact": "Dave Ahmed",
+  "email": "dave@ahmedinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Radiator Valve TRV Angled 15mm x 1/2\" Chrome",
+      "written_qty": 10,
+      "product_code": "RAD-VLV-TA-CHRO",
+      "qty": 10,
+      "unit": "pair",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Manual Angled 15mm x 1/2\" Anthracite",
+      "written_qty": 1,
+      "product_code": "RAD-VLV-MA-ANTH",
+      "qty": 1,
+      "unit": "pair",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0074.pdf"
+}

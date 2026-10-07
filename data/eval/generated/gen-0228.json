@@ -1,0 +1,58 @@
+{
+  "id": "gen-0228",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "JOB-1561",
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel copper elbow 45\u00b0 1 1/4\" compression",
+      "written_qty": 20,
+      "product_code": "CU-EL45-KEST-35-COMP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow pipe insert stainless 28mm (pack of 10)",
+      "written_qty": 1,
+      "product_code": "PB-INS-PROF-28-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper elbow 45\u00b0 1\" compression (pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-EL45-NORT-28-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld bend 45\u00b0 50mm grey",
+      "written_qty": 20,
+      "product_code": "WST-BND-45-50-GREY",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0228.pdf"
+}

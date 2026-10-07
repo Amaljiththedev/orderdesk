@@ -1,0 +1,109 @@
+{
+  "id": "gen-0195",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1018",
+  "customer_name": "Doyle Electrical Services",
+  "contact": "Jo Doyle",
+  "email": "jo@doyleelectrical.co.uk",
+  "po_number": "JOB-8553",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "own_part_numbers",
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "northway cu 45 elbow 54mm sr (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-EL45-NORT-54-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu 45 elbow 35mm comp",
+      "written_qty": 20,
+      "product_code": "CU-EL45-PROF-35-COMP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu 45 elbow 54mm comp",
+      "written_qty": 50,
+      "product_code": "CU-EL45-KEST-54-COMP",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu 45 elbow 10mm EF (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL45-NORT-10-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 19-122",
+      "written_qty": 50,
+      "product_code": "CU-EL45-NORT-10-SR",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "ref 37-291",
+      "written_qty": 3,
+      "product_code": "CU-TEE-PROF-8-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "ACC-SW-NORT-1-1-BC-P10",
+      "written_qty": 3,
+      "product_code": "ACC-SW-NORT-1-1-BC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "cu 45 elbow 10mm SR",
+      "written_qty": 2,
+      "product_code": "CU-EL45-KEST-10-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0195.eml"
+}

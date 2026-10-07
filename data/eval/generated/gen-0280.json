@@ -1,0 +1,92 @@
+{
+  "id": "gen-0280",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "PO92989",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "BR-VLV-ISO-KEST-15-LB-P5",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-KEST-15-LB-P5",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Push-Fit Equal Tee 28mm Grey (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "PB-TEE-PROF-28-GREY-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Brass Isolating Valve 3/4\" Lever Red",
+      "written_qty": 25,
+      "product_code": "BR-VLV-ISO-PROF-22-LR",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow brass isolating valve 1\" slotted (pack of 5)",
+      "written_qty": 3,
+      "product_code": "BR-VLV-ISO-PROF-28-SLOT-P5",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "BR-VLV-ISO-NORT-22-SLOT",
+      "written_qty": 20,
+      "product_code": "BR-VLV-ISO-NORT-22-SLOT",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Brass Isolating Valve 28mm Lever Blue (Pack of 5)",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-KEST-28-LB-P5",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-TEE-NORT-22-WHIT",
+      "written_qty": 3,
+      "product_code": "PB-TEE-NORT-22-WHIT",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0280.pdf"
+}

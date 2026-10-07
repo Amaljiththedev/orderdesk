@@ -1,0 +1,77 @@
+{
+  "id": "gen-0126",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "JOB-6994",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Soil Pipe Plain End 110mm x 3m White",
+      "written_qty": 10,
+      "product_code": "SOIL-PIPE-110-3-WHIT",
+      "qty": 10,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-PIPE-110-2P5-WHIT",
+      "written_qty": 25,
+      "product_code": "SOIL-PIPE-110-2P5-WHIT",
+      "qty": 25,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "soil pipe plain end 110mm x 4m black",
+      "written_qty": 25,
+      "product_code": "SOIL-PIPE-110-4-BLAC",
+      "qty": 25,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "soil pipe plain end 110mm x 3m grey",
+      "written_qty": 6,
+      "product_code": "SOIL-PIPE-110-3-GREY",
+      "qty": 6,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Pipe Plain End 110mm x 4m Grey",
+      "written_qty": 2,
+      "product_code": "SOIL-PIPE-110-4-GREY",
+      "qty": 2,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-PIPE-110-2P5-BLAC",
+      "written_qty": 1,
+      "product_code": "SOIL-PIPE-110-2P5-BLAC",
+      "qty": 1,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0126.eml"
+}

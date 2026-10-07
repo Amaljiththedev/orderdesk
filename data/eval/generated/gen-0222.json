@@ -1,0 +1,53 @@
+{
+  "id": "gen-0222",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1011",
+  "customer_name": "Walsh Electrical Services",
+  "contact": "Jo Walsh",
+  "email": "jo@walshelectrical.co.uk",
+  "po_number": "JOB-4198",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "bend 90\u00b0 50mm white",
+      "written_qty": 1,
+      "product_code": "WST-BND-90-50-WHIT",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 45\u00b0 50mm Black (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "WST-BND-45-50-BLAC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 90\u00b0 40mm Black (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "WST-BND-90-40-BLAC-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0222.pdf"
+}

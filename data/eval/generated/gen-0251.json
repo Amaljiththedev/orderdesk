@@ -1,0 +1,45 @@
+{
+  "id": "gen-0251",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1019",
+  "customer_name": "Hughes Heating Engineers",
+  "contact": "Lisa Hughes",
+  "email": "lisa@hughesheating.co.uk",
+  "po_number": "JOB-799",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel Copper Elbow 45\u00b0 8mm Solder Ring (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL45-KEST-8-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Bend 90\u00b0 50mm Black (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "WST-BND-90-50-BLAC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow brass full bore ball valve 1 1/4\" bsp lever",
+      "written_qty": 2,
+      "product_code": "BR-VLV-BALL-PROF-11-LEVE",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0251.pdf"
+}

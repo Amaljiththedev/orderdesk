@@ -1,0 +1,106 @@
+{
+  "id": "gen-0153",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1031",
+  "customer_name": "Taylor & Evans Property Services",
+  "contact": "Mark Taylor",
+  "email": "mark@taylorproperty.co.uk",
+  "po_number": "PO37297",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow brass ball valve 3/4\" bsp butterfly",
+      "written_qty": 25,
+      "product_code": "BR-VLV-BALL-PROF-34IN-BUTT",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Brass ball valve 1 1/2\" BSP Lever",
+      "written_qty": 25,
+      "product_code": "BR-VLV-BALL-KEST-11-LEVE2",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "t&e 1.5mm\u00b2 100m grey",
+      "written_qty": 1,
+      "product_code": "CBL-TE-1P5-100-GREY",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "t&e 1.5mm\u00b2 100m white",
+      "written_qty": 4,
+      "product_code": "CBL-TE-1P5-100-WHIT",
+      "qty": 4,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Brass ball valve 1/2\" BSP Butterfly",
+      "written_qty": 2,
+      "product_code": "BR-VLV-BALL-KEST-12IN-BUTT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "t&e 2.5mm\u00b2 50m grey",
+      "written_qty": 25,
+      "product_code": "CBL-TE-2P5-50-GREY",
+      "qty": 25,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Brass ball valve 2\" BSP Butterfly",
+      "written_qty": 2,
+      "product_code": "BR-VLV-BALL-KEST-2IN-BUTT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "t&e 1mm\u00b2 50m white",
+      "written_qty": 4,
+      "product_code": "CBL-TE-1-50-WHIT",
+      "qty": 4,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0153.pdf"
+}

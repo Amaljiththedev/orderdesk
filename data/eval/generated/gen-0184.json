@@ -1,0 +1,30 @@
+{
+  "id": "gen-0184",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1033",
+  "customer_name": "Taylor Installations",
+  "contact": "Dave Taylor",
+  "email": "dave@taylorinstallation.co.uk",
+  "po_number": "PO62400",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "Radiator Vavle Manual Straight 15mm x 1/2\" Chrome",
+      "written_qty": 10,
+      "product_code": "RAD-VLV-MS-CHRO",
+      "qty": 10,
+      "unit": "pair",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0184.pdf"
+}

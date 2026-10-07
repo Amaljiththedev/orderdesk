@@ -1,0 +1,83 @@
+{
+  "id": "gen-0104",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "JOB-3441",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow copper equal tee 42mm compression",
+      "written_qty": 20,
+      "product_code": "CU-TEE-PROF-42-COMP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper euqal tee 15mm compression",
+      "written_qty": 2,
+      "product_code": "CU-TEE-NORT-15-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSKTKEST2UASMB",
+      "written_qty": 50,
+      "product_code": "ACC-SKT-KEST-2-UAS-MB",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Elbow 45\u00b0 54mm End Feed (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL45-KEST-54-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Gang Switched Sokcet Matt Black",
+      "written_qty": 50,
+      "product_code": "ACC-SKT-PROF-2-SWIT-MB",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway 1 Gang Unswitched Sockte Brushed Chrome",
+      "written_qty": 6,
+      "product_code": "ACC-SKT-NORT-1-UNSW-BC",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0104.pdf"
+}

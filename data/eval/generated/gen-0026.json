@@ -1,0 +1,53 @@
+{
+  "id": "gen-0026",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1018",
+  "customer_name": "Doyle Electrical Services",
+  "contact": "Jo Doyle",
+  "email": "jo@doyleelectrical.co.uk",
+  "po_number": "891/29",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "own_part_numbers",
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "part no 80-590",
+      "written_qty": 5,
+      "product_code": "CU-CPL-NORT-15-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "ACC-SKT-NORT-1-UNSW-PB",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-NORT-1-UNSW-PB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-2-SWIT-BC",
+      "written_qty": 25,
+      "product_code": "ACC-SKT-NORT-2-SWIT-BC",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0026.pdf"
+}

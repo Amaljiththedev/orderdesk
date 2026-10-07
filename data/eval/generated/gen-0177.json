@@ -1,0 +1,144 @@
+{
+  "id": "gen-0177",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1037",
+  "customer_name": "Ahmed & Byrne Property Services",
+  "contact": "Jo Ahmed",
+  "email": "jo@ahmedproperty.co.uk",
+  "po_number": "196/17",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CUTEEKEST15EF",
+      "written_qty": 6,
+      "product_code": "CU-TEE-KEST-15-EF",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Copper Equal Tee 54mm Compression (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-TEE-NORT-54-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CUTEEKEST10SRP10",
+      "written_qty": 2,
+      "product_code": "CU-TEE-KEST-10-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 74-506",
+      "written_qty": 5,
+      "product_code": "PB-EL90-PROF-15-WHIT-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "CU-TEE-PROF-15-SR",
+      "written_qty": 1,
+      "product_code": "CU-TEE-PROF-15-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper equal tee 22mm end feed",
+      "written_qty": 6,
+      "product_code": "CU-TEE-PROF-22-EF",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Equal Tee 22mm Compression (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-TEE-PROF-22-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TEE-NORT-35-SR-P10",
+      "written_qty": 2,
+      "product_code": "CU-TEE-NORT-35-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel MCB Type C 40A Double Pole",
+      "written_qty": 20,
+      "product_code": "CON-MCB-KEST-C-40-DP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CON-MCB-PROF-B-20-SP",
+      "written_qty": 10,
+      "product_code": "CON-MCB-PROF-B-20-SP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 57-940",
+      "written_qty": 1,
+      "product_code": "ACC-FCU-KEST-SWIT-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "our ref 17-355",
+      "written_qty": 2,
+      "product_code": "CU-TEE-PROF-28-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0177.eml"
+}

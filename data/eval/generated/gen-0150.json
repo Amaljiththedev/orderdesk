@@ -1,0 +1,84 @@
+{
+  "id": "gen-0150",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1020",
+  "customer_name": "Reid Installations",
+  "contact": "Mark Reid",
+  "email": "mark@reidinstallations.co.uk",
+  "po_number": "JOB-7515",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "bend 90\u00b0 40mm black (pack of 10)",
+      "written_qty": 2,
+      "product_code": "WST-BND-90-40-BLAC-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 90\u00b0 50mm black",
+      "written_qty": 50,
+      "product_code": "WST-BND-90-50-BLAC",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 45\u00b0 32mm white",
+      "written_qty": 4,
+      "product_code": "WST-BND-45-32-WHIT",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 45\u00b0 32mm Grey (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "WST-BND-45-32-GREY-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 45\u00b0 50mm grey (pack of 10)",
+      "written_qty": 5,
+      "product_code": "WST-BND-45-50-GREY-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 90\u00b0 40mm Grey (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "WST-BND-90-40-GREY-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0150.pdf"
+}

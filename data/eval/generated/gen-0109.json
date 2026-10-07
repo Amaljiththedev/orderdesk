@@ -1,0 +1,117 @@
+{
+  "id": "gen-0109",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1031",
+  "customer_name": "Taylor & Evans Property Services",
+  "contact": "Mark Taylor",
+  "email": "mark@taylorproperty.co.uk",
+  "po_number": "527/11",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "soil bend single skt 92.5\u00b0 110mm black",
+      "written_qty": 1,
+      "product_code": "SOIL-BND-92P5-BLAC",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Single skt 87.5\u00b0 110mm Grey",
+      "written_qty": 2,
+      "product_code": "SOIL-BND-87P5-GREY",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "soil bend single skt 87.5\u00b0 110mm white",
+      "written_qty": 25,
+      "product_code": "SOIL-BND-87P5-WHIT",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "lead-free solder wire 250g",
+      "written_qty": 3,
+      "product_code": "SOLDER-250",
+      "qty": 3,
+      "unit": "reel",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Single skt 45\u00b0 110mm Black",
+      "written_qty": 50,
+      "product_code": "SOIL-BND-45-BLAC",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Single skt 92.5\u00b0 110mm Grey",
+      "written_qty": 3,
+      "product_code": "SOIL-BND-92P5-GREY",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Single skt 45\u00b0 110mm White",
+      "written_qty": 1,
+      "product_code": "SOIL-BND-45-WHIT",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Single skt 87.5\u00b0 110mm Black",
+      "written_qty": 25,
+      "product_code": "SOIL-BND-87P5-BLAC",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "soil bend single skt 92.5\u00b0 110mm white",
+      "written_qty": 1,
+      "product_code": "SOIL-BND-92P5-WHIT",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0109.pdf"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "gen-0146",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "JOB-7091",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow copper elbow 90\u00b0 2\" end feed (pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL90-PROF-54-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-PROF-28-COMP-P10",
+      "written_qty": 1,
+      "product_code": "CU-EL90-PROF-28-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-NORT-22-COMP",
+      "written_qty": 50,
+      "product_code": "CU-EL90-NORT-22-COMP",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-KEST-22-SR-P10",
+      "written_qty": 5,
+      "product_code": "CU-EL90-KEST-22-SR-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cable clips flat twin 5mm",
+      "written_qty": 1,
+      "product_code": "CLIP-CBL-FT-5",
+      "qty": 1,
+      "unit": "box of 100",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-KEST-10-COMP-P10",
+      "written_qty": 3,
+      "product_code": "CU-EL90-KEST-10-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Elbow 90\u00b0 1 1/2\" Solder Ring",
+      "written_qty": 6,
+      "product_code": "CU-EL90-KEST-42-SR",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-PROF-15-EF-P10",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-15-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-CBL-FT-6",
+      "written_qty": 3,
+      "product_code": "CLIP-CBL-FT-6",
+      "qty": 3,
+      "unit": "box of 100",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-EL90-KEST-10-GREY",
+      "written_qty": 4,
+      "product_code": "PB-EL90-KEST-10-GREY",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0146.eml"
+}

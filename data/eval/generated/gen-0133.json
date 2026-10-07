@@ -1,0 +1,53 @@
+{
+  "id": "gen-0133",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1012",
+  "customer_name": "Brennan Property Services",
+  "contact": "Nadia Brennan",
+  "email": "nadia@brennanproperty.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes",
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "PB-EL90-NORT-15-GREY",
+      "written_qty": 1,
+      "product_code": "PB-EL90-NORT-15-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Core Flex 2.5mm\u00b2 100m Black",
+      "written_qty": 25,
+      "product_code": "CBL-FLEX-3-2P5-100-BLAC",
+      "qty": 25,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow pushfit elbow 10mm Grey",
+      "written_qty": 5,
+      "product_code": "PB-EL90-PROF-10-GREY",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0133.pdf"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "gen-0294",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "PO67522",
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL45-KEST-35-COMP",
+      "written_qty": 1,
+      "product_code": "CU-EL45-KEST-35-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL45-NORT-22-SR",
+      "written_qty": 20,
+      "product_code": "CU-EL45-NORT-22-SR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Elbow 45\u00b0 15mm Compression (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-EL45-PROF-15-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0294.eml"
+}

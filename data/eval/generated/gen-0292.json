@@ -1,0 +1,56 @@
+{
+  "id": "gen-0292",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1019",
+  "customer_name": "Hughes Heating Engineers",
+  "contact": "Lisa Hughes",
+  "email": "lisa@hughesheating.co.uk",
+  "po_number": "711/33",
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers"
+  ],
+  "lines": [
+    {
+      "raw": "part no 82-133",
+      "written_qty": 6,
+      "product_code": "WST-BND-90-50-WHIT",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Kestrel 2 Gang USB-A/C Switched Socket Brushed Chrome",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-KEST-2-UAS-BC",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 1 gang switched socket polished brass",
+      "written_qty": 10,
+      "product_code": "ACC-SKT-KEST-1-SWIT-PB",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 1 gang unswitched socket matt black (pack of 10)",
+      "written_qty": 3,
+      "product_code": "ACC-SKT-KEST-1-UNSW-MB-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0292.pdf"
+}

@@ -1,0 +1,132 @@
+{
+  "id": "gen-0237",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1004",
+  "customer_name": "Patel Maintenance",
+  "contact": "Jo Patel",
+  "email": "jo@patelmaintenance.co.uk",
+  "po_number": "857/21",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "1 Gang 1 Way switch Polished Brass",
+      "written_qty": 30,
+      "product_code": "ACC-SW-NORT-1-1-PB-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 3 gang 1 way switch white",
+      "written_qty": 20,
+      "product_code": "ACC-SW-KEST-3-1-WM",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "39-539",
+      "written_qty": 5,
+      "product_code": "LED-DL-PROF-8-4000-CHRO-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "proflow brass iso valve 28mm lever red",
+      "written_qty": 20,
+      "product_code": "BR-VLV-ISO-PROF-28-LR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "ACCSWPROF11BC",
+      "written_qty": 6,
+      "product_code": "ACC-SW-PROF-1-1-BC",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu elbow 8mm SR (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-8-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu elbow 22mm sr",
+      "written_qty": 2,
+      "product_code": "CU-EL90-KEST-22-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu tee 22mm SR (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-TEE-KEST-22-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "our ref 19-235",
+      "written_qty": 50,
+      "product_code": "PB-PIPE-KEST-10-100",
+      "qty": 50,
+      "unit": "coil",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "ProFlow cu elbow 15mm EF (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL90-PROF-15-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0237.pdf"
+}

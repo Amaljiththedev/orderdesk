@@ -1,0 +1,139 @@
+{
+  "id": "gen-0213",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1029",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Sophie Shah",
+  "email": "sophie@shahelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "twin & earth cable 1mm\u00b2 50m grey",
+      "written_qty": 4,
+      "product_code": "CBL-TE-1-50-GREY",
+      "qty": 4,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel 1 Gang Unswitched Socket Brushed Chrome (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-KEST-1-UNSW-BC-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 2 Gang USB-A/C Switched Socket Polished Brass (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-PROF-2-UAS-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 2 Gang Unswitched Socket Matt Black",
+      "written_qty": 6,
+      "product_code": "ACC-SKT-PROF-2-UNSW-MB",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-2-UAS-WM-P10",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-NORT-2-UAS-WM-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-1-SWIT-BC-P10",
+      "written_qty": 5,
+      "product_code": "ACC-SKT-NORT-1-SWIT-BC-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "1 Gang USB-A/C Switched Socket Matt Black (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-PROF-1-UAS-MB-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel 2 Gang Unswitched Socket Polished Brass (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-KEST-2-UNSW-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 1 Gang Unswitched Socket Brushed Chrome (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-PROF-1-UNSW-BC-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-2-UAS-BC",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-NORT-2-UAS-BC",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-PIPE-110-3-WHIT",
+      "written_qty": 50,
+      "product_code": "SOIL-PIPE-110-3-WHIT",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-KEST-2-UAS-MB",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-KEST-2-UAS-MB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0213.pdf"
+}

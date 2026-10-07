@@ -1,0 +1,49 @@
+{
+  "id": "gen-0253",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1034",
+  "customer_name": "Patel Electrical Contractors",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "proflow led downlight fire rated 5w 6500k white",
+      "written_qty": 50,
+      "product_code": "LED-DL-PROF-5-6500-WHIT-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow LED Downlight Fire Rated 8W 4000K Chrome (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "LED-DL-PROF-8-4000-CHRO-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "LED Downlight Fire Rated 8W 6500K Brushed Nickel",
+      "written_qty": 50,
+      "product_code": "LED-DL-NORT-8-6500-BN",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0253.pdf"
+}

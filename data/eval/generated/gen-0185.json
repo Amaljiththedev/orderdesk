@@ -1,0 +1,42 @@
+{
+  "id": "gen-0185",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1013",
+  "customer_name": "Okafor & Okafor Plumbing & Heating",
+  "contact": "Emma Okafor",
+  "email": "emma@okaforplumbing.co.uk",
+  "po_number": "JOB-9782",
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "abbreviates",
+    "own_part_numbers",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "part no 57-569",
+      "written_qty": 25,
+      "product_code": "ACC-SKT-NORT-1-UNSW-PB",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "proflow pushfit tee 15mm grey",
+      "written_qty": 20,
+      "product_code": "PB-TEE-PROF-15-GREY",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0185.pdf"
+}

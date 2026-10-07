@@ -1,0 +1,85 @@
+{
+  "id": "gen-0036",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1031",
+  "customer_name": "Taylor & Evans Property Services",
+  "contact": "Mark Taylor",
+  "email": "mark@taylorproperty.co.uk",
+  "po_number": "JOB-3365",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "1 gang unswitched skt bc (pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-NORT-1-UNSW-BC-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway 2 gang switched skt polished brass",
+      "written_qty": 12,
+      "product_code": "ACC-SKT-NORT-2-SWIT-PB",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway 1 gang switched skt polished brass",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-NORT-1-SWIT-PB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 1 Gang Switched skt Matt Black",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-PROF-1-SWIT-MB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel 1 Gang USB-A/C Switched skt BC (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-KEST-1-UAS-BC-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 2 gang usb-a/c switched skt bc (pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-KEST-2-UAS-BC-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0036.eml"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "gen-0268",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1039",
+  "customer_name": "Ahmed Building Services",
+  "contact": "Megan Ahmed",
+  "email": "megan@ahmedbuilding.co.uk",
+  "po_number": "JOB-5330",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "copper tube 1 1/2\" x 6m tbale y",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-KEST-42-6-TY",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "imperial_size",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper tube 1 1/2\" x 3m table x",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-PROF-42-3-TX",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Norhtway Push-Fit Equal Tee 10mm Grey",
+      "written_qty": 10,
+      "product_code": "PB-TEE-NORT-10-GREY-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Tube 1\" x 3m Talbe Y",
+      "written_qty": 6,
+      "product_code": "CU-TUBE-PROF-28-3-TY",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "imperial_size",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper tube 8mm x 2m table y",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-PROF-8-2-TY",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0268.pdf"
+}

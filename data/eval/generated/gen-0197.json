@@ -1,0 +1,94 @@
+{
+  "id": "gen-0197",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1014",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Liam Shah",
+  "email": "liam@shahelectrical.co.uk",
+  "po_number": "JOB-5115",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "soil pipe plain end 110mm x 4m black",
+      "written_qty": 2,
+      "product_code": "SOIL-PIPE-110-4-BLAC",
+      "qty": 2,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Pipe Plain End 110mm x 2.5m White",
+      "written_qty": 6,
+      "product_code": "SOIL-PIPE-110-2P5-WHIT",
+      "qty": 6,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "soil pipe plain end 110mm x 2.5m black",
+      "written_qty": 25,
+      "product_code": "SOIL-PIPE-110-2P5-BLAC",
+      "qty": 25,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "soil pipe plain end 110mm x 2.5m grey",
+      "written_qty": 25,
+      "product_code": "SOIL-PIPE-110-2P5-GREY",
+      "qty": 25,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-PIPE-110-4-GREY",
+      "written_qty": 12,
+      "product_code": "SOIL-PIPE-110-4-GREY",
+      "qty": 12,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Pipe Plain End 110mm x 3m Grey",
+      "written_qty": 3,
+      "product_code": "SOIL-PIPE-110-3-GREY",
+      "qty": 3,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Pipe Plain End 110mm x 4m White",
+      "written_qty": 20,
+      "product_code": "SOIL-PIPE-110-4-WHIT",
+      "qty": 20,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-PIPE-110-3-WHIT",
+      "written_qty": 6,
+      "product_code": "SOIL-PIPE-110-3-WHIT",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0197.pdf"
+}

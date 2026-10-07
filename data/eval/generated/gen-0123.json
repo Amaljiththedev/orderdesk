@@ -1,0 +1,41 @@
+{
+  "id": "gen-0123",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1024",
+  "customer_name": "Kaur Building Services",
+  "contact": "Jo Kaur",
+  "email": "jo@kaurbuilding.co.uk",
+  "po_number": "675/25",
+  "delivery_date": null,
+  "habits": [
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Fused Spur Switched 13A Matt Black",
+      "written_qty": 6,
+      "product_code": "ACC-FCU-NORT-SWIT-MB",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL45-NORT-22-EF",
+      "written_qty": 5,
+      "product_code": "CU-EL45-NORT-22-EF",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0123.pdf"
+}

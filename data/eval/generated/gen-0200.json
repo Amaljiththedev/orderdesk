@@ -1,0 +1,51 @@
+{
+  "id": "gen-0200",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1017",
+  "customer_name": "Kelly & Price Installations",
+  "contact": "Gary Kelly",
+  "email": "gary@kellyinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "imperial_sizes",
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "soil bend single socket 87.5\u00b0 110mm grey",
+      "written_qty": 50,
+      "product_code": "SOIL-BND-87P5-GREY",
+      "qty": 50,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-BND-92P5-BLAC",
+      "written_qty": 3,
+      "product_code": "SOIL-BND-92P5-BLAC",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-BND-92P5-WHIT",
+      "written_qty": 50,
+      "product_code": "SOIL-BND-92P5-WHIT",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0200.pdf"
+}

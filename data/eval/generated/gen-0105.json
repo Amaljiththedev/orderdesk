@@ -1,0 +1,134 @@
+{
+  "id": "gen-0105",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1011",
+  "customer_name": "Walsh Electrical Services",
+  "contact": "Jo Walsh",
+  "email": "jo@walshelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow cu Reducer 54mm x 10mm EF",
+      "written_qty": 25,
+      "product_code": "CU-RED-PROF-54-10-EF",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway 2 Gang 1 Way switch BC",
+      "written_qty": 3,
+      "product_code": "ACC-SW-NORT-2-1-BC",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 1 gang 2 way switch polished brass",
+      "written_qty": 1,
+      "product_code": "ACC-SW-KEST-1-2-PB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway 2 gang 1 way switch polished brass (pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SW-NORT-2-1-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Reducer 35mm x 10mm comp",
+      "written_qty": 12,
+      "product_code": "CU-RED-PROF-35-10-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 gang 1 way switch white",
+      "written_qty": 30,
+      "product_code": "ACC-SW-PROF-2-1-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu Reducer 35mm x 8mm comp (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-RED-KEST-35-8-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu Reducer 42mm x 10mm EF",
+      "written_qty": 5,
+      "product_code": "CU-RED-NORT-42-10-EF",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu reducer 28mm x 22mm ef",
+      "written_qty": 25,
+      "product_code": "CU-RED-PROF-28-22-EF",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu Reducer 22mm x 15mm EF (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-RED-PROF-22-15-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0105.eml"
+}

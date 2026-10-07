@@ -1,0 +1,52 @@
+{
+  "id": "gen-0246",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1010",
+  "customer_name": "Okafor Property Services",
+  "contact": "Jo Okafor",
+  "email": "jo@okaforproperty.co.uk",
+  "po_number": "957/24",
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CUEL90NORT10COMPP10",
+      "written_qty": 3,
+      "product_code": "CU-EL90-NORT-10-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-PROF-22-COMP-P10",
+      "written_qty": 3,
+      "product_code": "CU-EL90-PROF-22-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "WST-BND-45-50-GREY",
+      "written_qty": 50,
+      "product_code": "WST-BND-45-50-GREY",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0246.pdf"
+}

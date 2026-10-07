@@ -1,0 +1,63 @@
+{
+  "id": "gen-0023",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "JOB-8222",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "Solvent Weld Bend 90\u00b0 50mm Black (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "WST-BND-90-50-BLAC-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld bend 45\u00b0 32mm black (pack of 10)",
+      "written_qty": 1,
+      "product_code": "WST-BND-45-32-BLAC-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow 3 gang 1 way light switch matt black (pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SW-PROF-3-1-MB-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld bend 90\u00b0 32mm black",
+      "written_qty": 2,
+      "product_code": "WST-BND-90-32-BLAC",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper straight coupler 8mm compression (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-CPL-PROF-8-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0023.pdf"
+}

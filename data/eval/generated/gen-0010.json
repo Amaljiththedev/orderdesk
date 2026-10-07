@@ -1,0 +1,53 @@
+{
+  "id": "gen-0010",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1012",
+  "customer_name": "Brennan Property Services",
+  "contact": "Nadia Brennan",
+  "email": "nadia@brennanproperty.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes",
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CBL-TE-1P5-50-GREY",
+      "written_qty": 25,
+      "product_code": "CBL-TE-1P5-50-GREY",
+      "qty": 25,
+      "unit": "drum",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-TE-4-100-WHIT",
+      "written_qty": 1,
+      "product_code": "CBL-TE-4-100-WHIT",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "t&e 6mm\u00b2 100m white",
+      "written_qty": 10,
+      "product_code": "CBL-TE-6-100-WHIT",
+      "qty": 10,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0010.pdf"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "gen-0217",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1035",
+  "customer_name": "Kaur & Reid M&E Ltd",
+  "contact": "Nadia Kaur",
+  "email": "nadia@kaurme.co.uk",
+  "po_number": "PO16141",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "proflow brass ball valve 1/2\" bsp butterfly",
+      "written_qty": 12,
+      "product_code": "BR-VLV-BALL-PROF-12IN-BUTT",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0217.eml"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "gen-0113",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1014",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Liam Shah",
+  "email": "liam@shahelectrical.co.uk",
+  "po_number": "PO26169",
+  "delivery_date": null,
+  "habits": [
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CLIP-PIPE-HING-22",
+      "written_qty": 20,
+      "product_code": "CLIP-PIPE-HING-22",
+      "qty": 20,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-PIPE-DOUB-15",
+      "written_qty": 25,
+      "product_code": "CLIP-PIPE-DOUB-15",
+      "qty": 25,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-PIPE-SING-22",
+      "written_qty": 1,
+      "product_code": "CLIP-PIPE-SING-22",
+      "qty": 1,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-PIPE-HING-15",
+      "written_qty": 3,
+      "product_code": "CLIP-PIPE-HING-15",
+      "qty": 3,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIP-PIPE-HING-28",
+      "written_qty": 50,
+      "product_code": "CLIP-PIPE-HING-28",
+      "qty": 50,
+      "unit": "bag of 10",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Pipe Clip Double 28mm",
+      "written_qty": 6,
+      "product_code": "CLIP-PIPE-DOUB-28",
+      "qty": 6,
+      "unit": "bag of 10",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0113.eml"
+}

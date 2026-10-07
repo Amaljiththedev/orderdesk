@@ -1,0 +1,138 @@
+{
+  "id": "gen-0061",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1016",
+  "customer_name": "Evans & Quinn Renovations",
+  "contact": "Jo Evans",
+  "email": "jo@evansrenovations.co.uk",
+  "po_number": "JOB-4819",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "abbreviates",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "proflow cu copuling 8mm sr",
+      "written_qty": 4,
+      "product_code": "CU-CPL-PROF-8-SR",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Waset Pipe 32mm x 4m Black",
+      "written_qty": 50,
+      "product_code": "WST-PIPE-32-4-BLAC",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu coupling 8mm comp (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-CPL-PROF-8-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu coupling 8mm sr",
+      "written_qty": 30,
+      "product_code": "CU-CPL-KEST-8-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu couplign 54mm ef",
+      "written_qty": 20,
+      "product_code": "CU-CPL-NORT-54-EF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu coupling 42mm comp (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-CPL-KEST-42-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProlFow MCB Type B 40A SP",
+      "written_qty": 10,
+      "product_code": "CON-MCB-PROF-B-40-SP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu couplnig 15mm EF",
+      "written_qty": 20,
+      "product_code": "CU-CPL-NORT-15-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu coupling 35mm comp",
+      "written_qty": 12,
+      "product_code": "CU-CPL-NORT-35-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu coupling 54mm comp",
+      "written_qty": 12,
+      "product_code": "CU-CPL-PROF-54-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0061.pdf"
+}

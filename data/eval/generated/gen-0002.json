@@ -1,0 +1,64 @@
+{
+  "id": "gen-0002",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1004",
+  "customer_name": "Patel Maintenance",
+  "contact": "Jo Patel",
+  "email": "jo@patelmaintenance.co.uk",
+  "po_number": "699/68",
+  "delivery_date": null,
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "ACCSWPROF22WM",
+      "written_qty": 4,
+      "product_code": "ACC-SW-PROF-2-2-WM",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 19-235",
+      "written_qty": 25,
+      "product_code": "PB-PIPE-KEST-10-100",
+      "qty": 25,
+      "unit": "coil",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "ACCSWKEST22MB",
+      "written_qty": 12,
+      "product_code": "ACC-SW-KEST-2-2-MB",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "26-765",
+      "written_qty": 20,
+      "product_code": "BR-VLV-ISO-PROF-28-LR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0002.pdf"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "gen-0033",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1035",
+  "customer_name": "Kaur & Reid M&E Ltd",
+  "contact": "Nadia Kaur",
+  "email": "nadia@kaurme.co.uk",
+  "po_number": "472/16",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "Northway cu elbow 42mm EF",
+      "written_qty": 2,
+      "product_code": "CU-EL90-NORT-42-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel pushfit tee 28mm grey (pack of 10)",
+      "written_qty": 3,
+      "product_code": "PB-TEE-KEST-28-GREY-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu elbow 22mm SR",
+      "written_qty": 20,
+      "product_code": "CU-EL90-KEST-22-SR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu elbow 15mm comp (pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-EL90-PROF-15-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu elbow 10mm comp",
+      "written_qty": 3,
+      "product_code": "CU-EL90-NORT-10-COMP",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0033.eml"
+}

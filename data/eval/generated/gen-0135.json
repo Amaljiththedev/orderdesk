@@ -1,0 +1,27 @@
+{
+  "id": "gen-0135",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "JOB-6238",
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel 2 Gang 1 Way Light Switch Polished Brass (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SW-KEST-2-1-PB-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0135.pdf"
+}

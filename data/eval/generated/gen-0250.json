@@ -1,0 +1,91 @@
+{
+  "id": "gen-0250",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1022",
+  "customer_name": "Shah Building Services",
+  "contact": "Paul Shah",
+  "email": "paul@shahbuilding.co.uk",
+  "po_number": "801/66",
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel led downlight fire rated 5w 6500k brushed nickel",
+      "written_qty": 10,
+      "product_code": "LED-DL-KEST-5-6500-BN",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "62-813",
+      "written_qty": 3,
+      "product_code": "CU-EL90-KEST-8-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "SWA Armoured Cable 3 Core 10mm\u00b2 per metre",
+      "written_qty": 4,
+      "product_code": "CBL-SWA-3-10",
+      "qty": 4,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": true
+    },
+    {
+      "raw": "our ref 83-766",
+      "written_qty": 10,
+      "product_code": "CU-TEE-NORT-28-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number",
+        "qty_in_pieces"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "21-446",
+      "written_qty": 4,
+      "product_code": "BR-VLV-ISO-PROF-28-LR",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "proflow led downlight fire rated 6w 3000k chrome (pack of 10)",
+      "written_qty": 1,
+      "product_code": "LED-DL-PROF-6-3000-CHRO-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow led downlight fire rated 6w 6500k white",
+      "written_qty": 50,
+      "product_code": "LED-DL-PROF-6-6500-WHIT-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0250.eml"
+}

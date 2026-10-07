@@ -1,0 +1,88 @@
+{
+  "id": "gen-0260",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1007",
+  "customer_name": "Patel Plumbing & Heating",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelplumbing.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel cu Reducer 28mm x 15mm EF",
+      "written_qty": 20,
+      "product_code": "CU-RED-KEST-28-15-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Reducer 22mm x 15mm comp",
+      "written_qty": 25,
+      "product_code": "CU-RED-NORT-22-15-COMP",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu reducer 35mm x 10mm ef",
+      "written_qty": 1,
+      "product_code": "CU-RED-NORT-35-10-EF",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu reducer 28mm x 22mm comp",
+      "written_qty": 12,
+      "product_code": "CU-RED-NORT-28-22-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu reducer 22mm x 8mm ef",
+      "written_qty": 12,
+      "product_code": "CU-RED-KEST-22-8-EF",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow fused spur switched 13a matt black",
+      "written_qty": 1,
+      "product_code": "ACC-FCU-PROF-SWIT-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0260.pdf"
+}

@@ -1,0 +1,140 @@
+{
+  "id": "gen-0140",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1039",
+  "customer_name": "Ahmed Building Services",
+  "contact": "Megan Ahmed",
+  "email": "megan@ahmedbuilding.co.uk",
+  "po_number": "919/13",
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "imperial_sizes",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel copper reducer 28mm x 10mm compression",
+      "written_qty": 2,
+      "product_code": "CU-RED-KEST-28-10-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow coppre reducer 2\" x 3/4\" compression",
+      "written_qty": 5,
+      "product_code": "CU-RED-PROF-54-22-COMP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "imperial_size",
+        "imperial_size",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Reduecr 1/2\" x 8mm End Feed",
+      "written_qty": 2,
+      "product_code": "CU-RED-KEST-15-8-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Reduecr 42mm x 10mm Compression",
+      "written_qty": 50,
+      "product_code": "CU-RED-PROF-42-10-COMP",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copper rdeucer 1 1/4\" x 1/2\" end feed",
+      "written_qty": 6,
+      "product_code": "CU-RED-KEST-35-15-EF",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size",
+        "imperial_size",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Reducer 28mm x 3/4\" Compression",
+      "written_qty": 30,
+      "product_code": "CU-RED-KEST-28-22-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "imperial_size",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper reducer 1 1/4\" x 1/2\" end feed",
+      "written_qty": 12,
+      "product_code": "CU-RED-PROF-35-15-EF",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "imperial_size",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel copepr reducer 54mm x 10mm end feed",
+      "written_qty": 10,
+      "product_code": "CU-RED-KEST-54-10-EF",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Copper Reducer 2\" x 15mm Compression (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-RED-NORT-54-15-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "imperial_size",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Reducer 1 1/2\" x 22mm Compression",
+      "written_qty": 30,
+      "product_code": "CU-RED-PROF-42-22-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "imperial_size",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0140.pdf"
+}

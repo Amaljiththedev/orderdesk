@@ -1,0 +1,51 @@
+{
+  "id": "gen-0119",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1017",
+  "customer_name": "Kelly & Price Installations",
+  "contact": "Gary Kelly",
+  "email": "gary@kellyinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "imperial_sizes",
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "PB-PIPE-NORT-28-25",
+      "written_qty": 50,
+      "product_code": "PB-PIPE-NORT-28-25",
+      "qty": 50,
+      "unit": "coil",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-FLEX-2-0P75-50-WHIT",
+      "written_qty": 20,
+      "product_code": "CBL-FLEX-2-0P75-50-WHIT",
+      "qty": 20,
+      "unit": "drum",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Core Flex 2.5mm\u00b2 50m White",
+      "written_qty": 2,
+      "product_code": "CBL-FLEX-2-2P5-50-WHIT",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0119.eml"
+}

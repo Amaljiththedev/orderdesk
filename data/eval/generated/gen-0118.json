@@ -1,0 +1,79 @@
+{
+  "id": "gen-0118",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1025",
+  "customer_name": "Price Renovations",
+  "contact": "Nadia Price",
+  "email": "nadia@pricerenovations.co.uk",
+  "po_number": "JOB-8983",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "old_codes",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "CONRCBOPROFC10",
+      "written_qty": 2,
+      "product_code": "CON-RCBO-PROF-C-10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "BRVLVISOPROF22SLOT",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-PROF-22-SLOT",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "brass iso valve 1\" lever blue (pack of 5)",
+      "written_qty": 3,
+      "product_code": "BR-VLV-ISO-NORT-28-LB-P5",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CONRCBOPROFB10",
+      "written_qty": 5,
+      "product_code": "CON-RCBO-PROF-B-10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel brass iso valve 1/2\" slotted",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-KEST-15-SLOT-P5",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0118.pdf"
+}

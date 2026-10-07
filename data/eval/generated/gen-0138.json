@@ -1,0 +1,136 @@
+{
+  "id": "gen-0138",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1037",
+  "customer_name": "Ahmed & Byrne Property Services",
+  "contact": "Jo Ahmed",
+  "email": "jo@ahmedproperty.co.uk",
+  "po_number": "PO19832",
+  "delivery_date": "2026-10-15",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel led downlight fire rated 8w 4000k white (pack of 10)",
+      "written_qty": 3,
+      "product_code": "LED-DL-KEST-8-4000-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 26-762",
+      "written_qty": 2,
+      "product_code": "ACC-SW-NORT-2-2-WM-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "ProFlow LED Downlight Fire Rated 5W 4000K Brushed Nickel",
+      "written_qty": 2,
+      "product_code": "LED-DL-PROF-5-4000-BN",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 17-355",
+      "written_qty": 2,
+      "product_code": "CU-TEE-PROF-28-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "BR-VLV-ISO-PROF-15-LB-P5",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-PROF-15-LB-P5",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow LED Downlight Fire Rated 5W 4000K White (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "LED-DL-PROF-5-4000-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper tube 15mm x 3m table y",
+      "written_qty": 6,
+      "product_code": "CU-TUBE-NORT-15-3-TY",
+      "qty": 6,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway led downlight fire rated 5w 6500k chrome (pack of 10)",
+      "written_qty": 5,
+      "product_code": "LED-DL-NORT-5-6500-CHRO-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 57-674",
+      "written_qty": 20,
+      "product_code": "CU-EL90-NORT-35-COMP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "kestrel copper tube 15mm x 2m table x",
+      "written_qty": 12,
+      "product_code": "CU-TUBE-KEST-15-2-TX",
+      "qty": 12,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Pipe Insert Stainless 22mm (Pack of 50)",
+      "written_qty": 1,
+      "product_code": "PB-INS-PROF-22-P50",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Copper Tube 54mm x 6m Table X",
+      "written_qty": 25,
+      "product_code": "CU-TUBE-NORT-54-6-TX",
+      "qty": 25,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0138.eml"
+}

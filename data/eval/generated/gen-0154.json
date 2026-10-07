@@ -1,0 +1,42 @@
+{
+  "id": "gen-0154",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1028",
+  "customer_name": "Doyle Property Services",
+  "contact": "Aisha Doyle",
+  "email": "aisha@doyleproperty.co.uk",
+  "po_number": "JOB-9259",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "old_codes",
+    "terse",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CUEL90KEST28COMPP10",
+      "written_qty": 1,
+      "product_code": "CU-EL90-KEST-28-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUEL90PROF8EFP10",
+      "written_qty": 1,
+      "product_code": "CU-EL90-PROF-8-EF-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0154.eml"
+}

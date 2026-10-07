@@ -1,0 +1,55 @@
+{
+  "id": "gen-0212",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1028",
+  "customer_name": "Doyle Property Services",
+  "contact": "Aisha Doyle",
+  "email": "aisha@doyleproperty.co.uk",
+  "po_number": "928/23",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "old_codes",
+    "terse",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "1 Gang USB-A/C Swtiched skt Polished Brass",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-NORT-1-UAS-PB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-2-UNSW-PB-P10",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-NORT-2-UNSW-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-1-UAS-WM-P10",
+      "written_qty": 3,
+      "product_code": "ACC-SKT-NORT-1-UAS-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0212.pdf"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gen-0166",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1026",
+  "customer_name": "Nowak & Byrne M&E Ltd",
+  "contact": "Nadia Nowak",
+  "email": "nadia@nowakme.co.uk",
+  "po_number": "423/65",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "T&E 1.5mm\u00b2 100m Grey",
+      "written_qty": 50,
+      "product_code": "CBL-TE-1P5-100-GREY",
+      "qty": 50,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "t&e 1.5mm\u00b2 100m whtie",
+      "written_qty": 2,
+      "product_code": "CBL-TE-1P5-100-WHIT",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Singel skt 92.5\u00b0 110mm Grey",
+      "written_qty": 20,
+      "product_code": "SOIL-BND-92P5-GREY",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0166.pdf"
+}

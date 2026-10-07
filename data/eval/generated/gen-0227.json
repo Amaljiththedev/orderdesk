@@ -1,0 +1,31 @@
+{
+  "id": "gen-0227",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1004",
+  "customer_name": "Patel Maintenance",
+  "contact": "Jo Patel",
+  "email": "jo@patelmaintenance.co.uk",
+  "po_number": "PO62245",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "t&e 4mm\u00b2 50m white",
+      "written_qty": 4,
+      "product_code": "CBL-TE-4-50-WHIT",
+      "qty": 4,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0227.pdf"
+}

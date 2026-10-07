@@ -1,0 +1,54 @@
+{
+  "id": "gen-0122",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "132/62",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "Shower Trap 32mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-SHOW-32-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "bath trap 40mm 75mm seal",
+      "written_qty": 2,
+      "product_code": "TRAP-BATH-40-75",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "tubular p trap 40mm 38mm seal",
+      "written_qty": 50,
+      "product_code": "TRAP-TP-40-38",
+      "qty": 50,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Shower Trap 40mm 75mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-SHOW-40-75",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0122.pdf"
+}

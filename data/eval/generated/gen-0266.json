@@ -1,0 +1,31 @@
+{
+  "id": "gen-0266",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1025",
+  "customer_name": "Price Renovations",
+  "contact": "Nadia Price",
+  "email": "nadia@pricerenovations.co.uk",
+  "po_number": "PO59733",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "old_codes",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "proflow brass iso valve 28mm lever red",
+      "written_qty": 20,
+      "product_code": "BR-VLV-ISO-PROF-28-LR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0266.pdf"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "gen-0233",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1008",
+  "customer_name": "Ahmed Installations",
+  "contact": "Dave Ahmed",
+  "email": "dave@ahmedinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "SWA 4 Core 2.5mm\u00b2",
+      "written_qty": 1,
+      "product_code": "CBL-SWA-4-2P5",
+      "qty": 1,
+      "unit": "metre",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrle pushfit tee 22mm Grey",
+      "written_qty": 3,
+      "product_code": "PB-TEE-KEST-22-GREY",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "WST-BND-45-50-BLAC-P10",
+      "written_qty": 3,
+      "product_code": "WST-BND-45-50-BLAC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 2 gang switched skt matt black",
+      "written_qty": 10,
+      "product_code": "ACC-SKT-KEST-2-SWIT-MB",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 gang unswitchde skt bc",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-PROF-2-UNSW-BC",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0233.pdf"
+}

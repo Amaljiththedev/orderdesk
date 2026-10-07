@@ -1,0 +1,159 @@
+{
+  "id": "gen-0013",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1008",
+  "customer_name": "Ahmed Installations",
+  "contact": "Dave Ahmed",
+  "email": "dave@ahmedinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel cu Reducre 42mm x 22mm comp",
+      "written_qty": 3,
+      "product_code": "CU-RED-KEST-42-22-COMP",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-RED-KEST-28-8-COMP",
+      "written_qty": 3,
+      "product_code": "CU-RED-KEST-28-8-COMP",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northwya pushfit elbow 10mm White (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "PB-EL90-NORT-10-WHIT-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu Rdeucer 35mm x 8mm comp",
+      "written_qty": 2,
+      "product_code": "CU-RED-NORT-35-8-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu reducre 42mm x 10mm ef",
+      "written_qty": 20,
+      "product_code": "CU-RED-KEST-42-10-EF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kesterl cu Reducer 54mm x 22mm comp",
+      "written_qty": 2,
+      "product_code": "CU-RED-KEST-54-22-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu reduecr 35mm x 22mm comp",
+      "written_qty": 1,
+      "product_code": "CU-RED-NORT-35-22-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu reducre 28mm x 10mm ef (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-RED-KEST-28-10-EF-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-RED-NORT-22-8-EF",
+      "written_qty": 3,
+      "product_code": "CU-RED-NORT-22-8-EF",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-RED-NORT-22-15-COMP-P10",
+      "written_qty": 2,
+      "product_code": "CU-RED-NORT-22-15-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-RED-NORT-54-10-COMP-P10",
+      "written_qty": 5,
+      "product_code": "CU-RED-NORT-54-10-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Fused Spur Switched 13A white",
+      "written_qty": 4,
+      "product_code": "ACC-FCU-NORT-SWIT-WM",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0013.pdf"
+}

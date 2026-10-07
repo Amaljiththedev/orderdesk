@@ -1,0 +1,131 @@
+{
+  "id": "gen-0219",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "PO61112",
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "PB-EL90-PROF-10-WHIT-P10",
+      "written_qty": 2,
+      "product_code": "PB-EL90-PROF-10-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SOILBND87P5BLAC",
+      "written_qty": 5,
+      "product_code": "SOIL-BND-87P5-BLAC",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Polybutlyene Barrier Pipe 22mm x 100m Coil",
+      "written_qty": 50,
+      "product_code": "PB-PIPE-NORT-22-100",
+      "qty": 50,
+      "unit": "coil",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-BND-87P5-GREY",
+      "written_qty": 25,
+      "product_code": "SOIL-BND-87P5-GREY",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBEL90PROF10WHIT",
+      "written_qty": 5,
+      "product_code": "PB-EL90-PROF-10-WHIT",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Single Socekt 92.5\u00b0 110mm Black",
+      "written_qty": 20,
+      "product_code": "SOIL-BND-92P5-BLAC",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-EL90-PROF-28-WHIT-P10",
+      "written_qty": 5,
+      "product_code": "PB-EL90-PROF-28-WHIT-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-PIPE-KEST-15-100",
+      "written_qty": 3,
+      "product_code": "PB-PIPE-KEST-15-100",
+      "qty": 3,
+      "unit": "coil",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBEL90KEST10GREY",
+      "written_qty": 6,
+      "product_code": "PB-EL90-KEST-10-GREY",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Polybutylene Barreir Pipe 10mm x 100m Coil",
+      "written_qty": 2,
+      "product_code": "PB-PIPE-PROF-10-100",
+      "qty": 2,
+      "unit": "coil",
+      "mess": [
+        "brand_omitted",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0219.pdf"
+}

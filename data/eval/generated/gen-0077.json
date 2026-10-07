@@ -1,0 +1,28 @@
+{
+  "id": "gen-0077",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1010",
+  "customer_name": "Okafor Property Services",
+  "contact": "Jo Okafor",
+  "email": "jo@okaforproperty.co.uk",
+  "po_number": "286/89",
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow copper reducer 15mm x 10mm compression (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-RED-PROF-15-10-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0077.eml"
+}

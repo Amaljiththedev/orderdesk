@@ -1,0 +1,106 @@
+{
+  "id": "gen-0176",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1036",
+  "customer_name": "Evans Electrical Services",
+  "contact": "Gary Evans",
+  "email": "gary@evanselectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "own_part_numbers",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Copper Reducer 54mm x 10mm Compression (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-RED-NORT-54-10-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Copper Reducer 22mm x 8mm Cmopression",
+      "written_qty": 3,
+      "product_code": "CU-RED-NORT-22-8-COMP",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper reducer 15mm x 10mm cmopression",
+      "written_qty": 2,
+      "product_code": "CU-RED-NORT-15-10-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 15-369",
+      "written_qty": 2,
+      "product_code": "LED-DL-PROF-8-6500-CHRO-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Northway Polybutyleen Barrier Pipe 22mm x 50m Coil",
+      "written_qty": 1,
+      "product_code": "PB-PIPE-NORT-22-50",
+      "qty": 1,
+      "unit": "coil",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "80-162",
+      "written_qty": 1,
+      "product_code": "CU-TEE-NORT-22-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "Nrothway Polybutylene Barrier Pipe 15mm x 50m Coil",
+      "written_qty": 2,
+      "product_code": "PB-PIPE-NORT-15-50",
+      "qty": 2,
+      "unit": "coil",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 90-251",
+      "written_qty": 12,
+      "product_code": "WST-PIPE-40-4-WHIT",
+      "qty": 12,
+      "unit": "length",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    }
+  ],
+  "document": "gen-0176.eml"
+}

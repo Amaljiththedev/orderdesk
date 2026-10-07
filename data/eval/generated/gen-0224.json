@@ -1,0 +1,61 @@
+{
+  "id": "gen-0224",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "177/59",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "LED-DL-KEST-6-6500-BN-P10",
+      "written_qty": 5,
+      "product_code": "LED-DL-KEST-6-6500-BN-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel push-fit equal tee 10mm grey (pack of 10)",
+      "written_qty": 1,
+      "product_code": "PB-TEE-KEST-10-GREY-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "LED-DL-PROF-6-3000-CHRO-P10",
+      "written_qty": 1,
+      "product_code": "LED-DL-PROF-6-3000-CHRO-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "LED-DL-NORT-6-6500-BN",
+      "written_qty": 1,
+      "product_code": "LED-DL-NORT-6-6500-BN",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0224.eml"
+}

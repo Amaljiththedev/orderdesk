@@ -1,0 +1,56 @@
+{
+  "id": "gen-0173",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1006",
+  "customer_name": "Clarke & Doyle Plumbing & Heating",
+  "contact": "Sam Clarke",
+  "email": "sam@clarkeplumbing.co.uk",
+  "po_number": "JOB-3620",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "own_part_numbers",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow Brass Full Bore Ball Valve 3/4\" BSP Lever",
+      "written_qty": 25,
+      "product_code": "BR-VLV-BALL-PROF-34IN-LEVE",
+      "qty": 25,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SWA Armoured Cable 2 Core 2.5mm\u00b2 per metre",
+      "written_qty": 10,
+      "product_code": "CBL-SWA-2-2P5",
+      "qty": 10,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 13-443",
+      "written_qty": 5,
+      "product_code": "CU-CPL-KEST-28-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "swa armoured cable 2 core 1.5mm\u00b2 per metre",
+      "written_qty": 1,
+      "product_code": "CBL-SWA-2-1P5",
+      "qty": 1,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0173.pdf"
+}

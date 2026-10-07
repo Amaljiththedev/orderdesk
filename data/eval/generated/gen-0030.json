@@ -1,0 +1,111 @@
+{
+  "id": "gen-0030",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1011",
+  "customer_name": "Walsh Electrical Services",
+  "contact": "Jo Walsh",
+  "email": "jo@walshelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel mcb type c 40a dp",
+      "written_qty": 4,
+      "product_code": "CON-MCB-KEST-C-40-DP",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PTFE Tape 12mm x 12m (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "PTFE-12-P10",
+      "qty": 2,
+      "unit": "roll",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway mcb type b 10a dp",
+      "written_qty": 2,
+      "product_code": "CON-MCB-NORT-B-10-DP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel MCB Type B 16A DP",
+      "written_qty": 10,
+      "product_code": "CON-MCB-KEST-B-16-DP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "MCB Type B 10A DP",
+      "written_qty": 20,
+      "product_code": "CON-MCB-PROF-B-10-DP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "mcb type c 20a sp",
+      "written_qty": 1,
+      "product_code": "CON-MCB-PROF-C-20-SP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel MCB Type C 32A SP",
+      "written_qty": 20,
+      "product_code": "CON-MCB-KEST-C-32-SP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "MCB Type B 6A DP",
+      "written_qty": 20,
+      "product_code": "CON-MCB-PROF-B-6-DP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0030.eml"
+}

@@ -1,0 +1,131 @@
+{
+  "id": "gen-0089",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1024",
+  "customer_name": "Kaur Building Services",
+  "contact": "Jo Kaur",
+  "email": "jo@kaurbuilding.co.uk",
+  "po_number": "437/19",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL90-PROF-10-EF",
+      "written_qty": 4,
+      "product_code": "CU-EL90-PROF-10-EF",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu elbow 8mm EF",
+      "written_qty": 3,
+      "product_code": "CU-EL90-KEST-8-EF",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-PROF-1-SWIT-MB",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-PROF-1-SWIT-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu elbow 42mm ef",
+      "written_qty": 5,
+      "product_code": "CU-EL90-PROF-42-EF",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu elbow 28mm comp (pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-EL90-KEST-28-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow 1 gang unswitched skt polished brass",
+      "written_qty": 1,
+      "product_code": "ACC-SKT-PROF-1-UNSW-PB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu elbow 54mm EF (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL90-NORT-54-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "pushfit tee 28mm White",
+      "written_qty": 3,
+      "product_code": "PB-TEE-KEST-28-WHIT",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-2-UNSW-PB",
+      "written_qty": 12,
+      "product_code": "ACC-SKT-NORT-2-UNSW-PB",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu elbow 54mm sr",
+      "written_qty": 25,
+      "product_code": "CU-EL90-PROF-54-SR",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0089.pdf"
+}

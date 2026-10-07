@@ -1,0 +1,62 @@
+{
+  "id": "gen-0198",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "441/97",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-TEE-PROF-15-COMP",
+      "written_qty": 12,
+      "product_code": "CU-TEE-PROF-15-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Coppre Equal Tee 10mm End Feed",
+      "written_qty": 2,
+      "product_code": "CU-TEE-NORT-10-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CBL-TE-1-100-GREY",
+      "written_qty": 5,
+      "product_code": "CBL-TE-1-100-GREY",
+      "qty": 5,
+      "unit": "drum",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel copper equal tee 54mm end feed",
+      "written_qty": 4,
+      "product_code": "CU-TEE-KEST-54-EF",
+      "qty": 4,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0198.pdf"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "gen-0285",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1004",
+  "customer_name": "Patel Maintenance",
+  "contact": "Jo Patel",
+  "email": "jo@patelmaintenance.co.uk",
+  "po_number": "JOB-878",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "part no 21-848",
+      "written_qty": 4,
+      "product_code": "CU-TUBE-PROF-15-6-TY",
+      "qty": 4,
+      "unit": "length",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "Kestrel cu tee 22mm SR (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-TEE-KEST-22-SR-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Radiator Valve Manual Straight 15mm x 1/2\" White",
+      "written_qty": 2,
+      "product_code": "RAD-VLV-MS-WHIT",
+      "qty": 2,
+      "unit": "pair",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "waste pipe 40mm x 3m white",
+      "written_qty": 2,
+      "product_code": "WST-PIPE-40-3-WHIT",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "11-724",
+      "written_qty": 3,
+      "product_code": "LED-DL-PROF-8-3000-BN",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Waste Pipe 50mm x 4m Grey",
+      "written_qty": 20,
+      "product_code": "WST-PIPE-50-4-GREY",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel downlight fr 5w 3000k white",
+      "written_qty": 25,
+      "product_code": "LED-DL-KEST-5-3000-WHIT",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "waste pipe 32mm x 3m grey",
+      "written_qty": 6,
+      "product_code": "WST-PIPE-32-3-GREY",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIPPIPEHING22",
+      "written_qty": 5,
+      "product_code": "CLIP-PIPE-HING-22",
+      "qty": 5,
+      "unit": "bag of 10",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CLIPPIPEDOUB15",
+      "written_qty": 2,
+      "product_code": "CLIP-PIPE-DOUB-15",
+      "qty": 2,
+      "unit": "bag of 10",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Lockshield Angled 15mm x 1/2\" White",
+      "written_qty": 10,
+      "product_code": "RAD-VLV-LA-WHIT",
+      "qty": 10,
+      "unit": "pair",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0285.pdf"
+}

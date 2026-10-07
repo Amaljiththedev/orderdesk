@@ -1,0 +1,42 @@
+{
+  "id": "gen-0225",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "JOB-2138",
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "LED-DL-KEST-6-3000-WHIT",
+      "written_qty": 2,
+      "product_code": "LED-DL-KEST-6-3000-WHIT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "BRVLVGATENORT15BF",
+      "written_qty": 20,
+      "product_code": "BR-VLV-GATE-NORT-15-BF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0225.eml"
+}

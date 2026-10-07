@@ -1,0 +1,59 @@
+{
+  "id": "gen-0265",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1029",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Sophie Shah",
+  "email": "sophie@shahelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Pipe Insert Stainless 10mm (Pack of 50)",
+      "written_qty": 3,
+      "product_code": "PB-INS-NORT-10-P50",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Pipe Insert Stainless 28mm (Pack of 50)",
+      "written_qty": 3,
+      "product_code": "PB-INS-KEST-28-P50",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-EL90-NORT-28-WHIT-P10",
+      "written_qty": 2,
+      "product_code": "PB-EL90-NORT-28-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Push-Fit Elbow 90\u00b0 28mm White (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "PB-EL90-PROF-28-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0265.eml"
+}

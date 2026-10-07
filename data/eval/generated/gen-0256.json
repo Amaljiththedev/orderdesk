@@ -1,0 +1,108 @@
+{
+  "id": "gen-0256",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1020",
+  "customer_name": "Reid Installations",
+  "contact": "Mark Reid",
+  "email": "mark@reidinstallations.co.uk",
+  "po_number": "302/42",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Fused Spur Switched 13A white",
+      "written_qty": 10,
+      "product_code": "ACC-FCU-NORT-SWIT-WM",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Fused Spur Switched with Neon 13A BC",
+      "written_qty": 2,
+      "product_code": "ACC-FCU-PROF-SWN-BC",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Fused Spur Switched 13A BC",
+      "written_qty": 50,
+      "product_code": "ACC-FCU-NORT-SWIT-BC",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "fused spur unswitched 13a matt black",
+      "written_qty": 25,
+      "product_code": "ACC-FCU-PROF-UNSW-MB",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel fused spur switched 13a bc",
+      "written_qty": 50,
+      "product_code": "ACC-FCU-KEST-SWIT-BC",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Fused Spur Unswitched 13A white",
+      "written_qty": 6,
+      "product_code": "ACC-FCU-KEST-UNSW-WM",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Fused Spur Switched with Neon 13A Matt Black",
+      "written_qty": 2,
+      "product_code": "ACC-FCU-NORT-SWN-MB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Fused Spur Unswitched 13A BC",
+      "written_qty": 25,
+      "product_code": "ACC-FCU-KEST-UNSW-BC",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0256.eml"
+}

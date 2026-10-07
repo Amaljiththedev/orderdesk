@@ -1,0 +1,74 @@
+{
+  "id": "gen-0199",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1024",
+  "customer_name": "Kaur Building Services",
+  "contact": "Jo Kaur",
+  "email": "jo@kaurbuilding.co.uk",
+  "po_number": "JOB-1959",
+  "delivery_date": null,
+  "habits": [
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow rcbo type c 20a 30ma",
+      "written_qty": 1,
+      "product_code": "CON-RCBO-PROF-C-20",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SWA 4 Core 6mm\u00b2",
+      "written_qty": 1,
+      "product_code": "CBL-SWA-4-6",
+      "qty": 1,
+      "unit": "metre",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Waste Pipe 32mm x 3m White",
+      "written_qty": 4,
+      "product_code": "WST-PIPE-32-3-WHIT",
+      "qty": 4,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway RCBO Type C 10A 30mA",
+      "written_qty": 3,
+      "product_code": "CON-RCBO-NORT-C-10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SWA 2 Core 16mm\u00b2",
+      "written_qty": 25,
+      "product_code": "CBL-SWA-2-16",
+      "qty": 25,
+      "unit": "metre",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0199.pdf"
+}

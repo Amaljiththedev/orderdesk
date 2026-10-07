@@ -1,0 +1,50 @@
+{
+  "id": "gen-0040",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "211/91",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL45-PROF-42-EF",
+      "written_qty": 20,
+      "product_code": "CU-EL45-PROF-42-EF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL45-NORT-8-COMP",
+      "written_qty": 5,
+      "product_code": "CU-EL45-NORT-8-COMP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper elbow 45\u00b0 42mm end feed",
+      "written_qty": 2,
+      "product_code": "CU-EL45-NORT-42-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0040.pdf"
+}

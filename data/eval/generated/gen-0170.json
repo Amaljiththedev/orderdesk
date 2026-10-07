@@ -1,0 +1,74 @@
+{
+  "id": "gen-0170",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1007",
+  "customer_name": "Patel Plumbing & Heating",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelplumbing.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel cu coupling 22mm ef",
+      "written_qty": 10,
+      "product_code": "CU-CPL-KEST-22-EF",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 45\u00b0 50mm black",
+      "written_qty": 3,
+      "product_code": "WST-BND-45-50-BLAC",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel 1 Gang USB-A/C Switched skt BC",
+      "written_qty": 12,
+      "product_code": "ACC-SKT-KEST-1-UAS-BC",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel 2 Gang Switched skt Polished Brass",
+      "written_qty": 10,
+      "product_code": "ACC-SKT-KEST-2-SWIT-PB",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel rcbo type c 20a 30ma",
+      "written_qty": 20,
+      "product_code": "CON-RCBO-KEST-C-20",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0170.pdf"
+}

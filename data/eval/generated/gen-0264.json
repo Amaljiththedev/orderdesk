@@ -1,0 +1,114 @@
+{
+  "id": "gen-0264",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1016",
+  "customer_name": "Evans & Quinn Renovations",
+  "contact": "Jo Evans",
+  "email": "jo@evansrenovations.co.uk",
+  "po_number": "PO98393",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrle cu tee 10mm EF",
+      "written_qty": 2,
+      "product_code": "CU-TEE-KEST-10-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "swa 4 core 1.5mm\u00b2",
+      "written_qty": 50,
+      "product_code": "CBL-SWA-4-1P5",
+      "qty": 50,
+      "unit": "metre",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu tee 42mm sr",
+      "written_qty": 20,
+      "product_code": "CU-TEE-KEST-42-SR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SWA 4 Core 10mm\u00b2",
+      "written_qty": 6,
+      "product_code": "CBL-SWA-4-10",
+      "qty": 6,
+      "unit": "metre",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProlFow cu tee 22mm EF",
+      "written_qty": 2,
+      "product_code": "CU-TEE-PROF-22-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "norhtway cu tee 8mm comp",
+      "written_qty": 12,
+      "product_code": "CU-TEE-NORT-8-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass iso valve 28mm Lever Blue",
+      "written_qty": 4,
+      "product_code": "BR-VLV-ISO-NORT-28-LB",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tee 15mm comp",
+      "written_qty": 20,
+      "product_code": "CU-TEE-NORT-15-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0264.pdf"
+}

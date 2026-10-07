@@ -1,0 +1,52 @@
+{
+  "id": "gen-0296",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1029",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Sophie Shah",
+  "email": "sophie@shahelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL90-KEST-15-COMP",
+      "written_qty": 50,
+      "product_code": "CU-EL90-KEST-15-COMP",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Elbow 90\u00b0 8mm Compression",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-8-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copper elbow 90\u00b0 10mm solder ring (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-EL90-PROF-10-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0296.eml"
+}

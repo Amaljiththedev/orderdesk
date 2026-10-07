@@ -1,0 +1,80 @@
+{
+  "id": "gen-0242",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1027",
+  "customer_name": "Taylor Installations",
+  "contact": "Emma Taylor",
+  "email": "emma@taylorinstallation.co.uk",
+  "po_number": "JOB-787",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "old_codes",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Fused Spur Switched with Neon 13A White Moulded",
+      "written_qty": 20,
+      "product_code": "ACC-FCU-NORT-SWN-WM",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld bend 90\u00b0 40mm black",
+      "written_qty": 2,
+      "product_code": "WST-BND-90-40-BLAC",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCFCUPROFSWNBC",
+      "written_qty": 10,
+      "product_code": "ACC-FCU-PROF-SWN-BC",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCFCUPROFSWITBC",
+      "written_qty": 2,
+      "product_code": "ACC-FCU-PROF-SWIT-BC",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCFCUPROFSWNWM",
+      "written_qty": 1,
+      "product_code": "ACC-FCU-PROF-SWN-WM",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCFCUNORTSWITBC",
+      "written_qty": 4,
+      "product_code": "ACC-FCU-NORT-SWIT-BC",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0242.pdf"
+}

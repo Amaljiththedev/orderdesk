@@ -1,0 +1,54 @@
+{
+  "id": "gen-0272",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1003",
+  "customer_name": "Evans Property Services",
+  "contact": "Kevin Evans",
+  "email": "kevin@evansproperty.co.uk",
+  "po_number": "JOB-9694",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "abbreviates",
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow MCB Type B 20A SP",
+      "written_qty": 5,
+      "product_code": "CON-MCB-PROF-B-20-SP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway mcb type b 16a dp",
+      "written_qty": 25,
+      "product_code": "CON-MCB-NORT-B-16-DP",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProlFow MCB Type B 16A DP",
+      "written_qty": 50,
+      "product_code": "CON-MCB-PROF-B-16-DP",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0272.pdf"
+}

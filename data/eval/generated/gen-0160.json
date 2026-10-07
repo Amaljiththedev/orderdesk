@@ -1,0 +1,101 @@
+{
+  "id": "gen-0160",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1001",
+  "customer_name": "Byrne & Shah Renovations",
+  "contact": "Kevin Byrne",
+  "email": "kevin@byrnerenovations.co.uk",
+  "po_number": "JOB-9962",
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel pushift tee 28mm Grey",
+      "written_qty": 2,
+      "product_code": "PB-TEE-KEST-28-GREY",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow pushfit tee 15mm Grey",
+      "written_qty": 1,
+      "product_code": "PB-TEE-PROF-15-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBTEEPROF15GREYP10",
+      "written_qty": 1,
+      "product_code": "PB-TEE-PROF-15-GREY-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBTEEKEST22GREYP10",
+      "written_qty": 1,
+      "product_code": "PB-TEE-KEST-22-GREY-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "pushfti tee 28mm grey",
+      "written_qty": 1,
+      "product_code": "PB-TEE-NORT-28-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBTEEPROF10GREYP10",
+      "written_qty": 2,
+      "product_code": "PB-TEE-PROF-10-GREY-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "pushfit tee 22mm white",
+      "written_qty": 10,
+      "product_code": "PB-TEE-NORT-22-WHIT",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0160.pdf"
+}

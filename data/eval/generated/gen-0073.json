@@ -1,0 +1,47 @@
+{
+  "id": "gen-0073",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": "867/24",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Northway MCB Type C 6A Double Pole",
+      "written_qty": 20,
+      "product_code": "CON-MCB-NORT-C-6-DP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow push-fit elbow 90\u00b0 22mm grey (pack of 10)",
+      "written_qty": 5,
+      "product_code": "PB-EL90-PROF-22-GREY-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "2 gang switched socket brushed chrome (pack of 10)",
+      "written_qty": 5,
+      "product_code": "ACC-SKT-KEST-2-SWIT-BC-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0073.eml"
+}

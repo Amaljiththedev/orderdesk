@@ -1,0 +1,53 @@
+{
+  "id": "gen-0255",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "PO12479",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-CPL-KEST-54-COMP",
+      "written_qty": 1,
+      "product_code": "CU-CPL-KEST-54-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-CPL-NORT-15-SR-P10",
+      "written_qty": 1,
+      "product_code": "CU-CPL-NORT-15-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-CPL-NORT-15-EF-P10",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-15-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0255.pdf"
+}

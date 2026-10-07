@@ -1,0 +1,134 @@
+{
+  "id": "gen-0017",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1032",
+  "customer_name": "Clarke Installations",
+  "contact": "Liam Clarke",
+  "email": "liam@clarkeinstallation.co.uk",
+  "po_number": "PO97981",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "northway cu tee 8mm sr (pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-TEE-NORT-8-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tee 35mm ef",
+      "written_qty": 20,
+      "product_code": "CU-TEE-NORT-35-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu tee 22mm SR",
+      "written_qty": 30,
+      "product_code": "CU-TEE-KEST-22-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu tee 28mm EF",
+      "written_qty": 30,
+      "product_code": "CU-TEE-PROF-28-EF-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu tee 8mm comp",
+      "written_qty": 6,
+      "product_code": "CU-TEE-KEST-8-COMP",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tee 28mm sr",
+      "written_qty": 2,
+      "product_code": "CU-TEE-NORT-28-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tee 22mm sr (pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-TEE-PROF-22-SR-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu tee 22mm ef",
+      "written_qty": 50,
+      "product_code": "CU-TEE-KEST-22-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu tee 35mm SR (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-TEE-PROF-35-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tee 22mm ef",
+      "written_qty": 10,
+      "product_code": "CU-TEE-PROF-22-EF-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0017.eml"
+}

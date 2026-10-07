@@ -1,0 +1,122 @@
+{
+  "id": "gen-0069",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": "806/47",
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL90-NORT-35-COMP-P10",
+      "written_qty": 5,
+      "product_code": "CU-EL90-NORT-35-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CON-MCB-NORT-C-10-SP",
+      "written_qty": 20,
+      "product_code": "CON-MCB-NORT-C-10-SP",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper elbow 90\u00b0 28mm end feed",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-28-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SW-PROF-3-1-PB",
+      "written_qty": 6,
+      "product_code": "ACC-SW-PROF-3-1-PB",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-PROF-42-EF-P10",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-42-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-PROF-35-EF-P10",
+      "written_qty": 5,
+      "product_code": "CU-EL90-PROF-35-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Elbow 90\u00b0 35mm End Feed",
+      "written_qty": 20,
+      "product_code": "CU-EL90-KEST-35-EF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper elbow 90\u00b0 42mm solder ring",
+      "written_qty": 2,
+      "product_code": "CU-EL90-NORT-42-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 3 gang 1 way light switch polished brass (pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SW-KEST-3-1-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Gang 1 Way Light Switch White Moulded (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SW-KEST-3-1-WM-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0069.pdf"
+}

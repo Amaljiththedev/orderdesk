@@ -1,0 +1,52 @@
+{
+  "id": "gen-0188",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1024",
+  "customer_name": "Kaur Building Services",
+  "contact": "Jo Kaur",
+  "email": "jo@kaurbuilding.co.uk",
+  "po_number": "809/59",
+  "delivery_date": null,
+  "habits": [
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel cu Tube 35mm x 6m Table Y",
+      "written_qty": 12,
+      "product_code": "CU-TUBE-KEST-35-6-TY",
+      "qty": 12,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tube 54mm x 6m table y",
+      "written_qty": 1,
+      "product_code": "CU-TUBE-PROF-54-6-TY",
+      "qty": 1,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-PROF-8-6-TX",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-PROF-8-6-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0188.eml"
+}

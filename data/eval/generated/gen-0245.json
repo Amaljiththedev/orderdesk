@@ -1,0 +1,65 @@
+{
+  "id": "gen-0245",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "JOB-2546",
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Push-Fit Elbow 90\u00b0 10mm White (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "PB-EL90-NORT-10-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Gang USB-A/C Switched Socket Polished Brass",
+      "written_qty": 10,
+      "product_code": "ACC-SKT-KEST-2-UAS-PB",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 1 Gang Switched Socket Brushed Chrome",
+      "written_qty": 25,
+      "product_code": "ACC-SKT-PROF-1-SWIT-BC",
+      "qty": 25,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel 2 Gang USB-A/C Switched Socket Matt Black",
+      "written_qty": 12,
+      "product_code": "ACC-SKT-KEST-2-UAS-MB",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway push-fit elbow 90\u00b0 15mm grey",
+      "written_qty": 2,
+      "product_code": "PB-EL90-NORT-15-GREY",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0245.eml"
+}

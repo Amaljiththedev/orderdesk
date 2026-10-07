@@ -1,0 +1,40 @@
+{
+  "id": "gen-0006",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1020",
+  "customer_name": "Reid Installations",
+  "contact": "Mark Reid",
+  "email": "mark@reidinstallations.co.uk",
+  "po_number": "JOB-2501",
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "T&E 2.5mm\u00b2 100m Grey",
+      "written_qty": 6,
+      "product_code": "CBL-TE-2P5-100-GREY",
+      "qty": 6,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "T&E 2.5mm\u00b2 50m Grey",
+      "written_qty": 2,
+      "product_code": "CBL-TE-2P5-50-GREY",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0006.eml"
+}

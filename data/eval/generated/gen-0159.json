@@ -1,0 +1,42 @@
+{
+  "id": "gen-0159",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1037",
+  "customer_name": "Ahmed & Byrne Property Services",
+  "contact": "Jo Ahmed",
+  "email": "jo@ahmedproperty.co.uk",
+  "po_number": "769/64",
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "ref 26-762",
+      "written_qty": 3,
+      "product_code": "ACC-SW-NORT-2-2-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "part no 93-519",
+      "written_qty": 1,
+      "product_code": "ACC-SW-NORT-2-2-PB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0159.eml"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "gen-0009",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "JOB-2587",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Copper Elbow 90\u00b0 54mm End Feed",
+      "written_qty": 6,
+      "product_code": "CU-EL90-NORT-54-EF",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0009.pdf"
+}

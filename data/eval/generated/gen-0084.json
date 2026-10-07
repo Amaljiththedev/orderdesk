@@ -1,0 +1,57 @@
+{
+  "id": "gen-0084",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1029",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Sophie Shah",
+  "email": "sophie@shahelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "swa armoured cable 4 core 1.5mm\u00b2 per metre",
+      "written_qty": 2,
+      "product_code": "CBL-SWA-4-1P5",
+      "qty": 2,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "SOIL-BND-45-GREY",
+      "written_qty": 3,
+      "product_code": "SOIL-BND-45-GREY",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SWA Armoured Cable 4 Core 10mm\u00b2 per metre",
+      "written_qty": 25,
+      "product_code": "CBL-SWA-4-10",
+      "qty": 25,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "soil bend single socket 87.5\u00b0 110mm grey",
+      "written_qty": 6,
+      "product_code": "SOIL-BND-87P5-GREY",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0084.pdf"
+}

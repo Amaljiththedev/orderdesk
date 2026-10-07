@@ -1,0 +1,87 @@
+{
+  "id": "gen-0025",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1018",
+  "customer_name": "Doyle Electrical Services",
+  "contact": "Jo Doyle",
+  "email": "jo@doyleelectrical.co.uk",
+  "po_number": "378/52",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "own_part_numbers",
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "PB-INS-KEST-15-P50",
+      "written_qty": 5,
+      "product_code": "PB-INS-KEST-15-P50",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Pipe Insert ss 28mm (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "PB-INS-KEST-28-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Pipe Insert ss 10mm (Pack of 50)",
+      "written_qty": 2,
+      "product_code": "PB-INS-NORT-10-P50",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway pipe insert ss 22mm (pack of 50)",
+      "written_qty": 1,
+      "product_code": "PB-INS-NORT-22-P50",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-NORT-8-EF",
+      "written_qty": 50,
+      "product_code": "CU-EL90-NORT-8-EF",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "77-355",
+      "written_qty": 25,
+      "product_code": "CU-RED-PROF-28-8-COMP",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0025.pdf"
+}

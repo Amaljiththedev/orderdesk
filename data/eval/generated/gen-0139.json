@@ -1,0 +1,29 @@
+{
+  "id": "gen-0139",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1030",
+  "customer_name": "Ahmed Renovations",
+  "contact": "Priya Ahmed",
+  "email": "priya@ahmedrenovations.co.uk",
+  "po_number": "JOB-3902",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "old_codes",
+    "terse"
+  ],
+  "lines": [
+    {
+      "raw": "BRVLVGATENORT42BF",
+      "written_qty": 25,
+      "product_code": "BR-VLV-GATE-NORT-42-BF",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0139.eml"
+}

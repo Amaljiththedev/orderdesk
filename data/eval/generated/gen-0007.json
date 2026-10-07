@@ -1,0 +1,50 @@
+{
+  "id": "gen-0007",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1023",
+  "customer_name": "Okafor Property Services",
+  "contact": "Priya Okafor",
+  "email": "priya@okaforproperty.co.uk",
+  "po_number": "PO48793",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "old_codes",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Push-Fit Elobw 90\u00b0 22mm White",
+      "written_qty": 25,
+      "product_code": "PB-EL90-NORT-22-WHIT",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northwya Push-Fit Elbow 90\u00b0 28mm Grey",
+      "written_qty": 1,
+      "product_code": "PB-EL90-NORT-28-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Waste Pipe 32mm x 4m White",
+      "written_qty": 4,
+      "product_code": "WST-PIPE-32-4-WHIT",
+      "qty": 4,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0007.pdf"
+}

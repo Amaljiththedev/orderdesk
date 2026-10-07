@@ -1,0 +1,54 @@
+{
+  "id": "gen-0106",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1012",
+  "customer_name": "Brennan Property Services",
+  "contact": "Nadia Brennan",
+  "email": "nadia@brennanproperty.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes",
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-TEE-NORT-10-EF",
+      "written_qty": 5,
+      "product_code": "CU-TEE-NORT-10-EF",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu tee 1 1/2\" SR",
+      "written_qty": 1,
+      "product_code": "CU-TEE-NORT-42-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TEE-KEST-15-COMP",
+      "written_qty": 5,
+      "product_code": "CU-TEE-KEST-15-COMP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0106.eml"
+}

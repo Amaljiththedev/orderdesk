@@ -1,0 +1,54 @@
+{
+  "id": "gen-0254",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1012",
+  "customer_name": "Brennan Property Services",
+  "contact": "Nadia Brennan",
+  "email": "nadia@brennanproperty.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes",
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-CPL-NORT-35-SR-P10",
+      "written_qty": 3,
+      "product_code": "CU-CPL-NORT-35-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 90\u00b0 50mm White (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "WST-BND-90-50-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu coupling 8mm ef (pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-CPL-KEST-8-EF-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0254.eml"
+}

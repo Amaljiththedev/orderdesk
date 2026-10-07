@@ -1,0 +1,43 @@
+{
+  "id": "gen-0284",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1026",
+  "customer_name": "Nowak & Byrne M&E Ltd",
+  "contact": "Nadia Nowak",
+  "email": "nadia@nowakme.co.uk",
+  "po_number": "PO6684",
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "Northway MCB Type C 40A SP",
+      "written_qty": 4,
+      "product_code": "CON-MCB-NORT-C-40-SP",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "MCB Type C 6A DP",
+      "written_qty": 10,
+      "product_code": "CON-MCB-PROF-C-6-DP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0284.pdf"
+}

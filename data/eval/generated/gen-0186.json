@@ -1,0 +1,113 @@
+{
+  "id": "gen-0186",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1025",
+  "customer_name": "Price Renovations",
+  "contact": "Nadia Price",
+  "email": "nadia@pricerenovations.co.uk",
+  "po_number": "844/45",
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "imperial_sizes",
+    "old_codes",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow 1 Gang 1 Way switch BC",
+      "written_qty": 30,
+      "product_code": "ACC-SW-PROF-1-1-BC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Gang 1 Way switch Matt Black",
+      "written_qty": 30,
+      "product_code": "ACC-SW-NORT-3-1-MB-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSWKEST11PBP10",
+      "written_qty": 10,
+      "product_code": "ACC-SW-KEST-1-1-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 2 Gang 2 Way switch Matt Black",
+      "written_qty": 1,
+      "product_code": "ACC-SW-PROF-2-2-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 45\u00b0 50mm white",
+      "written_qty": 30,
+      "product_code": "WST-BND-45-50-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SOILPIPE1103BLAC",
+      "written_qty": 5,
+      "product_code": "SOIL-PIPE-110-3-BLAC",
+      "qty": 5,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "WSTBND4550GREY",
+      "written_qty": 1,
+      "product_code": "WST-BND-45-50-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSWKEST32BCP10",
+      "written_qty": 3,
+      "product_code": "ACC-SW-KEST-3-2-BC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0186.pdf"
+}

@@ -1,0 +1,138 @@
+{
+  "id": "gen-0239",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": "JOB-6986",
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-TEE-NORT-22-SR",
+      "written_qty": 2,
+      "product_code": "CU-TEE-NORT-22-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Polybutylene Barrier Pipe 10mm x 100m Coil",
+      "written_qty": 5,
+      "product_code": "PB-PIPE-NORT-10-100",
+      "qty": 5,
+      "unit": "coil",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Copper Equal Tee 35mm Solder Ring",
+      "written_qty": 3,
+      "product_code": "CU-TEE-NORT-35-SR",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper equal tee 15mm solder ring (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-TEE-PROF-15-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "copper equal tee 35mm compression (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-TEE-KEST-35-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Equal Tee 15mm End Feed",
+      "written_qty": 6,
+      "product_code": "CU-TEE-PROF-15-EF",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-PIPE-KEST-15-50",
+      "written_qty": 20,
+      "product_code": "PB-PIPE-KEST-15-50",
+      "qty": 20,
+      "unit": "coil",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copper equal tee 42mm end feed (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-TEE-KEST-42-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow polybutylene barrier pipe 10mm x 100m coil",
+      "written_qty": 2,
+      "product_code": "PB-PIPE-PROF-10-100",
+      "qty": 2,
+      "unit": "coil",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Equal Tee 54mm Solder Ring",
+      "written_qty": 1,
+      "product_code": "CU-TEE-PROF-54-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TEE-PROF-35-EF",
+      "written_qty": 4,
+      "product_code": "CU-TEE-PROF-35-EF",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TEE-NORT-22-COMP",
+      "written_qty": 6,
+      "product_code": "CU-TEE-NORT-22-COMP",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0239.pdf"
+}

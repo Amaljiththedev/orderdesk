@@ -1,0 +1,31 @@
+{
+  "id": "gen-0157",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1012",
+  "customer_name": "Brennan Property Services",
+  "contact": "Nadia Brennan",
+  "email": "nadia@brennanproperty.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "imperial_sizes",
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-RED-NORT-35-10-EF-P10",
+      "written_qty": 3,
+      "product_code": "CU-RED-NORT-35-10-EF-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0157.pdf"
+}

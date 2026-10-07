@@ -1,0 +1,160 @@
+{
+  "id": "gen-0298",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1035",
+  "customer_name": "Kaur & Reid M&E Ltd",
+  "contact": "Nadia Kaur",
+  "email": "nadia@kaurme.co.uk",
+  "po_number": "827/61",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "abbreviates",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Brass iso valve 22mm Lever Blue (Pack of 5)",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-NORT-22-LB-P5",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northwya cu coupling 15mm SR",
+      "written_qty": 3,
+      "product_code": "CU-CPL-NORT-15-SR",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "brass iso valve 28mm leevr red (pack of 5)",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-PROF-28-LR-P5",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "radiator valve maunal angled 15mm x 1/2\" white",
+      "written_qty": 50,
+      "product_code": "RAD-VLV-MA-WHIT",
+      "qty": 50,
+      "unit": "pair",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu coupling 10mm comp (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-10-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northawy cu coupling 15mm comp (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-15-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Brass iso valve 22mm Slotted",
+      "written_qty": 2,
+      "product_code": "BR-VLV-ISO-NORT-22-SLOT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Brass iso valve 15mm Lever Red",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-PROF-15-LR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu coupling 28mm EF",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-28-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northawy cu coupling 22mm comp (pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-CPL-NORT-22-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel brass iso valve 22mm lever red",
+      "written_qty": 2,
+      "product_code": "BR-VLV-ISO-KEST-22-LR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu coupilng 42mm SR (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-CPL-PROF-42-SR-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0298.pdf"
+}

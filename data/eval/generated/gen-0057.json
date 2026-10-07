@@ -1,0 +1,92 @@
+{
+  "id": "gen-0057",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1034",
+  "customer_name": "Patel Electrical Contractors",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelelectrical.co.uk",
+  "po_number": "PO96806",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel copper equal tee 22mm compression",
+      "written_qty": 30,
+      "product_code": "CU-TEE-KEST-22-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel copper equal tee 8mm solder ring (pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-TEE-KEST-8-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Equal Tee 10mm Solder Ring",
+      "written_qty": 12,
+      "product_code": "CU-TEE-PROF-10-SR",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel pipe insert stainless 15mm (pack of 50)",
+      "written_qty": 1,
+      "product_code": "PB-INS-KEST-15-P50",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper equal tee 28mm solder ring",
+      "written_qty": 10,
+      "product_code": "CU-TEE-PROF-28-SR",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Equal Tee 35mm Compression",
+      "written_qty": 4,
+      "product_code": "CU-TEE-KEST-35-COMP",
+      "qty": 4,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Metal Back Box 1 Gang 47mm (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "BOX-BACK-1-47-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway push-fit elbow 90\u00b0 22mm grey",
+      "written_qty": 12,
+      "product_code": "PB-EL90-NORT-22-GREY",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0057.pdf"
+}

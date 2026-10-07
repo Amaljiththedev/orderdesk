@@ -1,0 +1,77 @@
+{
+  "id": "gen-0149",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1008",
+  "customer_name": "Ahmed Installations",
+  "contact": "Dave Ahmed",
+  "email": "dave@ahmedinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "LED-DL-PROF-5-3000-BN",
+      "written_qty": 5,
+      "product_code": "LED-DL-PROF-5-3000-BN",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel pushfit tee 15mm grey",
+      "written_qty": 25,
+      "product_code": "PB-TEE-KEST-15-GREY",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway pushfit tee 10mm White (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "PB-TEE-NORT-10-WHIT-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway downlihgt fr 6w 6500k chrome",
+      "written_qty": 12,
+      "product_code": "LED-DL-NORT-6-6500-CHRO",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "prfolow downlight fr 8w 3000k chrome",
+      "written_qty": 2,
+      "product_code": "LED-DL-PROF-8-3000-CHRO",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0149.pdf"
+}

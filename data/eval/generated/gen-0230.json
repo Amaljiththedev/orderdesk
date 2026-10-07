@@ -1,0 +1,29 @@
+{
+  "id": "gen-0230",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1030",
+  "customer_name": "Ahmed Renovations",
+  "contact": "Priya Ahmed",
+  "email": "priya@ahmedrenovations.co.uk",
+  "po_number": "997/23",
+  "delivery_date": null,
+  "habits": [
+    "old_codes",
+    "terse"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel pushfit elbow 28mm Grey (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "PB-EL90-KEST-28-GREY-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0230.pdf"
+}

@@ -1,0 +1,104 @@
+{
+  "id": "gen-0062",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1036",
+  "customer_name": "Evans Electrical Services",
+  "contact": "Gary Evans",
+  "email": "gary@evanselectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "own_part_numbers",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "89-250",
+      "written_qty": 1,
+      "product_code": "CU-TUBE-PROF-28-3-TY",
+      "qty": 1,
+      "unit": "length",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "15-369",
+      "written_qty": 5,
+      "product_code": "LED-DL-PROF-8-6500-CHRO-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "northway led downlight fire rated 6w 4000k brushed nickle",
+      "written_qty": 10,
+      "product_code": "LED-DL-NORT-6-4000-BN",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBTEEPROF28WHITP10",
+      "written_qty": 3,
+      "product_code": "PB-TEE-PROF-28-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway LED Downlight Fire Rated 5W 3000K Brushed Nickel",
+      "written_qty": 20,
+      "product_code": "LED-DL-NORT-5-3000-BN",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "31-316",
+      "written_qty": 2,
+      "product_code": "CU-TEE-KEST-54-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "northway led downlight fire rated 5w 3000k white (pack of 10)",
+      "written_qty": 5,
+      "product_code": "LED-DL-NORT-5-3000-WHIT-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper reducre 22mm x 10mm end feed (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-RED-NORT-22-10-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0062.pdf"
+}

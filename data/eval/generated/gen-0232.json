@@ -1,0 +1,53 @@
+{
+  "id": "gen-0232",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1037",
+  "customer_name": "Ahmed & Byrne Property Services",
+  "contact": "Jo Ahmed",
+  "email": "jo@ahmedproperty.co.uk",
+  "po_number": "820/89",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "ACC-SW-NORT-1-1-WM-P10",
+      "written_qty": 5,
+      "product_code": "ACC-SW-NORT-1-1-WM-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "CUTUBENORT83TX",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-NORT-8-3-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "25-797",
+      "written_qty": 1,
+      "product_code": "CBL-FLEX-3-2P5-100-WHIT",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0232.eml"
+}

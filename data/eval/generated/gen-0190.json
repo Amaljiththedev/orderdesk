@@ -1,0 +1,36 @@
+{
+  "id": "gen-0190",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1027",
+  "customer_name": "Taylor Installations",
+  "contact": "Emma Taylor",
+  "email": "emma@taylorinstallation.co.uk",
+  "po_number": "794/99",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "old_codes",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "twin & earth cable 1mm\u00b2 100m grey",
+      "written_qty": 50,
+      "product_code": "CBL-TE-1-100-GREY",
+      "qty": 50,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow polybutylene barrier pipe 22mm x 100m coil",
+      "written_qty": 6,
+      "product_code": "PB-PIPE-PROF-22-100",
+      "qty": 6,
+      "unit": "coil",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0190.pdf"
+}

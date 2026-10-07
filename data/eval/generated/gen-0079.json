@@ -1,0 +1,53 @@
+{
+  "id": "gen-0079",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1023",
+  "customer_name": "Okafor Property Services",
+  "contact": "Priya Okafor",
+  "email": "priya@okaforproperty.co.uk",
+  "po_number": "PO64106",
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "old_codes",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Northway 1 Gang 1 Way Lgiht Switch Polished Brass",
+      "written_qty": 10,
+      "product_code": "ACC-SW-NORT-1-1-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "1 gang 2 way light switch matt black",
+      "written_qty": 50,
+      "product_code": "ACC-SW-PROF-1-2-MB",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway 3 Gang 2 Way Light Swicth Matt Black",
+      "written_qty": 10,
+      "product_code": "ACC-SW-NORT-3-2-MB",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0079.pdf"
+}

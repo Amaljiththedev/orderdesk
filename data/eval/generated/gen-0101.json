@@ -1,0 +1,101 @@
+{
+  "id": "gen-0101",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "503/69",
+  "delivery_date": "2026-10-10",
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "Northway MCB Type B 20A Single Pole",
+      "written_qty": 2,
+      "product_code": "CON-MCB-NORT-B-20-SP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow mcb type c 10a double pole",
+      "written_qty": 50,
+      "product_code": "CON-MCB-PROF-C-10-DP",
+      "qty": 50,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Lead-Free Solder Wire 500g",
+      "written_qty": 12,
+      "product_code": "SOLDER-500",
+      "qty": 12,
+      "unit": "reel",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel mcb type b 20a single pole",
+      "written_qty": 5,
+      "product_code": "CON-MCB-KEST-B-20-SP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow MCB Type B 10A Single Pole",
+      "written_qty": 6,
+      "product_code": "CON-MCB-PROF-B-10-SP",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway MCB Type C 20A Double Pole",
+      "written_qty": 1,
+      "product_code": "CON-MCB-NORT-C-20-DP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow mcb type b 6a single pole",
+      "written_qty": 6,
+      "product_code": "CON-MCB-PROF-B-6-SP",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow mcb type b 10a double pole",
+      "written_qty": 12,
+      "product_code": "CON-MCB-PROF-B-10-DP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "mcb type b 40a double pole",
+      "written_qty": 2,
+      "product_code": "CON-MCB-KEST-B-40-DP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0101.pdf"
+}

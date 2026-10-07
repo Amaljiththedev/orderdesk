@@ -1,0 +1,166 @@
+{
+  "id": "gen-0147",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1003",
+  "customer_name": "Evans Property Services",
+  "contact": "Kevin Evans",
+  "email": "kevin@evansproperty.co.uk",
+  "po_number": "282/50",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "proflow cu tee 54mm ef",
+      "written_qty": 20,
+      "product_code": "CU-TEE-PROF-54-EF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Ketsrel cu tee 35mm SR",
+      "written_qty": 20,
+      "product_code": "CU-TEE-KEST-35-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "porflow cu tee 8mm ef",
+      "written_qty": 50,
+      "product_code": "CU-TEE-PROF-8-EF",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northwya cu tee 22mm ef",
+      "written_qty": 12,
+      "product_code": "CU-TEE-NORT-22-EF",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kesterl cu tee 10mm SR",
+      "written_qty": 12,
+      "product_code": "CU-TEE-KEST-10-SR",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu tee 10mm ef",
+      "written_qty": 50,
+      "product_code": "CU-TEE-KEST-10-EF",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 59-675",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-KEST-15-LB-P5",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "our ref 36-930",
+      "written_qty": 2,
+      "product_code": "CU-RED-KEST-35-15-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "cu tee 22mm SR",
+      "written_qty": 10,
+      "product_code": "CU-TEE-KEST-22-SR",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northawy cu tee 42mm sr",
+      "written_qty": 50,
+      "product_code": "CU-TEE-NORT-42-SR-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "back box 2 Gang 25mm",
+      "written_qty": 30,
+      "product_code": "BOX-BACK-2-25-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Reducer 28mm x 15mm EF",
+      "written_qty": 10,
+      "product_code": "CU-RED-KEST-28-15-EF-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0147.pdf"
+}

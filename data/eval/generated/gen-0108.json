@@ -1,0 +1,76 @@
+{
+  "id": "gen-0108",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1031",
+  "customer_name": "Taylor & Evans Property Services",
+  "contact": "Mark Taylor",
+  "email": "mark@taylorproperty.co.uk",
+  "po_number": "499/75",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow cu tee 1 1/2\" SR (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-TEE-PROF-42-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel pushfit elbow 10mm white (pack of 10)",
+      "written_qty": 1,
+      "product_code": "PB-EL90-KEST-10-WHIT-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu tee 10mm comp",
+      "written_qty": 2,
+      "product_code": "CU-TEE-NORT-10-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu tee 10mm EF (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-TEE-NORT-10-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu tee 54mm comp",
+      "written_qty": 3,
+      "product_code": "CU-TEE-PROF-54-COMP",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0108.eml"
+}

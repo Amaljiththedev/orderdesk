@@ -1,0 +1,65 @@
+{
+  "id": "gen-0208",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1001",
+  "customer_name": "Byrne & Shah Renovations",
+  "contact": "Kevin Byrne",
+  "email": "kevin@byrnerenovations.co.uk",
+  "po_number": "PO49131",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "northway cu elbwo 15mm comp",
+      "written_qty": 3,
+      "product_code": "CU-EL90-NORT-15-COMP",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUEL90PROF42COMP",
+      "written_qty": 50,
+      "product_code": "CU-EL90-PROF-42-COMP",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUEL90KEST10EF",
+      "written_qty": 5,
+      "product_code": "CU-EL90-KEST-10-EF",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUEL90KEST22EFP10",
+      "written_qty": 3,
+      "product_code": "CU-EL90-KEST-22-EF-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0208.eml"
+}

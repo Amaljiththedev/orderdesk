@@ -1,0 +1,69 @@
+{
+  "id": "gen-0179",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1019",
+  "customer_name": "Hughes Heating Engineers",
+  "contact": "Lisa Hughes",
+  "email": "lisa@hughesheating.co.uk",
+  "po_number": "964/81",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers"
+  ],
+  "lines": [
+    {
+      "raw": "Twin & Earth Cable 1mm\u00b2 50m White",
+      "written_qty": 2,
+      "product_code": "CBL-TE-1-50-WHIT",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Twin & Earth Cable 1.5mm\u00b2 100m White",
+      "written_qty": 25,
+      "product_code": "CBL-TE-1P5-100-WHIT",
+      "qty": 25,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 98-401",
+      "written_qty": 12,
+      "product_code": "CU-TUBE-PROF-42-3-TY",
+      "qty": 12,
+      "unit": "length",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "part no 51-160",
+      "written_qty": 1,
+      "product_code": "LED-DL-NORT-6-4000-CHRO-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "part no 94-505",
+      "written_qty": 4,
+      "product_code": "CU-TEE-PROF-28-SR",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0179.pdf"
+}

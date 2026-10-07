@@ -1,0 +1,67 @@
+{
+  "id": "gen-0022",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1008",
+  "customer_name": "Ahmed Installations",
+  "contact": "Dave Ahmed",
+  "email": "dave@ahmedinstallations.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Brass ball valve 1 1/2\" BSP Butterfly",
+      "written_qty": 2,
+      "product_code": "BR-VLV-BALL-PROF-11-BUTT2",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Brass ball valve 1/2\" BSP Lever",
+      "written_qty": 3,
+      "product_code": "BR-VLV-BALL-NORT-12IN-LEVE",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass ball valev 1/2\" BSP Lever",
+      "written_qty": 6,
+      "product_code": "BR-VLV-BALL-PROF-12IN-LEVE",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "BR-VLV-BALL-NORT-1IN-LEVE",
+      "written_qty": 1,
+      "product_code": "BR-VLV-BALL-NORT-1IN-LEVE",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0022.pdf"
+}

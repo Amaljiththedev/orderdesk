@@ -1,0 +1,113 @@
+{
+  "id": "gen-0172",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1026",
+  "customer_name": "Nowak & Byrne M&E Ltd",
+  "contact": "Nadia Nowak",
+  "email": "nadia@nowakme.co.uk",
+  "po_number": "PO63045",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow cu Tube 8mm x 3m Tbale X",
+      "written_qty": 20,
+      "product_code": "CU-TUBE-PROF-8-3-TX",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ketsrel cu tube 28mm x 3m table y",
+      "written_qty": 20,
+      "product_code": "CU-TUBE-KEST-28-3-TY",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "profolw cu tube 15mm x 3m table y",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-PROF-15-3-TY",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tube 10mm x 6m table x",
+      "written_qty": 3,
+      "product_code": "CU-TUBE-NORT-10-6-TX",
+      "qty": 3,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Tube 8mm x 2m Tabel Y",
+      "written_qty": 10,
+      "product_code": "CU-TUBE-PROF-8-2-TY",
+      "qty": 10,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tube 8mm x 3m table y",
+      "written_qty": 3,
+      "product_code": "CU-TUBE-NORT-8-3-TY",
+      "qty": 3,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "nortwhay cu tube 35mm x 6m table x",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-NORT-35-6-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tube 28mm x 3m table x",
+      "written_qty": 25,
+      "product_code": "CU-TUBE-PROF-28-3-TX",
+      "qty": 25,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0172.pdf"
+}

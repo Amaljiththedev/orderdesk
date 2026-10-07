@@ -1,0 +1,124 @@
+{
+  "id": "gen-0290",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1037",
+  "customer_name": "Ahmed & Byrne Property Services",
+  "contact": "Jo Ahmed",
+  "email": "jo@ahmedproperty.co.uk",
+  "po_number": "JOB-8737",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL90-PROF-15-COMP-P10",
+      "written_qty": 3,
+      "product_code": "CU-EL90-PROF-15-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Elbow 90\u00b0 28mm End Feed (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL90-KEST-28-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL90-KEST-15-COMP-P10",
+      "written_qty": 5,
+      "product_code": "CU-EL90-KEST-15-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "16-469",
+      "written_qty": 6,
+      "product_code": "CU-CPL-KEST-8-EF",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "ProFlow Copper Elbow 90\u00b0 15mm Solder Ring (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-15-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Elbow 90\u00b0 28mm Solder Ring",
+      "written_qty": 50,
+      "product_code": "CU-EL90-KEST-28-SR",
+      "qty": 50,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 57-940",
+      "written_qty": 4,
+      "product_code": "ACC-FCU-KEST-SWIT-MB",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "CU-EL90-KEST-28-COMP",
+      "written_qty": 25,
+      "product_code": "CU-EL90-KEST-28-COMP",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 80-458",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-PROF-2-UAS-MB",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "our ref 42-323",
+      "written_qty": 2,
+      "product_code": "CU-EL45-NORT-10-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0290.eml"
+}

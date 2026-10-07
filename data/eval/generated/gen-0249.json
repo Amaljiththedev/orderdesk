@@ -1,0 +1,31 @@
+{
+  "id": "gen-0249",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1001",
+  "customer_name": "Byrne & Shah Renovations",
+  "contact": "Kevin Byrne",
+  "email": "kevin@byrnerenovations.co.uk",
+  "po_number": "JOB-3242",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "BRVLVGATENORT28COMP",
+      "written_qty": 5,
+      "product_code": "BR-VLV-GATE-NORT-28-COMP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0249.eml"
+}

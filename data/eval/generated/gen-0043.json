@@ -1,0 +1,111 @@
+{
+  "id": "gen-0043",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1018",
+  "customer_name": "Doyle Electrical Services",
+  "contact": "Jo Doyle",
+  "email": "jo@doyleelectrical.co.uk",
+  "po_number": "JOB-7285",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "own_part_numbers",
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "downlight fr 6w 6500k white (pack of 10)",
+      "written_qty": 1,
+      "product_code": "LED-DL-KEST-6-6500-WHIT-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "LED-DL-KEST-8-6500-WHIT-P10",
+      "written_qty": 3,
+      "product_code": "LED-DL-KEST-8-6500-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu 45 elbow 35mm EF",
+      "written_qty": 1,
+      "product_code": "CU-EL45-NORT-35-EF",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow downlight fr 8w 3000k brushed nickel (pack of 10)",
+      "written_qty": 2,
+      "product_code": "LED-DL-PROF-8-3000-BN-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-EL45-KEST-54-EF-P10",
+      "written_qty": 2,
+      "product_code": "CU-EL45-KEST-54-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Tube 22mm x 6m Table X",
+      "written_qty": 5,
+      "product_code": "CU-TUBE-KEST-22-6-TX",
+      "qty": 5,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu 45 elbow 22mm comp (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-EL45-NORT-22-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu tube 35mm x 3m table x",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-KEST-35-3-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0043.pdf"
+}

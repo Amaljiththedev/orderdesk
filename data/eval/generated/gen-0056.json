@@ -1,0 +1,103 @@
+{
+  "id": "gen-0056",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1033",
+  "customer_name": "Taylor Installations",
+  "contact": "Dave Taylor",
+  "email": "dave@taylorinstallation.co.uk",
+  "po_number": "JOB-3248",
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "prfolow rcbo type c 6a 30ma",
+      "written_qty": 1,
+      "product_code": "CON-RCBO-PROF-C-6",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway rcbo type c 6a 30ma",
+      "written_qty": 25,
+      "product_code": "CON-RCBO-NORT-C-6",
+      "qty": 25,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "rcbo type c 10a 30ma",
+      "written_qty": 20,
+      "product_code": "CON-RCBO-KEST-C-10",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "notrhway rcbo type b 32a 30ma",
+      "written_qty": 2,
+      "product_code": "CON-RCBO-NORT-B-32",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway rcbo type b 6a 30ma",
+      "written_qty": 1,
+      "product_code": "CON-RCBO-NORT-B-6",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Northawy RCBO Type C 40A 30mA",
+      "written_qty": 12,
+      "product_code": "CON-RCBO-NORT-C-40",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PorFlow RCBO Type B 20A 30mA",
+      "written_qty": 25,
+      "product_code": "CON-RCBO-PROF-B-20",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "notrhway rcbo type b 20a 30ma",
+      "written_qty": 25,
+      "product_code": "CON-RCBO-NORT-B-20",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0056.pdf"
+}

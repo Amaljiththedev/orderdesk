@@ -1,0 +1,81 @@
+{
+  "id": "gen-0102",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1029",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Sophie Shah",
+  "email": "sophie@shahelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "no_po",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL45-NORT-54-COMP",
+      "written_qty": 2,
+      "product_code": "CU-EL45-NORT-54-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SW-KEST-2-1-PB-P10",
+      "written_qty": 5,
+      "product_code": "ACC-SW-KEST-2-1-PB-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Elbow 45\u00b0 54mm End Feed",
+      "written_qty": 4,
+      "product_code": "CU-EL45-PROF-54-EF",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Core Flex 1.5mm\u00b2 100m White",
+      "written_qty": 2,
+      "product_code": "CBL-FLEX-3-1P5-100-WHIT",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper elbow 45\u00b0 28mm compression (pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL45-NORT-28-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SW-KEST-1-2-WM-P10",
+      "written_qty": 2,
+      "product_code": "ACC-SW-KEST-1-2-WM-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0102.pdf"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "gen-0156",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1007",
+  "customer_name": "Patel Plumbing & Heating",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelplumbing.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel cu Reducer 42mm x 22mm comp (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-RED-KEST-42-22-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0156.pdf"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "gen-0189",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1014",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Liam Shah",
+  "email": "liam@shahelectrical.co.uk",
+  "po_number": "JOB-5809",
+  "delivery_date": null,
+  "habits": [
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel Fused Spur Switched with Neon 13A White Moulded",
+      "written_qty": 50,
+      "product_code": "ACC-FCU-KEST-SWN-WM",
+      "qty": 50,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway fused spur unswitched 13a white moulded",
+      "written_qty": 20,
+      "product_code": "ACC-FCU-NORT-UNSW-WM",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Elbow 90\u00b0 35mm Compression (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL90-KEST-35-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "shower trap 40mm 38mm seal",
+      "written_qty": 2,
+      "product_code": "TRAP-SHOW-40-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0189.pdf"
+}

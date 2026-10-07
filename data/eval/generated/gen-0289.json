@@ -1,0 +1,98 @@
+{
+  "id": "gen-0289",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1022",
+  "customer_name": "Shah Building Services",
+  "contact": "Paul Shah",
+  "email": "paul@shahbuilding.co.uk",
+  "po_number": "PO58821",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow Push-Fit Elbow 90\u00b0 15mm Grey",
+      "written_qty": 1,
+      "product_code": "PB-EL90-PROF-15-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Waste Pipe 32mm x 4m Black",
+      "written_qty": 1,
+      "product_code": "WST-PIPE-32-4-BLAC",
+      "qty": 1,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 65-769",
+      "written_qty": 50,
+      "product_code": "ACC-SKT-KEST-1-SWIT-PB-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number",
+        "qty_in_pieces"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Solvent Weld Waste Pipe 40mm x 3m White",
+      "written_qty": 12,
+      "product_code": "WST-PIPE-40-3-WHIT",
+      "qty": 12,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel push-fit elbow 90\u00b0 22mm white",
+      "written_qty": 1,
+      "product_code": "PB-EL90-KEST-22-WHIT",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "38-266",
+      "written_qty": 2,
+      "product_code": "CBL-TE-6-50-WHIT",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "part no 52-310",
+      "written_qty": 10,
+      "product_code": "CU-CPL-KEST-10-COMP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "solvent weld waste pipe 40mm x 3m black",
+      "written_qty": 3,
+      "product_code": "WST-PIPE-40-3-BLAC",
+      "qty": 3,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0289.eml"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "gen-0194",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1030",
+  "customer_name": "Ahmed Renovations",
+  "contact": "Priya Ahmed",
+  "email": "priya@ahmedrenovations.co.uk",
+  "po_number": "610/84",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "old_codes",
+    "terse"
+  ],
+  "lines": [
+    {
+      "raw": "CUEL45KEST10EFP10",
+      "written_qty": 3,
+      "product_code": "CU-EL45-KEST-10-EF-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway RCBO Type C 6A 30mA",
+      "written_qty": 5,
+      "product_code": "CON-RCBO-NORT-C-6",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow rcbo type b 16a 30ma",
+      "written_qty": 5,
+      "product_code": "CON-RCBO-PROF-B-16",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0194.eml"
+}

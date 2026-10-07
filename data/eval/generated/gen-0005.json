@@ -1,0 +1,43 @@
+{
+  "id": "gen-0005",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1026",
+  "customer_name": "Nowak & Byrne M&E Ltd",
+  "contact": "Nadia Nowak",
+  "email": "nadia@nowakme.co.uk",
+  "po_number": "PO10216",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "nrothway mcb type b 10a sp",
+      "written_qty": 2,
+      "product_code": "CON-MCB-NORT-B-10-SP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "MCB Type B 32A SP",
+      "written_qty": 2,
+      "product_code": "CON-MCB-PROF-B-32-SP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0005.eml"
+}

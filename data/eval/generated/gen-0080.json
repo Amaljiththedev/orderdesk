@@ -1,0 +1,155 @@
+{
+  "id": "gen-0080",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1001",
+  "customer_name": "Byrne & Shah Renovations",
+  "contact": "Kevin Byrne",
+  "email": "kevin@byrnerenovations.co.uk",
+  "po_number": "JOB-543",
+  "delivery_date": "2026-10-15",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel cu tube 15mm x 6m talbe x",
+      "written_qty": 1,
+      "product_code": "CU-TUBE-KEST-15-6-TX",
+      "qty": 1,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu Tube 42mm x 2m Table X",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-KEST-42-2-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Tube 28mm x 6m Table Y",
+      "written_qty": 6,
+      "product_code": "CU-TUBE-NORT-28-6-TY",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUTUBENORT352TX",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-NORT-35-2-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUTUBENORT156TX",
+      "written_qty": 3,
+      "product_code": "CU-TUBE-NORT-15-6-TX",
+      "qty": 3,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "SOILPIPE1102P5WHIT",
+      "written_qty": 1,
+      "product_code": "SOIL-PIPE-110-2P5-WHIT",
+      "qty": 1,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tube 54mm x 3m table y",
+      "written_qty": 5,
+      "product_code": "CU-TUBE-PROF-54-3-TY",
+      "qty": 5,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PTFE25P10",
+      "written_qty": 1,
+      "product_code": "PTFE-25-P10",
+      "qty": 1,
+      "unit": "roll",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUTUBENORT423TY",
+      "written_qty": 25,
+      "product_code": "CU-TUBE-NORT-42-3-TY",
+      "qty": 25,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu tube 22mm x 2m tabel x",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-KEST-22-2-TX",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUTUBENORT82TX",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-NORT-8-2-TX",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Pipe 110mm x 3m White",
+      "written_qty": 20,
+      "product_code": "SOIL-PIPE-110-3-WHIT",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0080.eml"
+}

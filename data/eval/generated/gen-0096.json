@@ -1,0 +1,124 @@
+{
+  "id": "gen-0096",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1022",
+  "customer_name": "Shah Building Services",
+  "contact": "Paul Shah",
+  "email": "paul@shahbuilding.co.uk",
+  "po_number": "199/62",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel 2 Gang 1 Way Light Switch Brushed Chrome",
+      "written_qty": 2,
+      "product_code": "ACC-SW-KEST-2-1-BC",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel pipe insert stainless 22mm",
+      "written_qty": 30,
+      "product_code": "PB-INS-KEST-22-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Gang 1 Way Light Switch Polished Brass (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "ACC-SW-NORT-2-1-PB-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow rcbo type c 20a 30ma",
+      "written_qty": 1,
+      "product_code": "CON-RCBO-PROF-C-20",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 62-813",
+      "written_qty": 30,
+      "product_code": "CU-EL90-KEST-8-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number",
+        "qty_in_pieces"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "19-660",
+      "written_qty": 4,
+      "product_code": "CU-RED-NORT-42-8-COMP",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "3 Gang 1 Way Light Switch Brushed Chrome",
+      "written_qty": 50,
+      "product_code": "ACC-SW-NORT-3-1-BC",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Core Flex 1.5mm\u00b2 100m Black",
+      "written_qty": 1,
+      "product_code": "CBL-FLEX-3-1P5-100-BLAC",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 31-484",
+      "written_qty": 1,
+      "product_code": "BR-VLV-BALL-PROF-12IN-LEVE",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "proflow 3 gang 2 way light switch brushed chrome",
+      "written_qty": 50,
+      "product_code": "ACC-SW-PROF-3-2-BC-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0096.pdf"
+}

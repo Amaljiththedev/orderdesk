@@ -1,0 +1,142 @@
+{
+  "id": "gen-0206",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1036",
+  "customer_name": "Evans Electrical Services",
+  "contact": "Gary Evans",
+  "email": "gary@evanselectrical.co.uk",
+  "po_number": "JOB-7735",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "own_part_numbers",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "northway 3 gang 1 way light switch whiet moulded (pack of 10)",
+      "written_qty": 5,
+      "product_code": "ACC-SW-NORT-3-1-WM-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow 1 gang 2 way light switch brushed chrome",
+      "written_qty": 10,
+      "product_code": "ACC-SW-PROF-1-2-BC",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow 1 gang 1 way light switch polished brass (pack of 10)",
+      "written_qty": 3,
+      "product_code": "ACC-SW-PROF-1-1-PB-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 90-251",
+      "written_qty": 25,
+      "product_code": "WST-PIPE-40-4-WHIT",
+      "qty": 25,
+      "unit": "length",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "Northway 2 Gang 2 Way Light Switch Polished Brass",
+      "written_qty": 1,
+      "product_code": "ACC-SW-NORT-2-2-PB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Soil Bend Single Socket 45\u00b0 110mm White",
+      "written_qty": 10,
+      "product_code": "SOIL-BND-45-WHIT",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 14-614",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-10-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "ACCSWKEST31PB",
+      "written_qty": 4,
+      "product_code": "ACC-SW-KEST-3-1-PB",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBPIPEKEST2250",
+      "written_qty": 3,
+      "product_code": "PB-PIPE-KEST-22-50",
+      "qty": 3,
+      "unit": "coil",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Polybutylene Barrier Pipe 28mm x 100m Coil",
+      "written_qty": 1,
+      "product_code": "PB-PIPE-KEST-28-100",
+      "qty": 1,
+      "unit": "coil",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway 1 Gang 2 Way Light Switch White Moulded (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "ACC-SW-NORT-1-2-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 67-277",
+      "written_qty": 2,
+      "product_code": "PB-TEE-KEST-28-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    }
+  ],
+  "document": "gen-0206.eml"
+}

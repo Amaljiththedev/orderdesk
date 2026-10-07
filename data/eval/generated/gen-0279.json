@@ -1,0 +1,84 @@
+{
+  "id": "gen-0279",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1036",
+  "customer_name": "Evans Electrical Services",
+  "contact": "Gary Evans",
+  "email": "gary@evanselectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "own_part_numbers",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "part no 14-614",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-10-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "PBEL90NORT22WHIT",
+      "written_qty": 10,
+      "product_code": "PB-EL90-NORT-22-WHIT",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ref 58-478",
+      "written_qty": 3,
+      "product_code": "ACC-SW-KEST-3-1-MB-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Northway Copper Elbow 45\u00b0 35mm End Feed (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL45-NORT-35-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": true
+    },
+    {
+      "raw": "PBEL90KEST22GREY",
+      "written_qty": 3,
+      "product_code": "PB-EL90-KEST-22-GREY",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 76-528",
+      "written_qty": 50,
+      "product_code": "PB-TEE-NORT-22-WHIT",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    }
+  ],
+  "document": "gen-0279.pdf"
+}

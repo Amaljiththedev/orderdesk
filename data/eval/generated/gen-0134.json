@@ -1,0 +1,42 @@
+{
+  "id": "gen-0134",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1013",
+  "customer_name": "Okafor & Okafor Plumbing & Heating",
+  "contact": "Emma Okafor",
+  "email": "emma@okaforplumbing.co.uk",
+  "po_number": "JOB-3172",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "abbreviates",
+    "own_part_numbers",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CON-MCB-NORT-B-16-DP",
+      "written_qty": 1,
+      "product_code": "CON-MCB-NORT-B-16-DP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu elbow 8mm SR",
+      "written_qty": 6,
+      "product_code": "CU-EL90-NORT-8-SR",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0134.pdf"
+}

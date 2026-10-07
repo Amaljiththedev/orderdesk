@@ -1,0 +1,101 @@
+{
+  "id": "gen-0136",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1015",
+  "customer_name": "Patel Electrical Services",
+  "contact": "Chris Patel",
+  "email": "chris@patelelectrical.co.uk",
+  "po_number": "PO9390",
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "imperial_sizes",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "radiator valve manual straight 15mm x 1/2\" white",
+      "written_qty": 5,
+      "product_code": "RAD-VLV-MS-WHIT",
+      "qty": 5,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Lockshield Angled 15mm x 1/2\" Chrome",
+      "written_qty": 10,
+      "product_code": "RAD-VLV-LA-CHRO",
+      "qty": 10,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Manual Angled 1/2\" x 1/2\" White",
+      "written_qty": 1,
+      "product_code": "RAD-VLV-MA-WHIT",
+      "qty": 1,
+      "unit": "pair",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "radiator valve lockshield angled 15mm x 1/2\" anthracite",
+      "written_qty": 4,
+      "product_code": "RAD-VLV-LA-ANTH",
+      "qty": 4,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Manual Angled 15mm x 1/2\" Anthracite",
+      "written_qty": 25,
+      "product_code": "RAD-VLV-MA-ANTH",
+      "qty": 25,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Manual Straight 15mm x 1/2\" Chrome",
+      "written_qty": 1,
+      "product_code": "RAD-VLV-MS-CHRO",
+      "qty": 1,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "radiator valve trv angled 15mm x 1/2\" anthracite",
+      "written_qty": 6,
+      "product_code": "RAD-VLV-TA-ANTH",
+      "qty": 6,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Manual Straight 15mm x 1/2\" Anthracite",
+      "written_qty": 6,
+      "product_code": "RAD-VLV-MS-ANTH",
+      "qty": 6,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "radiator valve trv angled 15mm x 1/2\" white",
+      "written_qty": 2,
+      "product_code": "RAD-VLV-TA-WHIT",
+      "qty": 2,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0136.pdf"
+}

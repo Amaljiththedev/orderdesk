@@ -1,0 +1,47 @@
+{
+  "id": "gen-0161",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1006",
+  "customer_name": "Clarke & Doyle Plumbing & Heating",
+  "contact": "Sam Clarke",
+  "email": "sam@clarkeplumbing.co.uk",
+  "po_number": "PO34864",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "own_part_numbers",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "our ref 44-636",
+      "written_qty": 3,
+      "product_code": "BR-VLV-ISO-KEST-28-LR-P5",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "northway copper straight coupler 28mm end feed",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-28-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": true
+    },
+    {
+      "raw": "proflow led downlight fire rated 8w 6500k brushed nickel (pack of 10)",
+      "written_qty": 5,
+      "product_code": "LED-DL-PROF-8-6500-BN-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0161.eml"
+}

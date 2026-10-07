@@ -1,0 +1,49 @@
+{
+  "id": "gen-0019",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-EL45-NORT-42-SR-P10",
+      "written_qty": 3,
+      "product_code": "CU-EL45-NORT-42-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper elbow 45\u00b0 54mm compression",
+      "written_qty": 3,
+      "product_code": "CU-EL45-PROF-54-COMP",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "copper elbow 45\u00b0 22mm compression (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-EL45-KEST-22-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0019.eml"
+}

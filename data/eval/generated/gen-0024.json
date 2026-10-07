@@ -1,0 +1,76 @@
+{
+  "id": "gen-0024",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1027",
+  "customer_name": "Taylor Installations",
+  "contact": "Emma Taylor",
+  "email": "emma@taylorinstallation.co.uk",
+  "po_number": "842/58",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "old_codes",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "twin & earth cable 1mm\u00b2 50m white",
+      "written_qty": 1,
+      "product_code": "CBL-TE-1-50-WHIT",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Twin & Earth Cable 1.5mm\u00b2 100m Grey",
+      "written_qty": 6,
+      "product_code": "CBL-TE-1P5-100-GREY",
+      "qty": 6,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CBLTE150GREY",
+      "written_qty": 25,
+      "product_code": "CBL-TE-1-50-GREY",
+      "qty": 25,
+      "unit": "drum",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "twin & earth cable 6mm\u00b2 100m white",
+      "written_qty": 1,
+      "product_code": "CBL-TE-6-100-WHIT",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Twin & Earth Cable 1.5mm\u00b2 50m Grey",
+      "written_qty": 2,
+      "product_code": "CBL-TE-1P5-50-GREY",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CBLTE450WHIT",
+      "written_qty": 6,
+      "product_code": "CBL-TE-4-50-WHIT",
+      "qty": 6,
+      "unit": "drum",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0024.pdf"
+}

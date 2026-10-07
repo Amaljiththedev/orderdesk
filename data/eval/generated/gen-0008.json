@@ -1,0 +1,70 @@
+{
+  "id": "gen-0008",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1040",
+  "customer_name": "Quinn Property Services",
+  "contact": "Chris Quinn",
+  "email": "chris@quinnproperty.co.uk",
+  "po_number": "JOB-8727",
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Bottle Trap 40mm 38mm Seal",
+      "written_qty": 1,
+      "product_code": "TRAP-BOTT-40-38",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "bottle trap 40mm 75mm seal",
+      "written_qty": 5,
+      "product_code": "TRAP-BOTT-40-75",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Tuublar P Trap 40mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-TP-40-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Tubular P Trap 32mm 75mm Seal",
+      "written_qty": 12,
+      "product_code": "TRAP-TP-32-75",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "tbuular s trap 40mm 38mm seal",
+      "written_qty": 4,
+      "product_code": "TRAP-TS-40-38",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0008.eml"
+}

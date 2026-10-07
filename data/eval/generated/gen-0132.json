@@ -1,0 +1,40 @@
+{
+  "id": "gen-0132",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1040",
+  "customer_name": "Quinn Property Services",
+  "contact": "Chris Quinn",
+  "email": "chris@quinnproperty.co.uk",
+  "po_number": "JOB-2786",
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "cpoper tube 42mm x 3m table y",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-NORT-42-3-TY",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Tube 22mm x 3m Table Y",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-KEST-22-3-TY",
+      "qty": 50,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0132.pdf"
+}

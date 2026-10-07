@@ -1,0 +1,63 @@
+{
+  "id": "gen-0066",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1035",
+  "customer_name": "Kaur & Reid M&E Ltd",
+  "contact": "Nadia Kaur",
+  "email": "nadia@kaurme.co.uk",
+  "po_number": "508/46",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "abbreviates",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel pushfit tee 10mm grey (pack of 10)",
+      "written_qty": 2,
+      "product_code": "PB-TEE-KEST-10-GREY-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel 2 gang switched skt polished brass (pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-KEST-2-SWIT-PB-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow 1 gang usb-a/c switched skt white (pack of 10)",
+      "written_qty": 3,
+      "product_code": "ACC-SKT-PROF-1-UAS-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "norhtway pushfit tee 15mm grey",
+      "written_qty": 25,
+      "product_code": "PB-TEE-NORT-15-GREY",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0066.eml"
+}

@@ -1,0 +1,86 @@
+{
+  "id": "gen-0075",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1013",
+  "customer_name": "Okafor & Okafor Plumbing & Heating",
+  "contact": "Emma Okafor",
+  "email": "emma@okaforplumbing.co.uk",
+  "po_number": "202/55",
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "abbreviates",
+    "own_part_numbers",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "65-778",
+      "written_qty": 12,
+      "product_code": "CU-EL45-KEST-8-EF",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "94-485",
+      "written_qty": 2,
+      "product_code": "CU-EL90-KEST-10-COMP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "Northway Brass gate valve 22mm BSP Female",
+      "written_qty": 50,
+      "product_code": "BR-VLV-GATE-NORT-22-BF",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PB-PIPE-NORT-22-25",
+      "written_qty": 1,
+      "product_code": "PB-PIPE-NORT-22-25",
+      "qty": 1,
+      "unit": "coil",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Brass gate valve 54mm BSP Female",
+      "written_qty": 10,
+      "product_code": "BR-VLV-GATE-KEST-54-BF",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Brass gate valve 15mm BSP Female",
+      "written_qty": 25,
+      "product_code": "BR-VLV-GATE-PROF-15-BF",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0075.pdf"
+}

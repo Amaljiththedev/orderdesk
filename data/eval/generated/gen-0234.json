@@ -1,0 +1,59 @@
+{
+  "id": "gen-0234",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1010",
+  "customer_name": "Okafor Property Services",
+  "contact": "Jo Okafor",
+  "email": "jo@okaforproperty.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "solvent weld bend 45\u00b0 50mm grey",
+      "written_qty": 12,
+      "product_code": "WST-BND-45-50-GREY",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "WST-BND-45-32-GREY-P10",
+      "written_qty": 2,
+      "product_code": "WST-BND-45-32-GREY-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "WST-BND-90-32-GREY-P10",
+      "written_qty": 3,
+      "product_code": "WST-BND-90-32-GREY-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld bend 45\u00b0 32mm white (pack of 10)",
+      "written_qty": 1,
+      "product_code": "WST-BND-45-32-WHIT-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0234.eml"
+}

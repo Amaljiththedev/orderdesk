@@ -1,0 +1,80 @@
+{
+  "id": "gen-0214",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow copper tube 10mm x 3m table y",
+      "written_qty": 25,
+      "product_code": "CU-TUBE-PROF-10-3-TY",
+      "qty": 25,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "mcb type b 40a double pole",
+      "written_qty": 12,
+      "product_code": "CON-MCB-KEST-B-40-DP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-PROF-22-6-TX",
+      "written_qty": 10,
+      "product_code": "CU-TUBE-PROF-22-6-TX",
+      "qty": 10,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Push-Fit Elbow 90\u00b0 28mm Grey",
+      "written_qty": 1,
+      "product_code": "PB-EL90-KEST-28-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-KEST-22-3-TY",
+      "written_qty": 1,
+      "product_code": "CU-TUBE-KEST-22-3-TY",
+      "qty": 1,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Push-Fit Elbow 90\u00b0 28mm White (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "PB-EL90-NORT-28-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0214.pdf"
+}

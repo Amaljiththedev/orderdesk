@@ -1,0 +1,48 @@
+{
+  "id": "gen-0220",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "JOB-2440",
+  "delivery_date": "2026-10-15",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "solvent weld bend 45\u00b0 50mm black",
+      "written_qty": 2,
+      "product_code": "WST-BND-45-50-BLAC",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Bend 90\u00b0 40mm Grey",
+      "written_qty": 12,
+      "product_code": "WST-BND-90-40-GREY",
+      "qty": 12,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Radiator Valve Lockshield Angled 1/2\" x 1/2\" Anthracite",
+      "written_qty": 1,
+      "product_code": "RAD-VLV-LA-ANTH",
+      "qty": 1,
+      "unit": "pair",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0220.pdf"
+}

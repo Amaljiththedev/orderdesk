@@ -1,0 +1,52 @@
+{
+  "id": "gen-0205",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1035",
+  "customer_name": "Kaur & Reid M&E Ltd",
+  "contact": "Nadia Kaur",
+  "email": "nadia@kaurme.co.uk",
+  "po_number": "PO21009",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "abbreviates",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "northway brass gate valve 22mm bsp female",
+      "written_qty": 2,
+      "product_code": "BR-VLV-GATE-NORT-22-BF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Brass gate valve 35mm comp",
+      "written_qty": 12,
+      "product_code": "BR-VLV-GATE-KEST-35-COMP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "radiatro valve trv angled 15mm x 1/2\" chrome",
+      "written_qty": 2,
+      "product_code": "RAD-VLV-TA-CHRO",
+      "qty": 2,
+      "unit": "pair",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0205.eml"
+}

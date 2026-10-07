@@ -1,0 +1,122 @@
+{
+  "id": "gen-0003",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1016",
+  "customer_name": "Evans & Quinn Renovations",
+  "contact": "Jo Evans",
+  "email": "jo@evansrenovations.co.uk",
+  "po_number": "232/41",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "abbreviates",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "proflow cu tube 35mm x 2m table x",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-PROF-35-2-TX",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Tube 42mm x 3m Table Y",
+      "written_qty": 20,
+      "product_code": "CU-TUBE-NORT-42-3-TY",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tube 22mm x 2m tabel x",
+      "written_qty": 4,
+      "product_code": "CU-TUBE-PROF-22-2-TX",
+      "qty": 4,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Tube 28mm x 2m Table Y",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-NORT-28-2-TY",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel cu tube 22mm x 2m table x",
+      "written_qty": 6,
+      "product_code": "CU-TUBE-KEST-22-2-TX",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu Tube 35mm x 2m Table X",
+      "written_qty": 25,
+      "product_code": "CU-TUBE-KEST-35-2-TX",
+      "qty": 25,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tube 35mm x 6m table y",
+      "written_qty": 20,
+      "product_code": "CU-TUBE-PROF-35-6-TY",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu tube 10mm x 6m table y",
+      "written_qty": 5,
+      "product_code": "CU-TUBE-PROF-10-6-TY",
+      "qty": 5,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kesterl cu tube 54mm x 2m table x",
+      "written_qty": 6,
+      "product_code": "CU-TUBE-KEST-54-2-TX",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0003.pdf"
+}

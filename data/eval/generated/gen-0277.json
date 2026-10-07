@@ -1,0 +1,40 @@
+{
+  "id": "gen-0277",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1030",
+  "customer_name": "Ahmed Renovations",
+  "contact": "Priya Ahmed",
+  "email": "priya@ahmedrenovations.co.uk",
+  "po_number": "JOB-8273",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "old_codes",
+    "terse"
+  ],
+  "lines": [
+    {
+      "raw": "Bend 90\u00b0 40mm White (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "WST-BND-90-40-WHIT-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 90\u00b0 50mm grey (pack of 10)",
+      "written_qty": 5,
+      "product_code": "WST-BND-90-50-GREY-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0277.pdf"
+}

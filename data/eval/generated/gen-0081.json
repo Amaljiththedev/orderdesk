@@ -1,0 +1,102 @@
+{
+  "id": "gen-0081",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1040",
+  "customer_name": "Quinn Property Services",
+  "contact": "Chris Quinn",
+  "email": "chris@quinnproperty.co.uk",
+  "po_number": "JOB-3007",
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "kestrel copper elbow 90\u00b0 10mm end feed",
+      "written_qty": 4,
+      "product_code": "CU-EL90-KEST-10-EF",
+      "qty": 4,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Bend 45\u00b0 32mm White",
+      "written_qty": 10,
+      "product_code": "WST-BND-45-32-WHIT",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper elbow 90\u00b0 35mm solder ring",
+      "written_qty": 2,
+      "product_code": "CU-EL90-NORT-35-SR",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kesrtel Copper Reducer 42mm x 10mm End Feed",
+      "written_qty": 30,
+      "product_code": "CU-RED-KEST-42-10-EF-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "copper eblow 90\u00b0 42mm end feed",
+      "written_qty": 25,
+      "product_code": "CU-EL90-NORT-42-EF",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "95-467",
+      "written_qty": 10,
+      "product_code": "TRAP-TP-32-75",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "Ksetrel Copper Reducer 35mm x 22mm Compression",
+      "written_qty": 20,
+      "product_code": "CU-RED-KEST-35-22-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "kestrel copper elbow 90\u00b0 22mm compression (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL90-KEST-22-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0081.pdf"
+}

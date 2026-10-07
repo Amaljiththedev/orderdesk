@@ -1,0 +1,49 @@
+{
+  "id": "gen-0093",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1014",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Liam Shah",
+  "email": "liam@shahelectrical.co.uk",
+  "po_number": "PO66302",
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CON-RCBO-NORT-C-6",
+      "written_qty": 1,
+      "product_code": "CON-RCBO-NORT-C-6",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "metal back box 2 gang 16mm (pack of 10)",
+      "written_qty": 1,
+      "product_code": "BOX-BACK-2-16-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "RCBO Type C 10A 30mA",
+      "written_qty": 1,
+      "product_code": "CON-RCBO-PROF-C-10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0093.pdf"
+}

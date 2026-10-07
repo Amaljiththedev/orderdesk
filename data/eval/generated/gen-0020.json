@@ -1,0 +1,47 @@
+{
+  "id": "gen-0020",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1014",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Liam Shah",
+  "email": "liam@shahelectrical.co.uk",
+  "po_number": "PO63032",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "northway copper reducer 22mm x 10mm compression",
+      "written_qty": 6,
+      "product_code": "CU-RED-NORT-22-10-COMP",
+      "qty": 6,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-RED-NORT-22-15-COMP",
+      "written_qty": 1,
+      "product_code": "CU-RED-NORT-22-15-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Copper Reducer 54mm x 22mm End Feed (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-RED-NORT-54-22-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0020.eml"
+}

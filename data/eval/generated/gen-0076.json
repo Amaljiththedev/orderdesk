@@ -1,0 +1,32 @@
+{
+  "id": "gen-0076",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1016",
+  "customer_name": "Evans & Quinn Renovations",
+  "contact": "Jo Evans",
+  "email": "jo@evansrenovations.co.uk",
+  "po_number": "289/29",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "abbreviates",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "mcb type c 16a dp",
+      "written_qty": 6,
+      "product_code": "CON-MCB-NORT-C-16-DP",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0076.pdf"
+}

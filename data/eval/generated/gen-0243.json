@@ -1,0 +1,128 @@
+{
+  "id": "gen-0243",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1020",
+  "customer_name": "Reid Installations",
+  "contact": "Mark Reid",
+  "email": "mark@reidinstallations.co.uk",
+  "po_number": "JOB-672",
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel cu coupling 1\" comp",
+      "written_qty": 5,
+      "product_code": "CU-CPL-KEST-28-COMP",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu coupling 1 1/2\" ef (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-CPL-PROF-42-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu coupling 8mm SR",
+      "written_qty": 6,
+      "product_code": "CU-CPL-KEST-8-SR",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu coupling 3/4\" comp",
+      "written_qty": 10,
+      "product_code": "CU-CPL-KEST-22-COMP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu coupling 2\" SR",
+      "written_qty": 50,
+      "product_code": "CU-CPL-PROF-54-SR",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu coupling 3/4\" EF",
+      "written_qty": 3,
+      "product_code": "CU-CPL-PROF-22-EF",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu coupling 1 1/4\" EF (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-35-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel cu coupling 2\" comp",
+      "written_qty": 1,
+      "product_code": "CU-CPL-KEST-54-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu coupling 1 1/2\" SR (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-CPL-PROF-42-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0243.pdf"
+}

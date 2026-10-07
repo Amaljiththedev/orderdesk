@@ -1,0 +1,31 @@
+{
+  "id": "gen-0167",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1036",
+  "customer_name": "Evans Electrical Services",
+  "contact": "Gary Evans",
+  "email": "gary@evanselectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "no_po",
+    "old_codes",
+    "own_part_numbers",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "CUTEEPROF15SRP10",
+      "written_qty": 5,
+      "product_code": "CU-TEE-PROF-15-SR-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0167.eml"
+}

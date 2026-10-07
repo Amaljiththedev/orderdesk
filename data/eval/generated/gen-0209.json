@@ -1,0 +1,110 @@
+{
+  "id": "gen-0209",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1007",
+  "customer_name": "Patel Plumbing & Heating",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelplumbing.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "abbreviates",
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Brass ball valve 3/4\" BSP Butterfly",
+      "written_qty": 5,
+      "product_code": "BR-VLV-BALL-NORT-34IN-BUTT",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel brass ball valve 2\" bsp butterfly",
+      "written_qty": 2,
+      "product_code": "BR-VLV-BALL-KEST-2IN-BUTT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Brass ball valve 2\" BSP Lever",
+      "written_qty": 1,
+      "product_code": "BR-VLV-BALL-PROF-2IN-LEVE",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass ball valve 1\" BSP Butterfly",
+      "written_qty": 12,
+      "product_code": "BR-VLV-BALL-NORT-1IN-BUTT",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow brass ball valve 1 1/2\" bsp butterfly",
+      "written_qty": 6,
+      "product_code": "BR-VLV-BALL-PROF-11-BUTT2",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass ball valve 1 1/2\" BSP Butterfly",
+      "written_qty": 5,
+      "product_code": "BR-VLV-BALL-NORT-11-BUTT2",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow brass ball valve 1 1/4\" bsp lever",
+      "written_qty": 5,
+      "product_code": "BR-VLV-BALL-PROF-11-LEVE",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass ball valve 1\" BSP Lever",
+      "written_qty": 20,
+      "product_code": "BR-VLV-BALL-NORT-1IN-LEVE",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0209.eml"
+}

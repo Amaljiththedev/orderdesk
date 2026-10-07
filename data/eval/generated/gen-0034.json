@@ -1,0 +1,125 @@
+{
+  "id": "gen-0034",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1034",
+  "customer_name": "Patel Electrical Contractors",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Copper Straight Coupler 22mm Solder Ring",
+      "written_qty": 20,
+      "product_code": "CU-CPL-NORT-22-SR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper straight coupler 10mm solder ring",
+      "written_qty": 3,
+      "product_code": "CU-CPL-PROF-10-SR",
+      "qty": 3,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Tube 54mm x 2m Table Y",
+      "written_qty": 3,
+      "product_code": "CU-TUBE-KEST-54-2-TY",
+      "qty": 3,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Tube 8mm x 3m Table Y",
+      "written_qty": 1,
+      "product_code": "CU-TUBE-PROF-8-3-TY",
+      "qty": 1,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Straight Coupler 35mm Solder Ring (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-CPL-NORT-35-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel copper straight coupler 10mm end feed (pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-CPL-KEST-10-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper straight coupler 28mm compression",
+      "written_qty": 1,
+      "product_code": "CU-CPL-PROF-28-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "copper straight coupler 28mm compression",
+      "written_qty": 1,
+      "product_code": "CU-CPL-NORT-28-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway copper tube 42mm x 3m table x",
+      "written_qty": 1,
+      "product_code": "CU-TUBE-NORT-42-3-TX",
+      "qty": 1,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "copper straight coupler 8mm end feed (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-CPL-NORT-8-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Straight Coupler 35mm Solder Ring",
+      "written_qty": 10,
+      "product_code": "CU-CPL-KEST-35-SR",
+      "qty": 10,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0034.pdf"
+}

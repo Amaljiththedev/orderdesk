@@ -1,0 +1,86 @@
+{
+  "id": "gen-0274",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1004",
+  "customer_name": "Patel Maintenance",
+  "contact": "Jo Patel",
+  "email": "jo@patelmaintenance.co.uk",
+  "po_number": "JOB-5293",
+  "delivery_date": "2026-10-16",
+  "habits": [
+    "old_codes",
+    "own_part_numbers",
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "ref 73-374",
+      "written_qty": 12,
+      "product_code": "BR-VLV-BALL-PROF-11-BUTT2",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "kestrel plastic pipe 15mm x 50m coil",
+      "written_qty": 5,
+      "product_code": "PB-PIPE-KEST-15-50",
+      "qty": 5,
+      "unit": "coil",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CONMCBKESTC16SP",
+      "written_qty": 12,
+      "product_code": "CON-MCB-KEST-C-16-SP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow MCB Type B 16A SP",
+      "written_qty": 12,
+      "product_code": "CON-MCB-PROF-B-16-SP",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu elbow 42mm sr",
+      "written_qty": 6,
+      "product_code": "CU-EL90-PROF-42-SR",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "PBPIPENORT1050",
+      "written_qty": 3,
+      "product_code": "PB-PIPE-NORT-10-50",
+      "qty": 3,
+      "unit": "coil",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0274.pdf"
+}

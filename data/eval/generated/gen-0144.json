@@ -1,0 +1,40 @@
+{
+  "id": "gen-0144",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1031",
+  "customer_name": "Taylor & Evans Property Services",
+  "contact": "Mark Taylor",
+  "email": "mark@taylorproperty.co.uk",
+  "po_number": "JOB-7302",
+  "delivery_date": "2026-10-15",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "Pipe Clip Single 28mm",
+      "written_qty": 20,
+      "product_code": "CLIP-PIPE-SING-28",
+      "qty": 20,
+      "unit": "bag of 10",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "pipe clip double 28mm",
+      "written_qty": 1,
+      "product_code": "CLIP-PIPE-DOUB-28",
+      "qty": 1,
+      "unit": "bag of 10",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0144.pdf"
+}

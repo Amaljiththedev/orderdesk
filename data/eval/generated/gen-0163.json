@@ -1,0 +1,41 @@
+{
+  "id": "gen-0163",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1024",
+  "customer_name": "Kaur Building Services",
+  "contact": "Jo Kaur",
+  "email": "jo@kaurbuilding.co.uk",
+  "po_number": "PO10202",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "back box 2 Gang 47mm (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "BOX-BACK-2-47-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cable clips flat twin 4mm",
+      "written_qty": 10,
+      "product_code": "CLIP-CBL-FT-4",
+      "qty": 10,
+      "unit": "box of 100",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0163.pdf"
+}

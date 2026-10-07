@@ -1,0 +1,86 @@
+{
+  "id": "gen-0240",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1038",
+  "customer_name": "Reid Renovations",
+  "contact": "Dave Reid",
+  "email": "dave@reidrenovations.co.uk",
+  "po_number": "JOB-797",
+  "delivery_date": "2026-10-12",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel Copper Equal Tee 28mm Solder Ring (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-TEE-KEST-28-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SW-PROF-3-2-BC",
+      "written_qty": 12,
+      "product_code": "ACC-SW-PROF-3-2-BC",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copper equal tee 10mm end feed",
+      "written_qty": 10,
+      "product_code": "CU-TEE-PROF-10-EF",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SW-PROF-3-1-MB",
+      "written_qty": 1,
+      "product_code": "ACC-SW-PROF-3-1-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TEE-KEST-15-COMP-P10",
+      "written_qty": 5,
+      "product_code": "CU-TEE-KEST-15-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CUTEENORT22SR",
+      "written_qty": 1,
+      "product_code": "CU-TEE-NORT-22-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0240.eml"
+}

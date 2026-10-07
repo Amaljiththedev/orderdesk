@@ -1,0 +1,48 @@
+{
+  "id": "gen-0053",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1033",
+  "customer_name": "Taylor Installations",
+  "contact": "Dave Taylor",
+  "email": "dave@taylorinstallation.co.uk",
+  "po_number": "157/22",
+  "delivery_date": "2026-10-09",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "proflow polybutylene barrier pipe 15mm x 50m coil",
+      "written_qty": 3,
+      "product_code": "PB-PIPE-PROF-15-50",
+      "qty": 3,
+      "unit": "coil",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway Polybutylene Barrier Pipe 28mm x 50m Coil",
+      "written_qty": 10,
+      "product_code": "PB-PIPE-NORT-28-50",
+      "qty": 10,
+      "unit": "coil",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Polybutylene Barrier Pipe 15mm x 50m Coil",
+      "written_qty": 1,
+      "product_code": "PB-PIPE-KEST-15-50",
+      "qty": 1,
+      "unit": "coil",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0053.eml"
+}

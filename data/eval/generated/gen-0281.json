@@ -1,0 +1,88 @@
+{
+  "id": "gen-0281",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1040",
+  "customer_name": "Quinn Property Services",
+  "contact": "Chris Quinn",
+  "email": "chris@quinnproperty.co.uk",
+  "po_number": "JOB-7073",
+  "delivery_date": "2026-10-14",
+  "habits": [
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Solvent Weld Bend 90\u00b0 32mm Grey",
+      "written_qty": 5,
+      "product_code": "WST-BND-90-32-GREY",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "radiator valve trv angled 15mm x 1/2\" chrome",
+      "written_qty": 6,
+      "product_code": "RAD-VLV-TA-CHRO",
+      "qty": 6,
+      "unit": "pair",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Waste Pipe 32mm x 4m Black",
+      "written_qty": 20,
+      "product_code": "WST-PIPE-32-4-BLAC",
+      "qty": 20,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Waste Pipe 32mm x 4m Grey",
+      "written_qty": 1,
+      "product_code": "WST-PIPE-32-4-GREY",
+      "qty": 1,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld waste pipe 50mm x 3m blcak",
+      "written_qty": 25,
+      "product_code": "WST-PIPE-50-3-BLAC",
+      "qty": 25,
+      "unit": "length",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "our ref 84-694",
+      "written_qty": 50,
+      "product_code": "CU-EL90-PROF-10-SR",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "95-467",
+      "written_qty": 2,
+      "product_code": "TRAP-TP-32-75",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0281.pdf"
+}

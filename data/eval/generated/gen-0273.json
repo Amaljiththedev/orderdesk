@@ -1,0 +1,77 @@
+{
+  "id": "gen-0273",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1001",
+  "customer_name": "Byrne & Shah Renovations",
+  "contact": "Kevin Byrne",
+  "email": "kevin@byrnerenovations.co.uk",
+  "po_number": "JOB-7426",
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "ACCSKTNORT1UASMBP10",
+      "written_qty": 5,
+      "product_code": "ACC-SKT-NORT-1-UAS-MB-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSKTKEST1UASBCP10",
+      "written_qty": 3,
+      "product_code": "ACC-SKT-KEST-1-UAS-BC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "1 Gang Switched skt white",
+      "written_qty": 2,
+      "product_code": "ACC-SKT-NORT-1-SWIT-WM",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu coupilng 28mm comp (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-CPL-PROF-28-COMP-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSKTKEST1SWITMBP10",
+      "written_qty": 3,
+      "product_code": "ACC-SKT-KEST-1-SWIT-MB-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0273.eml"
+}

@@ -1,0 +1,156 @@
+{
+  "id": "gen-0112",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1016",
+  "customer_name": "Evans & Quinn Renovations",
+  "contact": "Jo Evans",
+  "email": "jo@evansrenovations.co.uk",
+  "po_number": "JOB-1371",
+  "delivery_date": null,
+  "habits": [
+    "abbreviates",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Bath Trap 32mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-BATH-32-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 45\u00b0 40mm Grey",
+      "written_qty": 1,
+      "product_code": "WST-BND-45-40-GREY",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 core flex 2.5mm\u00b2 50m black",
+      "written_qty": 2,
+      "product_code": "CBL-FLEX-2-2P5-50-BLAC",
+      "qty": 2,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 90\u00b0 50mm whiet",
+      "written_qty": 1,
+      "product_code": "WST-BND-90-50-WHIT",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Core Flex 1.5mm\u00b2 100m White",
+      "written_qty": 10,
+      "product_code": "CBL-FLEX-3-1P5-100-WHIT",
+      "qty": 10,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "bend 90\u00b0 40mm balck (pack of 10)",
+      "written_qty": 3,
+      "product_code": "WST-BND-90-40-BLAC-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 45\u00b0 32mm White",
+      "written_qty": 50,
+      "product_code": "WST-BND-45-32-WHIT",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bath Trap 40mm 38mm Seal",
+      "written_qty": 2,
+      "product_code": "TRAP-BATH-40-38",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "t&e 6mm\u00b2 50m grey",
+      "written_qty": 12,
+      "product_code": "CBL-TE-6-50-GREY",
+      "qty": 12,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 core flex 1.5mm\u00b2 50m white",
+      "written_qty": 50,
+      "product_code": "CBL-FLEX-3-1P5-50-WHIT",
+      "qty": 50,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Core Flex 0.75mm\u00b2 100m Blakc",
+      "written_qty": 1,
+      "product_code": "CBL-FLEX-3-0P75-100-BLAC",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "3 Core Flex 2.5mm\u00b2 50m Black",
+      "written_qty": 1,
+      "product_code": "CBL-FLEX-3-2P5-50-BLAC",
+      "qty": 1,
+      "unit": "drum",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0112.eml"
+}

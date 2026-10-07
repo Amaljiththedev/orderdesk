@@ -1,0 +1,58 @@
+{
+  "id": "gen-0115",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel 2 Gang Switched Socket Brushed Chrome (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "ACC-SKT-KEST-2-SWIT-BC-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-NORT-8-2-TX",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-NORT-8-2-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-NORT-35-6-TY",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-NORT-35-6-TY",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway 1 gang unswitched socket brushed chrome",
+      "written_qty": 5,
+      "product_code": "ACC-SKT-NORT-1-UNSW-BC",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0115.pdf"
+}

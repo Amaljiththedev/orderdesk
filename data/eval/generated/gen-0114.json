@@ -1,0 +1,28 @@
+{
+  "id": "gen-0114",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1040",
+  "customer_name": "Quinn Property Services",
+  "contact": "Chris Quinn",
+  "email": "chris@quinnproperty.co.uk",
+  "po_number": "JOB-3046",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "own_part_numbers",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel Brass Gate Valve 35mm BSP Female",
+      "written_qty": 20,
+      "product_code": "BR-VLV-GATE-KEST-35-BF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0114.pdf"
+}

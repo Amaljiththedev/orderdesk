@@ -1,0 +1,137 @@
+{
+  "id": "gen-0261",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1001",
+  "customer_name": "Byrne & Shah Renovations",
+  "contact": "Kevin Byrne",
+  "email": "kevin@byrnerenovations.co.uk",
+  "po_number": "489/27",
+  "delivery_date": null,
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "northway fused spur unswitched 13a white",
+      "written_qty": 2,
+      "product_code": "ACC-FCU-NORT-UNSW-WM",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow fused spur switched 13a bc",
+      "written_qty": 5,
+      "product_code": "ACC-FCU-PROF-SWIT-BC",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCFCUNORTSWNBC",
+      "written_qty": 12,
+      "product_code": "ACC-FCU-NORT-SWN-BC",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Fused Spur Unswitched 13A whiet",
+      "written_qty": 2,
+      "product_code": "ACC-FCU-PROF-UNSW-WM",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Fused Spur Unswtiched 13A BC",
+      "written_qty": 25,
+      "product_code": "ACC-FCU-NORT-UNSW-BC",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel fused spur unswitched 13a matt black",
+      "written_qty": 1,
+      "product_code": "ACC-FCU-KEST-UNSW-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Fused Spur Switched 13A white",
+      "written_qty": 25,
+      "product_code": "ACC-FCU-PROF-SWIT-WM",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "fused spur switched 13a matt blcak",
+      "written_qty": 4,
+      "product_code": "ACC-FCU-NORT-SWIT-MB",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel fused spur switched with neon 13a whiet",
+      "written_qty": 50,
+      "product_code": "ACC-FCU-KEST-SWN-WM",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel fused spur switched with neon 13a matt blakc",
+      "written_qty": 1,
+      "product_code": "ACC-FCU-KEST-SWN-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0261.eml"
+}

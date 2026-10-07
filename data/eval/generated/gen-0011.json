@@ -1,0 +1,133 @@
+{
+  "id": "gen-0011",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1018",
+  "customer_name": "Doyle Electrical Services",
+  "contact": "Jo Doyle",
+  "email": "jo@doyleelectrical.co.uk",
+  "po_number": "627/61",
+  "delivery_date": null,
+  "habits": [
+    "own_part_numbers",
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "BR-VLV-ISO-KEST-15-SLOT-P5",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-KEST-15-SLOT-P5",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass iso valve 15mm Lever Blue",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-KEST-15-LB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "BR-VLV-ISO-PROF-15-LR-P5",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-PROF-15-LR-P5",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "BR-VLV-ISO-PROF-15-LR",
+      "written_qty": 20,
+      "product_code": "BR-VLV-ISO-PROF-15-LR",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow brass iso valve 22mm lever red",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-PROF-22-LR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "35-758",
+      "written_qty": 25,
+      "product_code": "CU-EL45-PROF-15-EF",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "BR-VLV-ISO-NORT-28-SLOT",
+      "written_qty": 2,
+      "product_code": "BR-VLV-ISO-NORT-28-SLOT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass iso valve 28mm Lever Red (Pack of 5)",
+      "written_qty": 2,
+      "product_code": "BR-VLV-ISO-KEST-28-LR-P5",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brass iso valve 28mm Lever Blue",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-KEST-28-LB",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "BR-VLV-ISO-KEST-28-SLOT",
+      "written_qty": 2,
+      "product_code": "BR-VLV-ISO-KEST-28-SLOT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0011.pdf"
+}

@@ -1,0 +1,83 @@
+{
+  "id": "gen-0018",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1019",
+  "customer_name": "Hughes Heating Engineers",
+  "contact": "Lisa Hughes",
+  "email": "lisa@hughesheating.co.uk",
+  "po_number": "PO16694",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers"
+  ],
+  "lines": [
+    {
+      "raw": "proflow copper elbow 45\u00b0 8mm end feed (pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-EL45-PROF-8-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel copper reducer 2\" x 10mm compression (pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-RED-KEST-54-10-COMP-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper reducer 2\" x 15mm end feed (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-RED-PROF-54-15-EF-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Reducer 1 1/2\" x 8mm Compression (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-RED-NORT-42-8-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Reducer 1 1/2\" x 10mm End Feed",
+      "written_qty": 20,
+      "product_code": "CU-RED-PROF-42-10-EF",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 82-133",
+      "written_qty": 3,
+      "product_code": "WST-BND-90-50-WHIT",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0018.eml"
+}

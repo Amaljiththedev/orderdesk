@@ -1,0 +1,50 @@
+{
+  "id": "gen-0059",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1033",
+  "customer_name": "Taylor Installations",
+  "contact": "Dave Taylor",
+  "email": "dave@taylorinstallation.co.uk",
+  "po_number": "JOB-2093",
+  "delivery_date": null,
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow Copper Straight Coupler 10mm Compression (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-CPL-PROF-10-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Straight Coupler 8mm Comprsesion (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-CPL-PROF-8-COMP-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Straight Coupler 3/4\" Solder Ring",
+      "written_qty": 12,
+      "product_code": "CU-CPL-PROF-22-SR",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0059.pdf"
+}

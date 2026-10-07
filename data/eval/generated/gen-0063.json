@@ -1,0 +1,121 @@
+{
+  "id": "gen-0063",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1024",
+  "customer_name": "Kaur Building Services",
+  "contact": "Jo Kaur",
+  "email": "jo@kaurbuilding.co.uk",
+  "po_number": "JOB-2454",
+  "delivery_date": null,
+  "habits": [
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "cu tube 54mm x 3m table x",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-KEST-54-3-TX",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Tube 28mm x 6m Table X",
+      "written_qty": 20,
+      "product_code": "CU-TUBE-KEST-28-6-TX",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tube 28mm x 3m table y",
+      "written_qty": 20,
+      "product_code": "CU-TUBE-NORT-28-3-TY",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-NORT-42-3-TY",
+      "written_qty": 5,
+      "product_code": "CU-TUBE-NORT-42-3-TY",
+      "qty": 5,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-PROF-35-6-TX",
+      "written_qty": 1,
+      "product_code": "CU-TUBE-PROF-35-6-TX",
+      "qty": 1,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow cu Tube 10mm x 6m Table Y",
+      "written_qty": 25,
+      "product_code": "CU-TUBE-PROF-10-6-TY",
+      "qty": 25,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu Tube 42mm x 6m Table X",
+      "written_qty": 5,
+      "product_code": "CU-TUBE-KEST-42-6-TX",
+      "qty": 5,
+      "unit": "length",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "CU-TUBE-PROF-42-3-TX",
+      "written_qty": 2,
+      "product_code": "CU-TUBE-PROF-42-3-TX",
+      "qty": 2,
+      "unit": "length",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tube 28mm x 3m table x",
+      "written_qty": 50,
+      "product_code": "CU-TUBE-NORT-28-3-TX",
+      "qty": 50,
+      "unit": "length",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0063.eml"
+}

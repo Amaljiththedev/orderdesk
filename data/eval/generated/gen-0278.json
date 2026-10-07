@@ -1,0 +1,110 @@
+{
+  "id": "gen-0278",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1039",
+  "customer_name": "Ahmed Building Services",
+  "contact": "Megan Ahmed",
+  "email": "megan@ahmedbuilding.co.uk",
+  "po_number": "JOB-1989",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "imperial_sizes",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "Northway Copper Eblow 45\u00b0 54mm Solder Ring",
+      "written_qty": 5,
+      "product_code": "CU-EL45-NORT-54-SR",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Copper Elbow 45\u00b0 22mm End Feed",
+      "written_qty": 10,
+      "product_code": "CU-EL45-KEST-22-EF-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper elbow 45\u00b0 2\" solder ring (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-EL45-PROF-54-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kestrel copper elbwo 45\u00b0 3/4\" end feed",
+      "written_qty": 6,
+      "product_code": "CU-EL45-KEST-22-EF",
+      "qty": 6,
+      "unit": "each",
+      "mess": [
+        "imperial_size",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Elbow 45\u00b0 35mm End Feed",
+      "written_qty": 2,
+      "product_code": "CU-EL45-KEST-35-EF",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copepr elbow 45\u00b0 1\" end feed",
+      "written_qty": 50,
+      "product_code": "CU-EL45-KEST-28-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size",
+        "typo",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow copper elbow 45\u00b0 28mm end feed",
+      "written_qty": 1,
+      "product_code": "CU-EL45-PROF-28-EF",
+      "qty": 1,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow Copper Elbow 45\u00b0 3/4\" Solder Ring",
+      "written_qty": 1,
+      "product_code": "CU-EL45-PROF-22-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0278.eml"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "gen-0094",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1014",
+  "customer_name": "Shah Electrical Services",
+  "contact": "Liam Shah",
+  "email": "liam@shahelectrical.co.uk",
+  "po_number": "PO34762",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Lead-Free Solder Wire 250g",
+      "written_qty": 1,
+      "product_code": "SOLDER-250",
+      "qty": 1,
+      "unit": "reel",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0094.pdf"
+}

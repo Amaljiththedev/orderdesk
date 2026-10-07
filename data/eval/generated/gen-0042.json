@@ -1,0 +1,138 @@
+{
+  "id": "gen-0042",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1001",
+  "customer_name": "Byrne & Shah Renovations",
+  "contact": "Kevin Byrne",
+  "email": "kevin@byrnerenovations.co.uk",
+  "po_number": "373/58",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "old_codes",
+    "polite_long",
+    "terse",
+    "typos"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow cu elbow 15mm SR (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-15-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu elbow 35mm comp",
+      "written_qty": 4,
+      "product_code": "CU-EL90-NORT-35-COMP",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSWPROF31MB",
+      "written_qty": 20,
+      "product_code": "ACC-SW-PROF-3-1-MB",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow cu elbwo 10mm ef",
+      "written_qty": 10,
+      "product_code": "CU-EL90-PROF-10-EF",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kesterl 2 Gang 2 Way switch Polished Brass (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "ACC-SW-KEST-2-2-PB-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Brsas iso valve 28mm Lever Blue",
+      "written_qty": 20,
+      "product_code": "BR-VLV-ISO-NORT-28-LB",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Notrhway cu elbow 8mm SR (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-EL90-NORT-8-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway 1 gang 2 way switch matt blakc",
+      "written_qty": 1,
+      "product_code": "ACC-SW-NORT-1-2-MB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Bend 90\u00b0 50mm Black (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "WST-BND-90-50-BLAC-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "kesterl 3 gang 2 way switch bc (pack of 10)",
+      "written_qty": 5,
+      "product_code": "ACC-SW-KEST-3-2-BC-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0042.pdf"
+}

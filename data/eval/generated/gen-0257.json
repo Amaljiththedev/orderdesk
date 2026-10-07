@@ -1,0 +1,47 @@
+{
+  "id": "gen-0257",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1034",
+  "customer_name": "Patel Electrical Contractors",
+  "contact": "Rachel Patel",
+  "email": "rachel@patelelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "no_po",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow 2 Gang 2 Way Light Switch Brushed Chrome (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "ACC-SW-PROF-2-2-BC-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel MCB Type B 32A Double Pole",
+      "written_qty": 2,
+      "product_code": "CON-MCB-KEST-B-32-DP",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld bend 45\u00b0 50mm grey",
+      "written_qty": 50,
+      "product_code": "WST-BND-45-50-GREY-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0257.pdf"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "gen-0263",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1009",
+  "customer_name": "Kaur Electrical Services",
+  "contact": "Kevin Kaur",
+  "email": "kevin@kaurelectrical.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "PB-EL90-PROF-28-WHIT-P10",
+      "written_qty": 3,
+      "product_code": "PB-EL90-PROF-28-WHIT-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 1 Gang Unswitched Socket Polished Brass",
+      "written_qty": 20,
+      "product_code": "ACC-SKT-PROF-1-UNSW-PB",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "proflow led downlight fire rated 8w 4000k brushed nickel (pack of 10)",
+      "written_qty": 2,
+      "product_code": "LED-DL-PROF-8-4000-BN-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0263.pdf"
+}

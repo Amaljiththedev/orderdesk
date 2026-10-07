@@ -1,0 +1,38 @@
+{
+  "id": "gen-0037",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1006",
+  "customer_name": "Clarke & Doyle Plumbing & Heating",
+  "contact": "Sam Clarke",
+  "email": "sam@clarkeplumbing.co.uk",
+  "po_number": "JOB-5356",
+  "delivery_date": "2026-10-19",
+  "habits": [
+    "own_part_numbers",
+    "polite_long"
+  ],
+  "lines": [
+    {
+      "raw": "swa armoured cable 3 core 4mm\u00b2 per metre",
+      "written_qty": 4,
+      "product_code": "CBL-SWA-3-4",
+      "qty": 4,
+      "unit": "metre",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "20-755",
+      "written_qty": 1,
+      "product_code": "CU-CPL-PROF-54-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0037.pdf"
+}

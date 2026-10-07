@@ -1,0 +1,52 @@
+{
+  "id": "gen-0110",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1021",
+  "customer_name": "Quinn & Shah Renovations",
+  "contact": "Dave Quinn",
+  "email": "dave@quinnrenovations.co.uk",
+  "po_number": "JOB-4216",
+  "delivery_date": "2026-10-11",
+  "habits": [
+    "imperial_sizes",
+    "polite_long",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "ProFlow Brass Isolating Valve 1/2\" Slotted (Pack of 5)",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-PROF-15-SLOT-P5",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "2 Gang 1 Way Light Switch White Moulded (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "ACC-SW-KEST-2-1-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copper tube 15mm x 3m table y",
+      "written_qty": 4,
+      "product_code": "CU-TUBE-KEST-15-3-TY",
+      "qty": 4,
+      "unit": "length",
+      "mess": [
+        "brand_omitted"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0110.pdf"
+}

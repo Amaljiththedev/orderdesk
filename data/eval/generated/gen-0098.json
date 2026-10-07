@@ -1,0 +1,108 @@
+{
+  "id": "gen-0098",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1018",
+  "customer_name": "Doyle Electrical Services",
+  "contact": "Jo Doyle",
+  "email": "jo@doyleelectrical.co.uk",
+  "po_number": "JOB-3620",
+  "delivery_date": "2026-10-08",
+  "habits": [
+    "own_part_numbers",
+    "polite_long",
+    "terse",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "ref 79-913",
+      "written_qty": 5,
+      "product_code": "CU-CPL-PROF-10-EF-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "LED-DL-PROF-6-3000-CHRO-P10",
+      "written_qty": 2,
+      "product_code": "LED-DL-PROF-6-3000-CHRO-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "69-151",
+      "written_qty": 2,
+      "product_code": "CU-EL90-PROF-35-EF-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "our ref 77-355",
+      "written_qty": 1,
+      "product_code": "CU-RED-PROF-28-8-COMP",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "our ref 26-194",
+      "written_qty": 3,
+      "product_code": "BR-VLV-BALL-KEST-34IN-BUTT",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": false
+    },
+    {
+      "raw": "proflow downlight fr 6w 4000k brushed nickel",
+      "written_qty": 1,
+      "product_code": "LED-DL-PROF-6-4000-BN",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel downlight FR 6W 4000K White",
+      "written_qty": 2,
+      "product_code": "LED-DL-KEST-6-4000-WHIT",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SW-NORT-1-1-BC-P10",
+      "written_qty": 1,
+      "product_code": "ACC-SW-NORT-1-1-BC-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": true
+    }
+  ],
+  "document": "gen-0098.eml"
+}

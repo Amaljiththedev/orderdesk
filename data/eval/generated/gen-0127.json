@@ -1,0 +1,53 @@
+{
+  "id": "gen-0127",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1028",
+  "customer_name": "Doyle Property Services",
+  "contact": "Aisha Doyle",
+  "email": "aisha@doyleproperty.co.uk",
+  "po_number": "PO9484",
+  "delivery_date": null,
+  "habits": [
+    "old_codes",
+    "terse",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "Northway 2 Gang Unswitched skt white",
+      "written_qty": 20,
+      "product_code": "ACC-SKT-NORT-2-UNSW-WM",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACC-SKT-NORT-2-SWIT-BC",
+      "written_qty": 50,
+      "product_code": "ACC-SKT-NORT-2-SWIT-BC",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ACCSKTKEST1UNSWWMP10",
+      "written_qty": 3,
+      "product_code": "ACC-SKT-KEST-1-UNSW-WM-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0127.pdf"
+}

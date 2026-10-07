@@ -1,0 +1,54 @@
+{
+  "id": "gen-0049",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1028",
+  "customer_name": "Doyle Property Services",
+  "contact": "Aisha Doyle",
+  "email": "aisha@doyleproperty.co.uk",
+  "po_number": "JOB-7632",
+  "delivery_date": null,
+  "habits": [
+    "old_codes",
+    "terse",
+    "typos",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "CU-TEE-NORT-28-SR-P10",
+      "written_qty": 5,
+      "product_code": "CU-TEE-NORT-28-SR-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "product_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProlFow cu tee 54mm SR",
+      "written_qty": 1,
+      "product_code": "CU-TEE-PROF-54-SR",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "ProFlow 3 Gang 2 Way switch white",
+      "written_qty": 20,
+      "product_code": "ACC-SW-PROF-3-2-WM",
+      "qty": 20,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0049.eml"
+}

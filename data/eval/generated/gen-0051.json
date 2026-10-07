@@ -1,0 +1,42 @@
+{
+  "id": "gen-0051",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1032",
+  "customer_name": "Clarke Installations",
+  "contact": "Liam Clarke",
+  "email": "liam@clarkeinstallation.co.uk",
+  "po_number": "PO75117",
+  "delivery_date": "2026-10-18",
+  "habits": [
+    "terse",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "northway brass iso valve 15mm slotted",
+      "written_qty": 5,
+      "product_code": "BR-VLV-ISO-NORT-15-SLOT-P5",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "qty_in_pieces"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "brass iso valve 15mm lever blue",
+      "written_qty": 1,
+      "product_code": "BR-VLV-ISO-PROF-15-LB",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0051.pdf"
+}

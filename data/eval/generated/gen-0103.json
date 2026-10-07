@@ -1,0 +1,79 @@
+{
+  "id": "gen-0103",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1023",
+  "customer_name": "Okafor Property Services",
+  "contact": "Priya Okafor",
+  "email": "priya@okaforproperty.co.uk",
+  "po_number": "721/68",
+  "delivery_date": "2026-10-06",
+  "habits": [
+    "old_codes",
+    "typos",
+    "units_mixed"
+  ],
+  "lines": [
+    {
+      "raw": "WSTPIPE324GREY",
+      "written_qty": 6,
+      "product_code": "WST-PIPE-32-4-GREY",
+      "qty": 6,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Waste Pipe 40mm x 3m Black",
+      "written_qty": 3,
+      "product_code": "WST-PIPE-40-3-BLAC",
+      "qty": 3,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "solvent weld waste pipe 50mm x 3m grey",
+      "written_qty": 5,
+      "product_code": "WST-PIPE-50-3-GREY",
+      "qty": 5,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Slovent Weld Waste Pipe 32mm x 3m Black",
+      "written_qty": 20,
+      "product_code": "WST-PIPE-32-3-BLAC",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "typo"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "WSTPIPE504GREY",
+      "written_qty": 20,
+      "product_code": "WST-PIPE-50-4-GREY",
+      "qty": 20,
+      "unit": "length",
+      "mess": [
+        "old_code"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Solvent Weld Waste Pipe 40mm x 4m Grey",
+      "written_qty": 5,
+      "product_code": "WST-PIPE-40-4-GREY",
+      "qty": 5,
+      "unit": "length",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0103.eml"
+}

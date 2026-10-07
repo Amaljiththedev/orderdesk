@@ -1,0 +1,37 @@
+{
+  "id": "gen-0231",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1010",
+  "customer_name": "Okafor Property Services",
+  "contact": "Jo Okafor",
+  "email": "jo@okaforproperty.co.uk",
+  "po_number": null,
+  "delivery_date": null,
+  "habits": [
+    "no_po",
+    "old_codes",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "proflow 2 gang 2 way light switch polished brass (pack of 10)",
+      "written_qty": 5,
+      "product_code": "ACC-SW-PROF-2-2-PB-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel RCBO Type B 32A 30mA",
+      "written_qty": 25,
+      "product_code": "CON-RCBO-KEST-B-32",
+      "qty": 25,
+      "unit": "each",
+      "mess": [],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0231.eml"
+}

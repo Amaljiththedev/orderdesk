@@ -1,0 +1,88 @@
+{
+  "id": "gen-0221",
+  "label_version": 1,
+  "format": "pdf",
+  "customer_account": "C1020",
+  "customer_name": "Reid Installations",
+  "contact": "Mark Reid",
+  "email": "mark@reidinstallations.co.uk",
+  "po_number": "180/71",
+  "delivery_date": "2026-10-13",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes"
+  ],
+  "lines": [
+    {
+      "raw": "cu tee 1 1/4\" SR (Pack of 10)",
+      "written_qty": 2,
+      "product_code": "CU-TEE-PROF-35-SR-P10",
+      "qty": 2,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "northway cu tee 2\" comp",
+      "written_qty": 10,
+      "product_code": "CU-TEE-NORT-54-COMP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu tee 8mm SR (Pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-TEE-NORT-8-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu tee 22mm comp",
+      "written_qty": 10,
+      "product_code": "CU-TEE-NORT-22-COMP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu tee 42mm ef",
+      "written_qty": 50,
+      "product_code": "CU-TEE-PROF-42-EF",
+      "qty": 50,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Northway cu tee 10mm comp (Pack of 10)",
+      "written_qty": 5,
+      "product_code": "CU-TEE-NORT-10-COMP-P10",
+      "qty": 5,
+      "unit": "each",
+      "mess": [
+        "abbreviated"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0221.pdf"
+}

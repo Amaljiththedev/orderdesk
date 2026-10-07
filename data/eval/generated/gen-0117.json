@@ -1,0 +1,84 @@
+{
+  "id": "gen-0117",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1019",
+  "customer_name": "Hughes Heating Engineers",
+  "contact": "Lisa Hughes",
+  "email": "lisa@hughesheating.co.uk",
+  "po_number": "282/22",
+  "delivery_date": "2026-10-17",
+  "habits": [
+    "imperial_sizes",
+    "own_part_numbers"
+  ],
+  "lines": [
+    {
+      "raw": "Kestrel Copper Elbow 90\u00b0 2\" Solder Ring (Pack of 10)",
+      "written_qty": 3,
+      "product_code": "CU-EL90-KEST-54-SR-P10",
+      "qty": 3,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "Kestrel Copper Elbow 90\u00b0 2\" End Feed",
+      "written_qty": 25,
+      "product_code": "CU-EL90-KEST-54-EF",
+      "qty": 25,
+      "unit": "each",
+      "mess": [
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copper elbow 90\u00b0 1\" end feed",
+      "written_qty": 12,
+      "product_code": "CU-EL90-NORT-28-EF",
+      "qty": 12,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "copper elbow 90\u00b0 1/2\" solder ring (pack of 10)",
+      "written_qty": 1,
+      "product_code": "CU-EL90-NORT-15-SR-P10",
+      "qty": 1,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "part no 82-677",
+      "written_qty": 10,
+      "product_code": "PB-PIPE-KEST-28-25",
+      "qty": 10,
+      "unit": "coil",
+      "mess": [
+        "customer_part_number"
+      ],
+      "alias_known": true
+    },
+    {
+      "raw": "northway push-fit elbow 90\u00b0 10mm white",
+      "written_qty": 20,
+      "product_code": "PB-EL90-NORT-10-WHIT",
+      "qty": 20,
+      "unit": "each",
+      "mess": [],
+      "alias_known": false
+    }
+  ],
+  "document": "gen-0117.eml"
+}

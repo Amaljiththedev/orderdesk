@@ -1,0 +1,45 @@
+{
+  "id": "gen-0151",
+  "label_version": 1,
+  "format": "email",
+  "customer_account": "C1012",
+  "customer_name": "Brennan Property Services",
+  "contact": "Nadia Brennan",
+  "email": "nadia@brennanproperty.co.uk",
+  "po_number": null,
+  "delivery_date": "2026-10-07",
+  "habits": [
+    "abbreviates",
+    "imperial_sizes",
+    "no_po",
+    "uses_codes"
+  ],
+  "lines": [
+    {
+      "raw": "northway cu elbow 1 1/2\" ef",
+      "written_qty": 4,
+      "product_code": "CU-EL90-NORT-42-EF",
+      "qty": 4,
+      "unit": "each",
+      "mess": [
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    },
+    {
+      "raw": "cu elbow 3/4\" comp",
+      "written_qty": 10,
+      "product_code": "CU-EL90-KEST-22-COMP",
+      "qty": 10,
+      "unit": "each",
+      "mess": [
+        "brand_omitted",
+        "abbreviated",
+        "imperial_size"
+      ],
+      "alias_known": null
+    }
+  ],
+  "document": "gen-0151.eml"
+}
