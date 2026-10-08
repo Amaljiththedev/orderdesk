@@ -17,6 +17,7 @@ from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
 from app.core.embeddings import embed_query
+from app.core.history import BrandPreference, brand_preference
 from app.db.models import CustomerAlias, Product
 
 TOP_K = 5
@@ -151,8 +152,13 @@ def prefer_pack(db: Session, cands: list[Candidate], qty: float | None, unit: st
     return cands
 
 
+PREFERRED_BRAND_CONFIDENCE = 0.6  # above the 0.5 auto-approve threshold; see match_eval --history
+
+
 def match_line(db: Session, raw: str, customer_id: int | None,
-               qty: float | None = None, unit: str | None = None) -> Match:
+               qty: float | None = None, unit: str | None = None,
+               preference: BrandPreference | None | bool = True) -> Match:
+    """preference: True = look it up from order history; or pass one in (evals); None = don't use."""
     p = by_alias(db, customer_id, raw)
     if p:
         return Match(p.id, "alias", 1.0, [Candidate(p.id, p.code, p.name, 1.0)], "known customer reference")
@@ -164,7 +170,16 @@ def match_line(db: Session, raw: str, customer_id: int | None,
     cands = prefer_pack(db, search(db, raw), qty, unit)
     conf = confidence(cands)
     if brand_ambiguous(raw, cands):
-        # can't tell which brand from the text; customer history (Phase 4) will resolve this
+        pref = brand_preference(db, customer_id) if preference is True else preference
+        same_item = _without_brand(cands[0].code)
+        pick = next((c for c in cands if pref and pref.code_part in c.code
+                     and _without_brand(c.code) == same_item), None)
+        if pick:
+            # the text can't tell, but this customer's checked orders can
+            ordered = [pick] + [c for c in cands if c.product_id != pick.product_id]
+            return Match(pick.product_id, "history", PREFERRED_BRAND_CONFIDENCE, ordered,
+                         f"brand not stated; customer usually buys {pref.brand} "
+                         f"({int(pref.share * 100)}% of {pref.lines} checked lines)")
         return Match(cands[0].product_id, "search", min(conf, 0.2), cands,
                      "brand not stated; same item exists from several brands")
     reason = "clear best match" if conf >= 0.5 else (

@@ -37,3 +37,13 @@ def test_elbow_angle_from_shorthand():
     assert "elbow 90°" in normalise("cu elbow 15mm sr")
     assert "elbow 45°" in normalise("cu 45 elbow 15mm sr")
     assert normalise("copper elbow 45° 22mm").count("45") == 1
+
+
+def test_brand_preference_needs_evidence_and_a_clear_habit():
+    from collections import Counter
+
+    from app.core.history import preference_from_counts
+    assert preference_from_counts(Counter({"-NORT-": 2})) is None                 # too few lines
+    assert preference_from_counts(Counter({"-NORT-": 5, "-PROF-": 5})) is None    # no clear habit
+    p = preference_from_counts(Counter({"-NORT-": 8, "-PROF-": 2}))
+    assert p.brand == "Northway" and p.share == 0.8

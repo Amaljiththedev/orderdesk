@@ -17,6 +17,9 @@ from pathlib import Path
 
 from sqlalchemy import select
 
+from collections import Counter
+
+from app.core.history import brand_of, names_a_brand, preference_from_counts
 from app.core.matching import match_line
 from app.db.models import Customer
 from app.db.session import SessionLocal
@@ -29,10 +32,25 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--split", default="generated")
     ap.add_argument("--limit", type=int, default=None)
+    ap.add_argument("--history", action="store_true",
+                    help="use the first half of orders as checked history; score only the second half")
     a = ap.parse_args()
 
     labels = [json.loads(p.read_text()) for p in sorted((EVAL / a.split).glob("*.json"))]
     labels = labels[: a.limit] if a.limit else labels
+    prefs = {}
+    if a.history:
+        # no leakage: preferences come only from the history half, scoring only on the other half
+        half = len(labels) // 2
+        counts: dict[str, Counter] = {}
+        for label in labels[:half]:
+            for ln in label["lines"]:
+                b = brand_of(ln["product_code"])
+                if b and not names_a_brand(ln["raw"]):
+                    counts.setdefault(label["customer_account"], Counter())[b] += 1
+        prefs = {acct: preference_from_counts(c) for acct, c in counts.items()}
+        labels = labels[half:]
+        print(f"history: {half} orders, {sum(p is not None for p in prefs.values())} customers with a clear brand habit")
     rows = []
     with SessionLocal() as db:
         customers = dict(db.execute(select(Customer.account_code, Customer.id)).all())
@@ -40,7 +58,8 @@ def main() -> None:
             cid = customers.get(label["customer_account"])
             for ln in label["lines"]:
                 pieces = "qty_in_pieces" in ln["mess"]
-                m = match_line(db, ln["raw"], cid, qty=ln["written_qty"], unit="pcs" if pieces else None)
+                m = match_line(db, ln["raw"], cid, qty=ln["written_qty"], unit="pcs" if pieces else None,
+                               preference=prefs.get(label["customer_account"]) if a.history else None)
                 codes = [c.code for c in m.candidates]
                 unknown_ref = ln.get("alias_known") is False and "customer_part_number" in ln["mess"]
                 rows.append({
