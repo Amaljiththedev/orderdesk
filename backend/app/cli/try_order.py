@@ -17,7 +17,8 @@ from pathlib import Path
 import httpx
 from sqlalchemy import select
 
-from app.db.models import Document, Order, OrderLine, Product
+from app.auth.security import create_access_token
+from app.db.models import Document, Order, OrderLine, Product, User
 from app.db.session import SessionLocal
 
 API = "http://localhost:8000"
@@ -28,10 +29,20 @@ def norm(s: str | None) -> str:
     return re.sub(r"\s+", " ", (s or "")).strip().lower()
 
 
+def auth_headers() -> dict:
+    """Dev tool: sign a token for the first active admin instead of typing a password."""
+    with SessionLocal() as db:
+        admin = db.scalar(select(User).where(User.role == "admin", User.is_active).order_by(User.id))
+    if not admin:
+        raise SystemExit("no admin yet: run  python -m app.cli.create_admin you@example.com 'Your Name'")
+    return {"Authorization": f"Bearer {create_access_token(admin.id, admin.role, admin.token_version)}"}
+
+
 def upload(case: str) -> int:
     label = json.loads((GEN / f"{case}.json").read_text())
     path = GEN / label["document"]
-    r = httpx.post(f"{API}/documents", files={"file": (path.name, path.read_bytes())}, timeout=30)
+    r = httpx.post(f"{API}/documents", files={"file": (path.name, path.read_bytes())},
+                   headers=auth_headers(), timeout=30)
     r.raise_for_status()
     d = r.json()
     if d["duplicate"]:
@@ -53,7 +64,7 @@ def reset(doc_id: int) -> None:
 
 def wait(doc_id: int, timeout: int = 120) -> str:
     for _ in range(timeout):
-        status = httpx.get(f"{API}/documents/{doc_id}", timeout=10).json()["status"]
+        status = httpx.get(f"{API}/documents/{doc_id}", headers=auth_headers(), timeout=10).json()["status"]
         if status not in ("queued", "processing", "extracted"):
             return status
         time.sleep(1)

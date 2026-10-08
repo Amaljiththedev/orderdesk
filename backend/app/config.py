@@ -18,7 +18,12 @@ class Settings(BaseSettings):
     LLM_TIMEOUT_S: float = 60.0
     EMBED_MODEL: str = "BAAI/bge-small-en-v1.5"
     EMBED_DIM: int = 384
+    ENV: str = "dev"                      # dev | prod
     JWT_SECRET: str = "change-me"
+    ACCESS_TOKEN_MINUTES: int = 15
+    REFRESH_TOKEN_DAYS: int = 14
+    MAX_FAILED_LOGINS: int = 5
+    LOCKOUT_MINUTES: int = 15
     # lines at or above this match confidence are auto-approved (chosen from evals/match_eval.py:
     # 99.3% precision, 74% auto-approved on the generated set; see docs/decisions.md)
     AUTO_APPROVE_THRESHOLD: float = 0.5
@@ -30,4 +35,7 @@ class Settings(BaseSettings):
 @lru_cache
 def get_settings() -> Settings:
     """Read settings once and reuse them (cached)."""
-    return Settings()
+    s = Settings()
+    if s.ENV != "dev" and (s.JWT_SECRET == "change-me" or len(s.JWT_SECRET) < 32):
+        raise RuntimeError("JWT_SECRET must be set to a long random value outside dev")
+    return s

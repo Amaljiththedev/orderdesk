@@ -22,7 +22,8 @@ openai>=1.0.0          # OpenAI-compatible client; talks to Groq via LLM_BASE_UR
 
 # Auth
 pyjwt>=2.9
-passlib[bcrypt]>=1.7
+argon2-cffi>=23.1       # Argon2id password hashing
+email-validator>=2.1    # used by pydantic EmailStr
 
 # Observability
 opentelemetry-sdk>=1.27
