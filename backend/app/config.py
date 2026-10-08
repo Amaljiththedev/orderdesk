@@ -19,6 +19,12 @@ class Settings(BaseSettings):
     EMBED_MODEL: str = "BAAI/bge-small-en-v1.5"
     EMBED_DIM: int = 384
     JWT_SECRET: str = "change-me"
+    # lines at or above this match confidence are auto-approved (chosen from evals/match_eval.py:
+    # 99.3% precision, 74% auto-approved on the generated set; see docs/decisions.md)
+    AUTO_APPROVE_THRESHOLD: float = 0.5
+    ERP_URL: str = "http://localhost:8002"
+    ERP_TIMEOUT_S: float = 2.0
+    ERP_RETRIES: int = 4
 
 
 @lru_cache

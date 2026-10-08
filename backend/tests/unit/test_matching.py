@@ -2,7 +2,7 @@ from app.core.matching import Candidate, brand_ambiguous, confidence, normalise,
 
 
 def test_normalise_expands_trade_shorthand_and_imperial():
-    assert normalise('3/4" cu elbow comp') == "22mm copper elbow compression"
+    assert normalise('3/4" cu elbow comp') == "22mm copper elbow 90° compression"
     assert normalise('1 1/4" iso valve') == "35mm isolating valve"
 
 
@@ -27,3 +27,13 @@ def test_brand_ambiguity():
     c = [Candidate(1, "CU-EL90-NORT-15-COMP", "", .8), Candidate(2, "CU-EL90-PROF-15-COMP", "", .8)]
     assert brand_ambiguous("cu elbow 15mm comp", c)
     assert not brand_ambiguous("northway cu elbow 15mm comp", c)
+
+
+def test_bsp_sizes_stay_in_inches():
+    assert '1/2"' in normalise('brass ball valve 1/2" bsp lever')
+
+
+def test_elbow_angle_from_shorthand():
+    assert "elbow 90°" in normalise("cu elbow 15mm sr")
+    assert "elbow 45°" in normalise("cu 45 elbow 15mm sr")
+    assert normalise("copper elbow 45° 22mm").count("45") == 1

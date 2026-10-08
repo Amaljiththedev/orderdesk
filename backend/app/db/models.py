@@ -100,7 +100,7 @@ class Order(Base):
     customer_id: Mapped[int | None] = mapped_column(ForeignKey("customers.id"))
     po_number: Mapped[str | None] = mapped_column(String(60))
     delivery_date: Mapped[date | None] = mapped_column(Date)
-    # auto_approved | needs_review | approved | exported | failed
+    # auto_approved | needs_review | approved | exported | export_failed | rejected
     status: Mapped[str] = mapped_column(String(20), default="needs_review", index=True)
     confidence: Mapped[float | None]
     exported_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))

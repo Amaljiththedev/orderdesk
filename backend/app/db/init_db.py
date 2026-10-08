@@ -1,19 +1,17 @@
-"""Create extensions and all tables. Safe to run again (existing tables are left alone).
+"""Bring the database schema up to date with Alembic migrations.
 
     docker compose -f infra/docker-compose.yml exec api python -m app.db.init_db
-"""
-from sqlalchemy import text
 
-from app.db.models import Base
-from app.db.session import engine
+Migrations are the only way the schema changes now (no more create_all), so every change is
+versioned, reviewable and repeatable on another machine.
+"""
+from alembic import command
+from alembic.config import Config
 
 
 def main() -> None:
-    with engine.begin() as conn:
-        conn.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))   # pgvector
-        conn.execute(text("CREATE EXTENSION IF NOT EXISTS pg_trgm"))  # fuzzy text search
-    Base.metadata.create_all(engine)
-    print("tables:", ", ".join(sorted(Base.metadata.tables)))
+    command.upgrade(Config("app/alembic.ini"), "head")
+    print("schema is at the latest migration")
 
 
 if __name__ == "__main__":

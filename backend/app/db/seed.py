@@ -24,12 +24,14 @@ def read(p: Path) -> list[dict]:
 
 
 def create_schema(reset: bool) -> None:
-    with engine.begin() as c:
-        c.execute(text("CREATE EXTENSION IF NOT EXISTS vector"))
-        c.execute(text("CREATE EXTENSION IF NOT EXISTS pg_trgm"))
+    """Schema comes from Alembic migrations; --reset drops everything first."""
+    from alembic import command
+    from alembic.config import Config
+
     if reset:
-        Base.metadata.drop_all(engine)
-    Base.metadata.create_all(engine)
+        with engine.begin() as c:
+            c.execute(text("DROP SCHEMA public CASCADE; CREATE SCHEMA public"))
+    command.upgrade(Config("app/alembic.ini"), "head")
 
 
 def upsert(db, model, rows: list[dict], key: list[str]) -> None:

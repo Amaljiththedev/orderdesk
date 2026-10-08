@@ -17,7 +17,7 @@ from pathlib import Path
 import httpx
 from sqlalchemy import select
 
-from app.db.models import Document, Order, OrderLine
+from app.db.models import Document, Order, OrderLine, Product
 from app.db.session import SessionLocal
 
 API = "http://localhost:8000"
@@ -89,6 +89,17 @@ def compare(case: str, doc_id: int) -> bool:
         print(f"  {'OK  ' if good else 'DIFF'} line {i}: got {got.raw_text!r} x{float(got.qty):g}"
               f"{' pcs' if got.unit == 'pcs' else ''}   expected {want['raw']!r} x{want['written_qty']}"
               f"{' pcs' if pieces else ''}")
+    print(f"  order status: {order.status}  (confidence {order.confidence})")
+    with SessionLocal() as db:
+        for got, want in zip(lines, label["lines"]):
+            p = db.get(Product, got.product_id) if got.product_id else None
+            right = p is not None and p.code == want["product_code"]
+            flag = "REVIEW" if got.needs_review else "auto  "
+            print(f"   {flag} {'OK  ' if right else 'MISS'} {p.code if p else '-':<28} qty {float(got.qty):g}"
+                  f"  £{got.unit_price or '-'}  conf {got.match_score}"
+                  f"{'  | ' + got.reason if got.reason else ''}")
+            if not right and not got.needs_review:
+                print(f"         !! auto-approved a WRONG product (expected {want['product_code']})")
     return ok
 
 

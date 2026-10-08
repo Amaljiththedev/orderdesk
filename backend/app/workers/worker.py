@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import argparse
 import logging
+from datetime import date
 import re
 import time
 from pathlib import Path
@@ -18,9 +19,15 @@ from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from app.api.documents import UPLOAD_DIR
+from dataclasses import asdict
+
+from app.config import get_settings
+from app.core.export import export_pending
 from app.core.extraction import ExtractionFailed, extract_order
+from app.core.matching import match_line, selling_qty
+from app.core.pricing import unit_price
 from app.core.text_extract import extract
-from app.db.models import Customer, Document, Order, OrderLine
+from app.db.models import Customer, Document, Order, OrderLine, Product
 from app.db.session import SessionLocal
 
 log = logging.getLogger("worker")
@@ -49,21 +56,48 @@ def find_customer(db: Session, text: str) -> Customer | None:
 
 
 def save_order(db: Session, doc: Document, ex) -> Order:
+    """Save the order, match and price every line, then route it."""
+    threshold = get_settings().AUTO_APPROVE_THRESHOLD
     customer = find_customer(db, doc.text or "")
     order = Order(document_id=doc.id, customer_id=customer.id if customer else None,
                   po_number=ex.po_number, delivery_date=ex.delivery_date,
                   status="needs_review", idempotency_key=doc.sha256)
     db.add(order)
     db.flush()
+    priced_on = doc.received_at.date() if doc.received_at else date.today()  # price on the day it arrived
+    confidences = []
     for i, ln in enumerate(ex.lines, 1):
-        db.add(OrderLine(order_id=order.id, line_no=i, raw_text=ln.raw_text,
-                         qty=ln.qty or 0, unit="pcs" if ln.qty_in_pieces else ln.unit,
-                         needs_review=True))  # nothing is matched yet (Phase 3)
+        unit = "pcs" if ln.qty_in_pieces else ln.unit
+        m = match_line(db, ln.raw_text, order.customer_id, qty=ln.qty, unit=unit)
+        product = db.get(Product, m.product_id) if m.product_id else None
+        qty = selling_qty(ln.qty or 0, unit, product.pack_qty) if product else (ln.qty or 0)
+        if product is None or m.confidence < threshold:
+            why = m.reason
+        elif ln.qty is None:
+            why = "no quantity given"
+        elif not float(qty).is_integer():
+            why = f"{ln.qty:g} pieces is not a whole number of packs of {product.pack_qty}"
+        else:
+            why = None
+        ok = why is None
+        db.add(OrderLine(
+            order_id=order.id, line_no=i, raw_text=ln.raw_text, qty=qty, unit=unit,
+            product_id=product.id if product else None, match_method=m.method,
+            match_score=m.confidence, candidates=[asdict(c) for c in m.candidates],
+            reason=why,
+            unit_price=unit_price(db, order.customer_id, product, priced_on) if product else None,
+            needs_review=not ok,
+        ))
+        confidences.append(m.confidence if ok else 0.0)
+    order.confidence = min(confidences) if confidences else 0.0
+    # auto-approve only when we know who it's from and every line is confident
+    if customer and confidences and all(c >= threshold for c in confidences):
+        order.status = "auto_approved"
     return order
 
 
 def process(db: Session, doc: Document) -> None:
-    """Text -> structured order. Matching, pricing and routing are added in Phase 3."""
+    """Text -> structured order -> matched, priced and routed lines."""
     try:
         path = next(UPLOAD_DIR.glob(f"{doc.sha256}.*"))
         doc.text, doc.ocr_used = extract(path)
@@ -105,7 +139,10 @@ def main() -> None:
         return
     log.info("worker started")
     while True:
-        if not run_once():
+        busy = run_once()
+        with SessionLocal() as db:
+            busy = export_pending(db) > 0 or busy  # approved orders go to the ERP
+        if not busy:
             time.sleep(POLL_SECONDS)
 
 

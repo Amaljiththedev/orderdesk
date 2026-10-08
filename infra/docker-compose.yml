@@ -19,6 +19,7 @@ services:
     env_file: ../.env
     environment:
       DATABASE_URL: postgresql+psycopg://orderdesk:orderdesk@db:5432/orderdesk
+      ERP_URL: http://mock_erp:8000
     ports: ["8001:8000"]   # 8001 so it runs alongside PolicyPilot on 8000
     depends_on: { db: { condition: service_healthy } }
     volumes:
@@ -33,6 +34,7 @@ services:
     env_file: ../.env
     environment:
       DATABASE_URL: postgresql+psycopg://orderdesk:orderdesk@db:5432/orderdesk
+      ERP_URL: http://mock_erp:8000
     depends_on: { db: { condition: service_healthy } }
     volumes:
       - ../backend/app:/app/app
@@ -40,7 +42,12 @@ services:
     command: python -m app.workers.worker
     restart: unless-stopped
 
-  # mock_erp: week 3 — tiny FastAPI "ERP" with idempotency keys
+  mock_erp:
+    build: { context: ../mock_erp }
+    ports: ["8002:8000"]
+    volumes:
+      - ../mock_erp:/app   # dev: edits apply on restart
+
   # frontend: week 4 — React + TypeScript review UI
 
 volumes:

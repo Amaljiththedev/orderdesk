@@ -56,8 +56,12 @@ class Match:
 
 def normalise(text: str) -> str:
     t = text.lower()
-    for imp, metric in IMPERIAL.items():  # longest first, so 1 1/4" isn't read as 1"
-        t = t.replace(imp, metric)
+    if "bsp" not in t:  # BSP threads are named in inches in the catalogue; only pipe sizes are metric
+        for imp, metric in IMPERIAL.items():  # longest first, so 1 1/4" isn't read as 1"
+            t = t.replace(imp, metric)
+    # shorthand drops the angle: "45 elbow" is the 45 degree one, a plain "elbow" means 90
+    t = re.sub(r"\b45 elbow\b", "elbow 45°", t)
+    t = re.sub(r"\belbow\b(?!\s*(45|90))", "elbow 90°", t)
     for pat, rep in EXPAND:
         t = re.sub(pat, rep, t)
     return re.sub(r"\s+", " ", t).strip()
