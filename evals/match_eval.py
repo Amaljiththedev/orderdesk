@@ -34,6 +34,8 @@ def main() -> None:
     ap.add_argument("--limit", type=int, default=None)
     ap.add_argument("--history", action="store_true",
                     help="use the first half of orders as checked history; score only the second half")
+    ap.add_argument("--no-prefs", action="store_true",
+                    help="with --history: same second half, but ignore preferences (the fair baseline)")
     a = ap.parse_args()
 
     labels = [json.loads(p.read_text()) for p in sorted((EVAL / a.split).glob("*.json"))]
@@ -59,7 +61,8 @@ def main() -> None:
             for ln in label["lines"]:
                 pieces = "qty_in_pieces" in ln["mess"]
                 m = match_line(db, ln["raw"], cid, qty=ln["written_qty"], unit="pcs" if pieces else None,
-                               preference=prefs.get(label["customer_account"]) if a.history else None)
+                               preference=prefs.get(label["customer_account"])
+                               if a.history and not a.no_prefs else None)
                 codes = [c.code for c in m.candidates]
                 unknown_ref = ln.get("alias_known") is False and "customer_part_number" in ln["mess"]
                 rows.append({

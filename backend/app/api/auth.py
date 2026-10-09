@@ -159,7 +159,7 @@ def change_password(body: ChangePasswordIn, response: Response, user: User = Dep
         raise HTTPException(status.HTTP_400_BAD_REQUEST, "current password is wrong")
     problem = password_problem(body.new_password, user.email)
     if problem:
-        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, problem)
+        raise HTTPException(422, problem)
     user.password_hash = hash_password(body.new_password)
     user.must_change_password = False
     revoke_all(db, user)                        # every other session ends

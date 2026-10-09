@@ -126,12 +126,12 @@ def fix_line(order_id: int, line_no: int, body: LineFix, user: User = Depends(ge
     if not ln:
         raise HTTPException(status.HTTP_404_NOT_FOUND, "line not found")
     if body.product_id is None and body.qty is None:
-        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, "nothing to change")
+        raise HTTPException(422, "nothing to change")
 
     before = _line_out(db, ln)
     product = db.get(Product, body.product_id or ln.product_id) if (body.product_id or ln.product_id) else None
     if body.product_id is not None and not product:
-        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, "unknown product")
+        raise HTTPException(422, "unknown product")
     if body.product_id is not None:
         changed_product = body.product_id != ln.product_id
         ln.product_id, ln.match_method, ln.match_score = product.id, "human", 1.0
@@ -196,7 +196,7 @@ def reject(order_id: int, body: Decision, user: User = Depends(get_current_user)
     o = _order_or_404(db, order_id, lock=True)
     _check_version(o, body.version)
     if not body.reason or not body.reason.strip():
-        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, "a reason is required to reject an order")
+        raise HTTPException(422, "a reason is required to reject an order")
     if o.status not in EDITABLE:
         raise HTTPException(status.HTTP_409_CONFLICT, f"order is {o.status} and can't be rejected")
     before = {"status": o.status}

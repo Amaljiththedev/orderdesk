@@ -24,7 +24,9 @@ from dataclasses import asdict
 from app.config import get_settings
 from app.core.export import export_pending
 from app.core.extraction import ExtractionFailed, extract_order
-from app.core.matching import match_line, selling_qty
+from app.core.matching import Match, match_line, selling_qty
+from app.core.resolve import AGENT_CONFIDENCE, resolve_line
+from app.llm.adapter import DailyLimitError
 from app.core.pricing import unit_price
 from app.core.text_extract import extract
 from app.db.models import Customer, Document, Order, OrderLine, Product
@@ -55,6 +57,19 @@ def find_customer(db: Session, text: str) -> Customer | None:
     return db.scalar(select(Customer).where(Customer.email == m.group(1).lower())) if m else None
 
 
+def apply_resolution(db: Session, m: Match, raw: str, qty, unit, order: Order) -> Match:
+    """Run the bounded agent on one unsure line. Its pick is a suggestion (below the threshold)."""
+    r = resolve_line(db, raw, qty, unit, m.candidates, order.customer_id,
+                     document_id=order.document_id, order_id=order.id)
+    if r is None:                       # LLM down: keep the code's answer
+        return m
+    if r.product_id is None:
+        return Match(m.product_id, m.method, m.confidence, m.candidates, f"{m.reason}; agent: {r.reason}")
+    pick = next(c for c in r.shown if c.product_id == r.product_id)
+    ordered = [pick] + [c for c in m.candidates if c.product_id != pick.product_id]
+    return Match(pick.product_id, "agent", AGENT_CONFIDENCE, ordered[:5], f"agent: {r.reason}")
+
+
 def save_order(db: Session, doc: Document, ex) -> Order:
     """Save the order, match and price every line, then route it."""
     threshold = get_settings().AUTO_APPROVE_THRESHOLD
@@ -66,9 +81,15 @@ def save_order(db: Session, doc: Document, ex) -> Order:
     db.flush()
     priced_on = doc.received_at.date() if doc.received_at else date.today()  # price on the day it arrived
     confidences = []
+    resolving = get_settings().RESOLVE_ENABLED
     for i, ln in enumerate(ex.lines, 1):
         unit = "pcs" if ln.qty_in_pieces else ln.unit
         m = match_line(db, ln.raw_text, order.customer_id, qty=ln.qty, unit=unit)
+        if resolving and m.confidence < threshold and m.candidates and m.method in ("search", "history"):
+            try:
+                m = apply_resolution(db, m, ln.raw_text, ln.qty, unit, order)
+            except DailyLimitError:
+                resolving = False  # quota gone: the rest of the lines just stay in review
         product = db.get(Product, m.product_id) if m.product_id else None
         qty = selling_qty(ln.qty or 0, unit, product.pack_qty) if product else (ln.qty or 0)
         if product is None or m.confidence < threshold:

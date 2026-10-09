@@ -25,8 +25,8 @@ def test_confidence_never_negative():
 
 def test_brand_ambiguity():
     c = [Candidate(1, "CU-EL90-NORT-15-COMP", "", .8), Candidate(2, "CU-EL90-PROF-15-COMP", "", .8)]
-    assert brand_ambiguous("cu elbow 15mm comp", c)
-    assert not brand_ambiguous("northway cu elbow 15mm comp", c)
+    assert brand_ambiguous(None, "cu elbow 15mm comp", c)        # top-2 tie: no DB needed
+    assert not brand_ambiguous(None, "northway cu elbow 15mm comp", c)
 
 
 def test_bsp_sizes_stay_in_inches():

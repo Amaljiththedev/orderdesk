@@ -27,6 +27,7 @@ class Settings(BaseSettings):
     # lines at or above this match confidence are auto-approved (chosen from evals/match_eval.py:
     # 99.3% precision, 74% auto-approved on the generated set; see docs/decisions.md)
     AUTO_APPROVE_THRESHOLD: float = 0.5
+    RESOLVE_ENABLED: bool = True  # bounded agent on unsure lines
     ERP_URL: str = "http://localhost:8002"
     ERP_TIMEOUT_S: float = 2.0
     ERP_RETRIES: int = 4

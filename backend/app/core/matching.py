@@ -131,11 +131,20 @@ def _without_pack(code: str) -> str:
     return re.sub(r"-P\d+$", "", code)
 
 
-def brand_ambiguous(raw: str, cands: list[Candidate]) -> bool:
-    """No brand written, and the top two are the same item from different brands."""
-    if any(b in raw.lower() for b in BRANDS) or len(cands) < 2:
+def brand_ambiguous(db: Session, raw: str, cands: list[Candidate]) -> bool:
+    """No brand written, and the catalogue sells this same item under more than one brand.
+    Checks the catalogue, not just the top-2 candidates: the other brands' versions can fall
+    outside the shortlist and the top hit then looks falsely certain."""
+    if any(b in raw.lower() for b in BRANDS) or not cands:
         return False
-    return _without_brand(cands[0].code) == _without_brand(cands[1].code)
+    if len(cands) > 1 and _without_brand(cands[0].code) == _without_brand(cands[1].code):
+        return True
+    code = cands[0].code
+    part = next((b for b in BRAND_CODES if b in code), None)
+    if not part:
+        return False
+    siblings = [code.replace(part, other) for other in BRAND_CODES if other != part]
+    return db.scalar(select(func.count()).select_from(Product).where(Product.code.in_(siblings))) > 0
 
 
 def prefer_pack(db: Session, cands: list[Candidate], qty: float | None, unit: str | None) -> list[Candidate]:
@@ -152,7 +161,7 @@ def prefer_pack(db: Session, cands: list[Candidate], qty: float | None, unit: st
     return cands
 
 
-PREFERRED_BRAND_CONFIDENCE = 0.6  # above the 0.5 auto-approve threshold; see match_eval --history
+PREFERRED_BRAND_CONFIDENCE = 0.45  # a suggestion, below the 0.5 auto-approve line: history is 72% right, not 99%
 
 
 def match_line(db: Session, raw: str, customer_id: int | None,
@@ -169,11 +178,15 @@ def match_line(db: Session, raw: str, customer_id: int | None,
         return Match(None, None, 0.0, [], "customer reference not known yet")
     cands = prefer_pack(db, search(db, raw), qty, unit)
     conf = confidence(cands)
-    if brand_ambiguous(raw, cands):
+    if brand_ambiguous(db, raw, cands):
         pref = brand_preference(db, customer_id) if preference is True else preference
-        same_item = _without_brand(cands[0].code)
-        pick = next((c for c in cands if pref and pref.code_part in c.code
-                     and _without_brand(c.code) == same_item), None)
+        pick = None
+        if pref:
+            # the customer's brand version of the top item, from the catalogue (may not be in cands)
+            part = next((b for b in BRAND_CODES if b in cands[0].code), None)
+            code = cands[0].code.replace(part, pref.code_part) if part else None
+            p = db.scalar(select(Product).where(Product.code == code)) if code else None
+            pick = Candidate(p.id, p.code, p.name, cands[0].score) if p else None
         if pick:
             # the text can't tell, but this customer's checked orders can
             ordered = [pick] + [c for c in cands if c.product_id != pick.product_id]

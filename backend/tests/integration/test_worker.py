@@ -37,6 +37,7 @@ def test_email_becomes_order(monkeypatch):
     fake = ExtractedOrder.model_validate({"po_number": "PO1", "lines": [
         {"raw_text": "cu elbow 15mm comp", "qty": 20}, {"raw_text": "ref 44-112", "qty": 2, "qty_in_pieces": True}]})
     monkeypatch.setattr(worker, "extract_order", lambda *a, **k: fake)   # no real LLM call
+    monkeypatch.setattr(worker, "resolve_line", lambda *a, **k: None)   # nor in the agent
     body = f"From: a@b.co.uk\nSubject: Order\n\n20 x cu elbow 15mm comp\nref {uuid.uuid4()}\n".encode()
     with SessionLocal() as db:
         doc = make_doc(db, body, ".eml")

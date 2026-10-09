@@ -44,7 +44,7 @@ def create_user(body: UserCreate, admin: User = Depends(require_admin), db: Sess
         raise HTTPException(status.HTTP_409_CONFLICT, "a user with this email already exists")
     problem = password_problem(body.temporary_password, email)
     if problem:
-        raise HTTPException(status.HTTP_422_UNPROCESSABLE_ENTITY, problem)
+        raise HTTPException(422, problem)
     u = User(email=email, full_name=body.full_name.strip(), role=body.role,
              password_hash=hash_password(body.temporary_password), must_change_password=True)
     db.add(u)
