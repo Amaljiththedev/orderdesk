@@ -5,6 +5,7 @@ from sqlalchemy.orm import Session
 
 from app.api.auth import router as auth_router
 from app.api.documents import router as documents_router
+from app.api.metrics import router as metrics_router
 from app.api.orders import router as orders_router
 from app.api.users import router as users_router
 from app.auth.deps import get_current_user
@@ -17,6 +18,7 @@ app.include_router(auth_router)
 app.include_router(users_router)  # admin-only inside
 app.include_router(documents_router, dependencies=[Depends(get_current_user)])
 app.include_router(orders_router)  # login required inside
+app.include_router(metrics_router)  # admin-only inside
 
 
 @app.get("/health")

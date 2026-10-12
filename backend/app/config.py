@@ -31,6 +31,9 @@ class Settings(BaseSettings):
     ERP_URL: str = "http://localhost:8002"
     ERP_TIMEOUT_S: float = 2.0
     ERP_RETRIES: int = 4
+    # LLM prices in GBP per million tokens, by model: {"model": [input, output]}. Set from the provider's
+    # pricing page in .env as JSON. A model not listed here is reported with cost null, never guessed.
+    LLM_PRICES_GBP_PER_M: dict[str, list[float]] = {}
 
 
 @lru_cache
