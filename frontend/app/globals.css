@@ -1,0 +1,96 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+/* Light only. All text is black; colour is used for state (flagged, ok, error), never for body text. */
+:root {
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --muted: #f5f5f4;
+  --muted-foreground: #404040;
+  --border: #e5e5e5;
+  --primary: #0a0a0a;
+  --primary-foreground: #ffffff;
+  --secondary: #f5f5f4;
+  --card: #ffffff;
+  --accent: #7c3aed;
+  --warn-bg: #fffbeb;
+  --warn-border: #fcd34d;
+  --ok-bg: #f0fdf4;
+  --ok-border: #86efac;
+  --bad-bg: #fef2f2;
+  --bad-border: #fca5a5;
+  --info-bg: #eff6ff;
+  --info-border: #93c5fd;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-card: var(--card);
+  --color-accent: var(--accent);
+  --color-warn-bg: var(--warn-bg);
+  --color-warn-border: var(--warn-border);
+  --color-ok-bg: var(--ok-bg);
+  --color-ok-border: var(--ok-border);
+  --color-bad-bg: var(--bad-bg);
+  --color-bad-border: var(--bad-border);
+  --color-info-bg: var(--info-bg);
+  --color-info-border: var(--info-border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+html,
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+}
+
+::selection {
+  background: #ddd6fe;
+}
+
+/* entrance animations from the sign-in reference */
+@keyframes fadeSlideIn {
+  to { opacity: 1; filter: blur(0px); transform: translateY(0px); }
+}
+@keyframes slideRightIn {
+  to { opacity: 1; filter: blur(0px); transform: translateX(0px); }
+}
+.animate-element {
+  animation: fadeSlideIn 0.6s ease-out forwards;
+  opacity: 0; filter: blur(4px); transform: translateY(10px);
+}
+.animate-slide-right {
+  animation: slideRightIn 0.6s ease-out forwards;
+  opacity: 0; filter: blur(4px); transform: translateX(16px);
+}
+.animate-delay-100 { animation-delay: 0.1s; }
+.animate-delay-200 { animation-delay: 0.2s; }
+.animate-delay-300 { animation-delay: 0.3s; }
+.animate-delay-400 { animation-delay: 0.4s; }
+.animate-delay-500 { animation-delay: 0.5s; }
+.animate-delay-600 { animation-delay: 0.6s; }
+.animate-delay-700 { animation-delay: 0.7s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-element, .animate-slide-right { animation: none; opacity: 1; filter: none; transform: none; }
+}
+
+mark.evidence {
+  background: #fde68a;
+  color: var(--foreground);
+  border-radius: 3px;
+  padding: 0 2px;
+}
